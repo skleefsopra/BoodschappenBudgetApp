@@ -86,7 +86,7 @@ def portieprijs(recept, ingredientprijzen, keten):
 
 
 def prijzen_op_dag(ingredientprijzen, dag):
-    """Laat aanbiedingen weg die op de boodschappendag niet geldig zijn (lidl.nl-folder)."""
+    """Laat aanbiedingen weg die op de boodschappendag niet geldig zijn (lidl.nl en aldi.nl)."""
     dag = dag.isoformat()
     uit = copy.deepcopy(ingredientprijzen)
     for info in uit.values():

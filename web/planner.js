@@ -99,7 +99,7 @@ export function boodschappen(nodig, prijzen, keten) {
     lijst.push({
       ingredient: naam, nodig: nodig[naam], product: beste.product, aantal: besteKosten[0],
       verpakking: beste.verpakking, prijs: besteKosten[1], url: beste.url, geschat: beste.geschat,
-      bron: beste.bron || null,
+      bron: beste.bron || null, aanbieding: Boolean(beste.geldig_tot),
     });
   }
   return lijst;

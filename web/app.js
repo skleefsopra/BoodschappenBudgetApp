@@ -136,7 +136,7 @@ function schermLijst() {
     <p class="small muted" style="text-align:center">Week vanaf ${new Date(p.boodschappendag).toLocaleDateString("nl-NL", { weekday: "long", day: "numeric", month: "long" })}</p>
     <div class="streep"></div>
     ${p.boodschappen.map((r) => {
-      const tags = [r.houdbaar && "gaat langer mee", r.geschat && "maat geschat", r.bron === "eigen" && "eigen prijs", r.bron === "lidl.nl" && "aanbieding"].filter(Boolean);
+      const tags = [r.houdbaar && "gaat langer mee", r.geschat && "maat geschat", r.bron === "eigen" && "eigen prijs", r.aanbieding && "aanbieding"].filter(Boolean);
       return `<label class="regel ${af.has(r.ingredient) ? "af" : ""}">
         <input type="checkbox" data-af="${esc(r.ingredient)}" ${af.has(r.ingredient) ? "checked" : ""}>
         <span class="wat">${r.aantal}× ${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.product)}</a>` : esc(r.product)}

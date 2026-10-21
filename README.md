@@ -1,6 +1,6 @@
 # Boodschappen Budget App: stap 1, prijzen per ingrediënt
 
-Haalt de actuele prijzen van AH, Jumbo en Lidl op (open dataset van Checkjebon)
+Haalt de actuele prijzen van AH, Jumbo en Lidl op (open dataset van Checkjebon) en van Aldi (aldi.nl)
 en koppelt elk ingrediënt aan de passende producten per supermarkt, met de prijs
 per gram, milliliter of stuk.
 
@@ -46,6 +46,11 @@ De dataset (10 MB) wordt 12 uur bewaard in `cache/`.
   week beginnen tellen mee; zo'n kandidaat heeft `"bron": "lidl.nl"` en `geldig_van`/`geldig_tot`. Volgorde voor
   Lidl: eigen prijzen, dan lidl.nl, dan boodschaapje. Is lidl.nl onbereikbaar, dan gaat het bouwen gewoon door
   zonder aanbiedingen. De folder wordt 12 uur bewaard in `cache/lidl.json`.
+- Aldi staat niet in Checkjebon en komt helemaal van aldi.nl (`prijzen/aldi.py`): de aanbiedingen van deze en volgende
+  week, plus de vaste prijs van elk product waarvan de naam op een zoekterm uit `ingredienten.json` lijkt (een paar
+  honderd productpagina's, duurt een paar minuten). Een aanbieding heeft `"bron": "aldi.nl"` met `geldig_van`/`geldig_tot`,
+  een vaste prijs alleen `"bron": "aldi.nl"`. Eigen prijzen gaan voor. Is aldi.nl onbereikbaar, dan heeft Aldi geen
+  prijzen. Alles wordt 12 uur bewaard in `cache/aldi.json`.
 
 # Stap 2: recepten en porties
 
@@ -98,7 +103,7 @@ geschatte maat. Dat is je lijstje om in te vullen. In de telefoon-app (stap 4) k
 # Stap 3: waar zijn je recepten het goedkoopst?
 
 Je hebt vaste recepten in `recepten.json` (nu 5 diners). Per week vergelijkt de app wat die recepten samen kosten bij
-AH, Jumbo en Lidl, en maakt hij de boodschappenlijst voor de winkel die je kiest. De app stelt zelf geen recepten voor.
+AH, Jumbo, Lidl en Aldi, en maakt hij de boodschappenlijst voor de winkel die je kiest. De app stelt zelf geen recepten voor.
 
     python3 vergelijk.py                   # weekbedrag en kassabon per supermarkt
     python3 vergelijk.py jumbo             # plus de boodschappenlijst voor één supermarkt
@@ -109,7 +114,7 @@ AH, Jumbo en Lidl, en maakt hij de boodschappenlijst voor de winkel die je kiest
   tellen voor het weekbedrag alleen mee voor wat je deze week gebruikt. De kassabon is wat je nu afrekent.
 - Een winkel waar een ingrediënt in de gegevens ontbreekt, komt achteraan met de lijst van wat mist. Vul het aan bij Prijzen.
 - **Voorraad.** Wat je al in huis hebt (`"voorraad"` in `huishouden.json`, of bij Huishouden in de app) wordt niet gekocht.
-- Lidl-aanbiedingen van lidl.nl tellen alleen mee als ze op de boodschappendag geldig zijn.
+- Aanbiedingen van lidl.nl en aldi.nl tellen alleen mee als ze op de boodschappendag geldig zijn.
 
 Een recept toevoegen of wijzigen gaat via `recepten.json`; hoeveelheden zijn per volwassen portie.
 

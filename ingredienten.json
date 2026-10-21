@@ -278,7 +278,8 @@
   "naam": "kipfilet",
   "eenheid": "g",
   "zoek": [
-   "kipfilet"
+   "kipfilet",
+   "scharrelkipfilet"
   ],
   "niet": [
    "gerookt*",
@@ -538,7 +539,10 @@
    "*olijven*",
    "*polpa*",
    "*pomodoro*",
-   "ui"
+   "ui",
+   "*focaccia*",
+   "*foccacia*",
+   "*garnalen*"
   ],
   "max_maat": 10,
   "stuk_gewicht": 50,
@@ -678,7 +682,10 @@
    "*drumsticks*",
    "*olijven*",
    "*borrelnoten*",
-   "*smaak*"
+   "*smaak*",
+   "*sticks*",
+   "*focaccia*",
+   "*foccacia*"
   ],
   "standaard_maat": 1
  },
@@ -1249,7 +1256,8 @@
    "hamburger broodjes",
    "hamburgerbroodjes",
    "burger buns",
-   "hamburger brood"
+   "hamburger brood",
+   "burgerbollen"
   ],
   "niet": [
    "mini",

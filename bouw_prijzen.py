@@ -8,14 +8,14 @@ zodat die niet zelf de hele dataset van 10 MB hoeven te laden.
 import datetime
 import json
 
-from prijzen import eigen, lidl
+from prijzen import aldi, eigen, lidl
 from prijzen.data import KETENS, laad
 from prijzen.koppel import Ingredient, kandidaten
 
 MAX_KANDIDATEN = 5
 
 
-def bouw(ketens, definities, eigen_prijzen=None, lidl_folder=None):
+def bouw(ketens, definities, eigen_prijzen=None, lidl_folder=None, aldi_producten=None):
     eigen_prijzen = eigen_prijzen or {}
     uit = {}
     for d in definities:
@@ -23,6 +23,8 @@ def bouw(ketens, definities, eigen_prijzen=None, lidl_folder=None):
         gevonden = {k: kandidaten(ing, ketens[k]) for k in KETENS}
         # Lidl: eerst de folder van lidl.nl, Checkjebon als reserve; eigen prijzen gaan daar weer boven.
         gevonden["lidl"] = lidl.combineer(lidl.kandidaten(ing, lidl_folder or []), gevonden["lidl"])
+        # Aldi: aldi.nl, want Checkjebon heeft geen Aldi-producten.
+        gevonden["aldi"] = aldi.combineer(aldi.kandidaten(ing, aldi_producten or []), gevonden["aldi"])
         uit[ing.naam] = {
             "eenheid": ing.eenheid,
             "ketens": {k: eigen.voeg_toe(gevonden[k], eigen_prijzen.get(k, {}).get(ing.naam), ing)
@@ -38,11 +40,13 @@ if __name__ == "__main__":
     with open("ingredienten.json", encoding="utf-8") as f:
         definities = json.load(f)
     folder = lidl.laad(lidl.zoektermen(definities))
-    prijzen = bouw(laad(), definities, eigen.laad("eigen_prijzen.json"), folder)
+    aldi_producten = aldi.laad(definities)
+    prijzen = bouw(laad(), definities, eigen.laad("eigen_prijzen.json"), folder, aldi_producten)
     with open("ingredientprijzen.json", "w", encoding="utf-8") as f:
         json.dump({"gemaakt": datetime.datetime.now().isoformat(timespec="minutes"),
                    "ingredienten": prijzen}, f, ensure_ascii=False, indent=1)
-    print(f"{len(prijzen)} ingrediënten, {len(folder)} Lidl-aanbiedingen op lidl.nl.")
+    print(f"{len(prijzen)} ingrediënten, {len(folder)} Lidl-aanbiedingen op lidl.nl, "
+          f"{len(aldi_producten)} Aldi-prijzen op aldi.nl.")
     for n, i in prijzen.items():
         for c in i["ketens"]["lidl"]:
             if c.get("bron") == "lidl.nl":
