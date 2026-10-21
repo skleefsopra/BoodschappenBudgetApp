@@ -1,12 +1,9 @@
-# Elke maandagochtend nieuwe prijzen ophalen en de app op GitHub Pages bijwerken.
+# Nieuwe prijzen ophalen en de app op GitHub Pages bijwerken. Start je zelf:
+# tabblad Actions > "Prijzen en app bijwerken" > Run workflow.
 name: Prijzen en app bijwerken
 
 on:
-  schedule:
-    - cron: "0 5 * * 1" # maandag 06:00 / 07:00 Nederlandse tijd
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write

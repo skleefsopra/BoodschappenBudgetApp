@@ -148,5 +148,7 @@ Open het adres van de app in Safari (iPhone) of Chrome (Android).
 
 ## Wekelijks bijwerken
 
-`.github/workflows/prijzen.yml` haalt elke maandagochtend nieuwe prijzen op, draait de tests en zet de app op GitHub
-Pages. Zet in de repository bij Settings > Pages de bron op "GitHub Actions".
+`.github/workflows/prijzen.yml` haalt nieuwe prijzen op, draait de tests en zet de app op GitHub Pages. Hij draait
+alleen als je hem zelf start: op GitHub ga je naar Actions, kies je "Prijzen en app bijwerken" en klik je op
+"Run workflow". Doe dat ook na een wijziging in de code, anders komt die niet in de app. In de repository staat bij
+Settings > Pages de bron op "GitHub Actions".
