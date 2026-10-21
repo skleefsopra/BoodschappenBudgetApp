@@ -115,7 +115,7 @@ def vergelijk_winkels(recepten, ingredientprijzen, huishouden, dag, houdbaar=(),
     nodig = {n: h for n, h in nodig.items() if h > 0}
 
     uit = []
-    for keten in huishouden.get("supermarkten", ("ah", "jumbo", "lidl")):
+    for keten in huishouden.get("supermarkten", ("ah", "jumbo", "lidl", "aldi")):
         lijst, kassabon, ontbrekend = boodschappen(nodig, prijzen, keten)
         weekbedrag = 0.0
         for r in lijst:
@@ -123,4 +123,4 @@ def vergelijk_winkels(recepten, ingredientprijzen, huishouden, dag, houdbaar=(),
             weekbedrag += r["prijs"] * min(1.0, r["nodig"] / (r["aantal"] * r["verpakking"])) if r["houdbaar"] else r["prijs"]
         uit.append({"keten": keten, "weekbedrag": round(weekbedrag, 2), "kassabon": kassabon,
                     "ontbrekend": ontbrekend, "boodschappen": lijst})
-    return sorted(uit, key=lambda w: (bool(w["ontbrekend"]), w["weekbedrag"]))
+    return sorted(uit, key=lambda w: (not w["boodschappen"], bool(w["ontbrekend"]), w["weekbedrag"]))

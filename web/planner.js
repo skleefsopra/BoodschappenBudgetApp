@@ -127,7 +127,7 @@ export function vergelijkWinkels(recepten, prijzen, huishouden, { dag, houdbaar 
     if (naam in nodig) nodig[naam] = Math.max(0, nodig[naam] - n);
   for (const naam of Object.keys(nodig)) if (nodig[naam] <= 0) delete nodig[naam];
 
-  return (huishouden.supermarkten || ["ah", "jumbo", "lidl"]).map((keten) => {
+  return (huishouden.supermarkten || ["ah", "jumbo", "lidl", "aldi"]).map((keten) => {
     const lijst = boodschappen(nodig, p, keten);
     const ontbrekend = Object.keys(nodig).filter((n) => !p[n]?.ketens[keten]?.length).sort();
     let kassabon = 0, weekbedrag = 0;
@@ -138,7 +138,8 @@ export function vergelijkWinkels(recepten, prijzen, huishouden, { dag, houdbaar 
     }
     const rond = (n) => Math.round(n * 100) / 100;
     return { keten, boodschappendag: dag, weekbedrag: rond(weekbedrag), kassabon: rond(kassabon), ontbrekend, boodschappen: lijst };
-  }).sort((a, b) => (a.ontbrekend.length > 0) - (b.ontbrekend.length > 0) || a.weekbedrag - b.weekbedrag);
+  }).sort((a, b) => (!a.boodschappen.length) - (!b.boodschappen.length)
+    || (a.ontbrekend.length > 0) - (b.ontbrekend.length > 0) || a.weekbedrag - b.weekbedrag);
 }
 
 // Wat één keer dit recept kost bij een winkel als je alleen het gebruikte deel telt; null als iets ontbreekt.

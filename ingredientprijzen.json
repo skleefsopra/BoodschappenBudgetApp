@@ -1,5 +1,5 @@
 {
- "gemaakt": "2026-10-21T09:27",
+ "gemaakt": "2026-10-21T10:39",
  "ingredienten": {
   "halfvolle melk": {
    "eenheid": "ml",
@@ -121,7 +121,8 @@
       "url": "https://boodschaapje.nl/product/6602966",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "volkoren brood": {
@@ -252,7 +253,8 @@
       "url": "https://boodschaapje.nl/product/6615178",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "boter": {
@@ -383,7 +385,8 @@
       "url": "https://boodschaapje.nl/product/6612235",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "jong belegen kaas": {
@@ -483,17 +486,6 @@
       "geschat": false
      },
      {
-      "product": "MILBONA Plakken Goudse jong belegen kaas",
-      "prijs": 3.49,
-      "verpakking": 500.0,
-      "eenheidsprijs": 0.00698,
-      "url": "https://www.lidl.nl/p/milbona-plakken-goudse-jong-belegen-kaas/p11323338",
-      "geschat": false,
-      "bron": "lidl.nl",
-      "geldig_van": "2026-10-19",
-      "geldig_tot": "2026-10-25"
-     },
-     {
       "product": "Gouda jong belegen stuk",
       "prijs": 4.19,
       "verpakking": 450.0,
@@ -516,8 +508,17 @@
       "eenheidsprijs": 0.00937,
       "url": "https://boodschaapje.nl/product/146205",
       "geschat": false
+     },
+     {
+      "product": "Goudse jong bel 450g",
+      "prijs": 4.31,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00958,
+      "url": "https://boodschaapje.nl/product/208573",
+      "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "eieren": {
@@ -648,7 +649,8 @@
       "url": "https://boodschaapje.nl/product/6615319",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "magere yoghurt": {
@@ -779,7 +781,8 @@
       "url": "https://boodschaapje.nl/product/6600005",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "havermout": {
@@ -902,7 +905,8 @@
       "url": "https://boodschaapje.nl/product/134634",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "pindakaas": {
@@ -1033,7 +1037,8 @@
       "url": "https://boodschaapje.nl/product/6610994",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "jam": {
@@ -1164,7 +1169,8 @@
       "url": "https://boodschaapje.nl/product/52381",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "hagelslag": {
@@ -1295,7 +1301,8 @@
       "url": "https://boodschaapje.nl/product/6611645",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "bananen": {
@@ -1385,7 +1392,8 @@
       "geschat": false
      }
     ],
-    "lidl": []
+    "lidl": [],
+    "aldi": []
    }
   },
   "appels": {
@@ -1508,7 +1516,8 @@
       "url": "https://boodschaapje.nl/product/81559",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "kipfilet": {
@@ -1616,17 +1625,6 @@
       "geschat": false
      },
      {
-      "product": "Kipfilet",
-      "prijs": 9.49,
-      "verpakking": 900.0,
-      "eenheidsprijs": 0.01054,
-      "url": "https://www.lidl.nl/p/kipfilet/p11318025",
-      "geschat": false,
-      "bron": "lidl.nl",
-      "geldig_van": "2026-10-19",
-      "geldig_tot": "2026-10-25"
-     },
-     {
       "product": "Kipfilet gr.verpak.",
       "prijs": 9.65,
       "verpakking": 800.0,
@@ -1641,8 +1639,17 @@
       "eenheidsprijs": 0.01462,
       "url": "https://boodschaapje.nl/product/6611274",
       "geschat": false
+     },
+     {
+      "product": "Kipfilet a la minute paprika",
+      "prijs": 5.85,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01462,
+      "url": "https://boodschaapje.nl/product/184471",
+      "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "rundergehakt": {
@@ -1765,7 +1772,8 @@
       "url": "https://boodschaapje.nl/product/6610869",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "half om half gehakt": {
@@ -1816,7 +1824,8 @@
       "url": "https://boodschaapje.nl/product/2812",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "zalmfilet": {
@@ -1947,7 +1956,8 @@
       "url": "https://boodschaapje.nl/product/163624",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "spaghetti": {
@@ -2078,7 +2088,8 @@
       "url": "https://boodschaapje.nl/product/127393",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "penne": {
@@ -2185,7 +2196,8 @@
       "url": "https://boodschaapje.nl/product/6614239",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "rijst": {
@@ -2316,7 +2328,8 @@
       "url": "https://boodschaapje.nl/product/6610578",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "aardappelen": {
@@ -2423,7 +2436,8 @@
       "url": "https://boodschaapje.nl/product/83383",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "uien": {
@@ -2522,7 +2536,8 @@
       "url": "https://boodschaapje.nl/product/84665",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "knoflook": {
@@ -2653,7 +2668,8 @@
       "url": "https://boodschaapje.nl/product/6601967",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "tomaten": {
@@ -2784,7 +2800,8 @@
       "url": "https://boodschaapje.nl/product/82514",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "tomatenblokjes": {
@@ -2891,7 +2908,8 @@
       "url": "https://boodschaapje.nl/product/126007",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "passata": {
@@ -3006,7 +3024,8 @@
       "url": "https://boodschaapje.nl/product/6613775",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "paprika": {
@@ -3137,7 +3156,8 @@
       "url": "https://boodschaapje.nl/product/6615649",
       "geschat": true
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "broccoli": {
@@ -3236,7 +3256,8 @@
       "url": "https://boodschaapje.nl/product/6604598",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "spinazie": {
@@ -3328,17 +3349,6 @@
     ],
     "lidl": [
      {
-      "product": "Gewassen spinazie",
-      "prijs": 0.99,
-      "verpakking": 450.0,
-      "eenheidsprijs": 0.0022,
-      "url": "https://www.lidl.nl/p/gewassen-spinazie/p11492621",
-      "geschat": false,
-      "bron": "lidl.nl",
-      "geldig_van": "2026-10-19",
-      "geldig_tot": "2026-10-25"
-     },
-     {
       "product": "Iglo spinazie gehakt",
       "prijs": 2.15,
       "verpakking": 750.0,
@@ -3369,8 +3379,17 @@
       "eenheidsprijs": 0.00442,
       "url": "https://boodschaapje.nl/product/6611600",
       "geschat": false
+     },
+     {
+      "product": "Hak spinazie blad gesn.",
+      "prijs": 1.25,
+      "verpakking": 245.0,
+      "eenheidsprijs": 0.0051,
+      "url": "https://boodschaapje.nl/product/6611718",
+      "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "wortelen": {
@@ -3493,7 +3512,8 @@
       "url": "https://boodschaapje.nl/product/2727",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "komkommer": {
@@ -3568,7 +3588,8 @@
       "url": "https://boodschaapje.nl/product/84535",
       "geschat": true
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "sla": {
@@ -3691,7 +3712,8 @@
       "url": "https://boodschaapje.nl/product/6606103",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "olijfolie": {
@@ -3822,7 +3844,8 @@
       "url": "https://boodschaapje.nl/product/117821",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "zonnebloemolie": {
@@ -3929,7 +3952,8 @@
       "url": "https://boodschaapje.nl/product/7715487",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "kidneybonen": {
@@ -4036,7 +4060,8 @@
       "url": "https://boodschaapje.nl/product/6606903",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "kikkererwten": {
@@ -4167,7 +4192,8 @@
       "url": "https://boodschaapje.nl/product/129621",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "tonijn": {
@@ -4298,7 +4324,8 @@
       "url": "https://boodschaapje.nl/product/152887",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "geraspte kaas": {
@@ -4429,7 +4456,8 @@
       "url": "https://boodschaapje.nl/product/161798",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "wraps": {
@@ -4560,7 +4588,8 @@
       "url": "https://boodschaapje.nl/product/6612699",
       "geschat": true
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "kipfiletbeleg": {
@@ -4667,7 +4696,8 @@
       "url": "https://boodschaapje.nl/product/7719390",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "rookworst": {
@@ -4798,7 +4828,8 @@
       "url": "https://boodschaapje.nl/product/4874",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "bouillonblokjes": {
@@ -4921,7 +4952,8 @@
       "url": "https://boodschaapje.nl/product/36468",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "koolmix": {
@@ -4971,7 +5003,8 @@
       "geschat": false
      }
     ],
-    "lidl": []
+    "lidl": [],
+    "aldi": []
    }
   },
   "edamame": {
@@ -5078,7 +5111,8 @@
       "url": "https://boodschaapje.nl/product/194603",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "kipschnitzel": {
@@ -5145,7 +5179,8 @@
       "url": "https://boodschaapje.nl/product/6606503",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "rigatoni": {
@@ -5211,7 +5246,8 @@
       "geschat": false
      }
     ],
-    "lidl": []
+    "lidl": [],
+    "aldi": []
    }
   },
   "tomatenpuree": {
@@ -5318,7 +5354,8 @@
       "url": "https://boodschaapje.nl/product/2435",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "parmezaanse kaas": {
@@ -5433,7 +5470,8 @@
       "url": "https://boodschaapje.nl/product/6014415",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "biefstuk": {
@@ -5523,7 +5561,8 @@
       "geschat": false
      }
     ],
-    "lidl": []
+    "lidl": [],
+    "aldi": []
    }
   },
   "mager gehakt": {
@@ -5598,7 +5637,8 @@
       "url": "https://boodschaapje.nl/product/6601219",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "hamburgerbroodjes": {
@@ -5649,7 +5689,8 @@
       "url": "https://boodschaapje.nl/product/5713649",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "cheddar": {
@@ -5748,7 +5789,8 @@
       "url": "https://boodschaapje.nl/product/5200784",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   },
   "sriracha mayo": {
@@ -5822,7 +5864,8 @@
       "geschat": false
      }
     ],
-    "lidl": []
+    "lidl": [],
+    "aldi": []
    }
   },
   "basmati rijst": {
@@ -5953,7 +5996,8 @@
       "url": "https://boodschaapje.nl/product/6610578",
       "geschat": false
      }
-    ]
+    ],
+    "aldi": []
    }
   }
  }

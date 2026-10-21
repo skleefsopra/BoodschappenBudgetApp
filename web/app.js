@@ -1,19 +1,24 @@
 import { vergelijkWinkels, receptPrijs, metEigenPrijzen, eigenKandidaat, porties, benodigd } from "./planner.js";
 
-const KETENS = { ah: "AH", jumbo: "Jumbo", lidl: "Lidl" };
+const KETENS = { ah: "AH", jumbo: "Jumbo", lidl: "Lidl", aldi: "Aldi" };
 const FACTOREN = [["Volwassene", 1], ["Grote eter", 1.3], ["Tiener", 1.1], ["Kind (4-11)", 0.6], ["Peuter", 0.4]];
 const EENHEID = { g: "gram", ml: "ml", stuk: "stuks" };
 
 // --- Opslag op de telefoon --------------------------------------------------------------
 
 const STANDAARD = {
-  huishouden: { personen: [{ naam: "Ik", factor: 1 }], budget_per_week: 50, supermarkten: ["ah", "jumbo", "lidl"], voorraad: {} },
+  huishouden: { personen: [{ naam: "Ik", factor: 1 }], budget_per_week: 50, supermarkten: ["ah", "jumbo", "lidl", "aldi"], voorraad: {} },
   aantallen: {}, eigenPrijzen: {}, keten: null, afgevinkt: {}, tab: "week",
 };
 function lees() {
   try { return { ...STANDAARD, ...JSON.parse(localStorage.getItem("weekmenu") || "{}") }; } catch { return structuredClone(STANDAARD); }
 }
 let staat = lees();
+// Aldi kwam er later bij: zet hem ook aan voor wie de app al gebruikte.
+if (!staat.aldiToegevoegd) {
+  if (!staat.huishouden.supermarkten.includes("aldi")) staat.huishouden.supermarkten.push("aldi");
+  staat.aldiToegevoegd = true;
+}
 function bewaar() { try { localStorage.setItem("weekmenu", JSON.stringify(staat)); } catch { /* opslag geblokkeerd: werkt verder zonder */ } }
 
 // --- Data --------------------------------------------------------------------------------
@@ -92,9 +97,10 @@ function schermWeek() {
       ${plannen.map((x, i) => `
         <button class="winkel card" data-keten="${x.keten}" aria-pressed="${x.keten === staat.keten}">
           <span class="row between"><span class="naam">${KETENS[x.keten]}</span>${i === 0 && !x.ontbrekend.length ? `<span class="pill ok">Goedkoopst</span>` : ""}</span>
-          <span class="bedrag">${euro(x.weekbedrag)}</span>
-          <span class="small muted">Kassabon ${euro(x.kassabon)}</span>
-          ${x.ontbrekend.length ? `<span class="small fout">Mist ${x.ontbrekend.map(esc).join(", ")}</span>` : ""}
+          <span class="bedrag">${x.boodschappen.length ? euro(x.weekbedrag) : "–"}</span>
+          ${x.boodschappen.length ? `<span class="small muted">Kassabon ${euro(x.kassabon)}</span>` : ""}
+          ${!x.boodschappen.length ? `<span class="pill">Nog geen prijzen</span>`
+            : x.ontbrekend.length ? `<span class="small fout">Mist ${x.ontbrekend.map(esc).join(", ")}</span>` : ""}
         </button>`).join("")}
     </div>
     <p class="small muted">Lang houdbare producten, zoals rijst en sriracha mayo, tellen mee voor wat je deze week gebruikt; de kassabon is wat je nu afrekent. Mist een winkel iets, vul het dan in bij Prijzen.</p>
@@ -178,8 +184,8 @@ function schermPrijzen() {
     ${zorgen.map(({ k, geen, geschat }) => `
       <div class="stack" style="gap:6px"><h3>${KETENS[k]}</h3>
         ${!geen.length && !geschat.length ? `<p class="small muted">Alles compleet.</p>` : ""}
-        <div class="row">${geen.map((n) => `<button class="pill bad" data-vul="${k}|${esc(n)}">${esc(n)}: geen product</button>`).join("")}
-        ${geschat.map((n) => `<button class="pill warn" data-vul="${k}|${esc(n)}">${esc(n)}: maat geschat</button>`).join("")}</div>
+        ${geen.length === Object.keys(p).length ? `<p class="small muted">Nog geen prijzen van ${KETENS[k]}. Vul hieronder in wat je wilt vergelijken.</p>` : `<div class="row">${geen.map((n) => `<button class="pill bad" data-vul="${k}|${esc(n)}">${esc(n)}: geen product</button>`).join("")}
+        ${geschat.map((n) => `<button class="pill warn" data-vul="${k}|${esc(n)}">${esc(n)}: maat geschat</button>`).join("")}</div>`}
       </div>`).join("")}
   </section>
 

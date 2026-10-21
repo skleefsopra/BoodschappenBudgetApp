@@ -5,7 +5,7 @@ import time
 import urllib.request
 
 URL = "https://raw.githubusercontent.com/supermarkt/checkjebon/main/data/supermarkets.json"
-KETENS = ("ah", "jumbo", "lidl")
+KETENS = ("ah", "jumbo", "lidl", "aldi")
 CACHE = os.path.join(os.path.dirname(__file__), "..", "cache", "supermarkets.json")
 
 
