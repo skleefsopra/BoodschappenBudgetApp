@@ -1,5 +1,5 @@
 {
- "gemaakt": "2026-10-21T10:39",
+ "gemaakt": "2026-10-21T10:42",
  "ingredienten": {
   "halfvolle melk": {
    "eenheid": "ml",
@@ -486,6 +486,17 @@
       "geschat": false
      },
      {
+      "product": "MILBONA Plakken Goudse jong belegen kaas",
+      "prijs": 3.49,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00698,
+      "url": "https://www.lidl.nl/p/milbona-plakken-goudse-jong-belegen-kaas/p11323338",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
       "product": "Gouda jong belegen stuk",
       "prijs": 4.19,
       "verpakking": 450.0,
@@ -507,14 +518,6 @@
       "verpakking": 400.0,
       "eenheidsprijs": 0.00937,
       "url": "https://boodschaapje.nl/product/146205",
-      "geschat": false
-     },
-     {
-      "product": "Goudse jong bel 450g",
-      "prijs": 4.31,
-      "verpakking": 450.0,
-      "eenheidsprijs": 0.00958,
-      "url": "https://boodschaapje.nl/product/208573",
       "geschat": false
      }
     ],
@@ -1625,6 +1628,17 @@
       "geschat": false
      },
      {
+      "product": "Kipfilet",
+      "prijs": 9.49,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.01054,
+      "url": "https://www.lidl.nl/p/kipfilet/p11318025",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
       "product": "Kipfilet gr.verpak.",
       "prijs": 9.65,
       "verpakking": 800.0,
@@ -1638,14 +1652,6 @@
       "verpakking": 400.0,
       "eenheidsprijs": 0.01462,
       "url": "https://boodschaapje.nl/product/6611274",
-      "geschat": false
-     },
-     {
-      "product": "Kipfilet a la minute paprika",
-      "prijs": 5.85,
-      "verpakking": 400.0,
-      "eenheidsprijs": 0.01462,
-      "url": "https://boodschaapje.nl/product/184471",
       "geschat": false
      }
     ],
@@ -3349,6 +3355,17 @@
     ],
     "lidl": [
      {
+      "product": "Gewassen spinazie",
+      "prijs": 0.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.0022,
+      "url": "https://www.lidl.nl/p/gewassen-spinazie/p11492621",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
       "product": "Iglo spinazie gehakt",
       "prijs": 2.15,
       "verpakking": 750.0,
@@ -3378,14 +3395,6 @@
       "verpakking": 450.0,
       "eenheidsprijs": 0.00442,
       "url": "https://boodschaapje.nl/product/6611600",
-      "geschat": false
-     },
-     {
-      "product": "Hak spinazie blad gesn.",
-      "prijs": 1.25,
-      "verpakking": 245.0,
-      "eenheidsprijs": 0.0051,
-      "url": "https://boodschaapje.nl/product/6611718",
       "geschat": false
      }
     ],
