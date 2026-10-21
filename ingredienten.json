@@ -1,0 +1,1098 @@
+[
+ {
+  "naam": "halfvolle melk",
+  "eenheid": "ml",
+  "zoek": [
+   "halfvolle melk"
+  ],
+  "niet": [
+   "*chocolade*",
+   "lactosevrij",
+   "koffie*",
+   "poeder",
+   "baby*",
+   "drink*",
+   "yoghurt*",
+   "choco*"
+  ],
+  "min_maat": 500
+ },
+ {
+  "naam": "volkoren brood",
+  "eenheid": "stuk",
+  "stuk_gewicht": 800,
+  "standaard_maat": 1,
+  "zoek": [
+   "volkoren brood",
+   "volkorenbrood",
+   "volkoren tarwebrood",
+   "volkoren heel",
+   "fijn volkoren",
+   "knip volkoren",
+   "tijger volkoren",
+   "volkoren tijger",
+   "volkoren casino",
+   "bakkersbrood volkoren",
+   "vloerbrood volkoren",
+   "volkoren vloerbrood"
+  ],
+  "niet": [
+   "*beschuit*",
+   "crackers",
+   "toast",
+   "*mix*",
+   "*bolletjes",
+   "*broodjes",
+   "broodje",
+   "pistolet*",
+   "pita",
+   "naan",
+   "*stokbrood*",
+   "*krentenbrood*",
+   "*rozijnen*",
+   "*muesli*",
+   "half",
+   "halfje",
+   "*notenbrood*",
+   "tosti*",
+   "party*",
+   "spelt",
+   "rogge*",
+   "*knackebrod*",
+   "*cracker*",
+   "kids"
+  ],
+  "min_maat": 0.75,
+  "max_maat": 1.25
+ },
+ {
+  "naam": "boter",
+  "eenheid": "g",
+  "zoek": [
+   "roomboter",
+   "halvarine",
+   "margarine"
+  ],
+  "niet": [
+   "*koek*",
+   "*croissant*",
+   "*cake",
+   "spritz",
+   "spray",
+   "*stroopwafel*",
+   "*bolussen",
+   "*bladerdeeg*",
+   "*kruidenboter",
+   "*wafel*"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "jong belegen kaas",
+  "eenheid": "g",
+  "zoek": [
+   "jong belegen",
+   "jong bel",
+   "jong beleg"
+  ],
+  "niet": [
+   "*sticks",
+   "*blokjes",
+   "geraspt*",
+   "*worst*",
+   "*broodje*",
+   "*rasp",
+   "geit*",
+   "plantaardig*"
+  ],
+  "min_maat": 150
+ },
+ {
+  "naam": "eieren",
+  "eenheid": "stuk",
+  "stuk_gewicht": 60,
+  "zoek": [
+   "*eieren"
+  ],
+  "niet": [
+   "*paas*",
+   "chocolade*",
+   "gekookt*",
+   "*salade",
+   "*spek*",
+   "kwartel*",
+   "*noedels",
+   "*mie",
+   "*pasta",
+   "*vermicelli*",
+   "*macaroni*",
+   "choco*",
+   "*praline*",
+   "gevul*",
+   "spaghetti*"
+  ],
+  "min_maat": 6,
+  "standaard_maat": 10
+ },
+ {
+  "naam": "magere yoghurt",
+  "eenheid": "ml",
+  "zoek": [
+   "magere yoghurt"
+  ],
+  "niet": [
+   "*drink*",
+   "*fruit*",
+   "griekse"
+  ],
+  "min_maat": 500
+ },
+ {
+  "naam": "havermout",
+  "eenheid": "g",
+  "zoek": [
+   "havermout",
+   "haver vlokken",
+   "havervlokken"
+  ],
+  "niet": [
+   "*koek*",
+   "*reep*",
+   "*drink*",
+   "*pap*",
+   "*cups"
+  ],
+  "min_maat": 250,
+  "houdbaar": true
+ },
+ {
+  "naam": "pindakaas",
+  "eenheid": "g",
+  "zoek": [
+   "pindakaas"
+  ],
+  "niet": [
+   "*koek*",
+   "*reep*",
+   "*saus*",
+   "*chips*",
+   "*cups"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "jam",
+  "eenheid": "g",
+  "zoek": [
+   "jam",
+   "*jam"
+  ],
+  "niet": [
+   "jamon",
+   "*koek*"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "hagelslag",
+  "eenheid": "g",
+  "zoek": [
+   "hagelslag"
+  ],
+  "niet": [
+   "*koek*"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "bananen",
+  "eenheid": "stuk",
+  "stuk_gewicht": 180,
+  "zoek": [
+   "bananen",
+   "banaan"
+  ],
+  "niet": [
+   "*chips*",
+   "*drink*",
+   "*smoothie*",
+   "gedroogd*",
+   "*knijpfruit*",
+   "*koek*",
+   "*snack*",
+   "*brood*",
+   "*kwark*",
+   "*bakbanan*",
+   "gesuikerd*",
+   "*yoghurt*",
+   "*vla*",
+   "*ijs*",
+   "*cake*",
+   "*smaak*",
+   "*maaza*",
+   "*nektar*",
+   "*nectar*",
+   "*smikkel*",
+   "*toetje*",
+   "*aardbei*",
+   "*schuim*",
+   "vriesvers*",
+   "*plakjes*",
+   "*nekar*",
+   "*havermout*",
+   "*porties*",
+   "*appel*"
+  ],
+  "standaard_maat": 1
+ },
+ {
+  "naam": "appels",
+  "eenheid": "stuk",
+  "stuk_gewicht": 180,
+  "zoek": [
+   "appels",
+   "elstar",
+   "jonagold",
+   "goudrenet"
+  ],
+  "niet": [
+   "*sap",
+   "*moes*",
+   "*taart*",
+   "*chips*",
+   "*stroop*",
+   "gedroogd*",
+   "*flap*",
+   "*drink*",
+   "*cider*",
+   "*azijn*",
+   "*knijp*",
+   "*kids*"
+  ]
+ },
+ {
+  "naam": "kipfilet",
+  "eenheid": "g",
+  "zoek": [
+   "kipfilet"
+  ],
+  "niet": [
+   "gerookt*",
+   "*blokjes",
+   "*reepjes",
+   "*haasjes",
+   "gepaneerd*",
+   "gemarineerd*",
+   "*broodbeleg*",
+   "*saus",
+   "*salade",
+   "*kant*",
+   "*maaltijd*",
+   "*ping*",
+   "*hond*",
+   "*kat*",
+   "*snack*",
+   "*soep*",
+   "*spies*",
+   "*worst*",
+   "*plakken",
+   "*gekruid*",
+   "gegrild*",
+   "americanos",
+   "mexicaans*",
+   "*wortel*",
+   "*erwt*",
+   "*chunks*",
+   "*penne*",
+   "*naturel 155*",
+   "*broodje*",
+   "*pulled*",
+   "*roerbak*",
+   "iglo",
+   "*pasta*",
+   "bl"
+  ],
+  "min_maat": 200
+ },
+ {
+  "naam": "rundergehakt",
+  "eenheid": "g",
+  "zoek": [
+   "rundergehakt"
+  ],
+  "niet": [
+   "*bal*",
+   "*maaltijd*",
+   "*saus*",
+   "*lasagne*",
+   "*schotel*",
+   "*soep*"
+  ],
+  "min_maat": 250
+ },
+ {
+  "naam": "half om half gehakt",
+  "eenheid": "g",
+  "zoek": [
+   "half om half gehakt",
+   "gehakt half om half"
+  ],
+  "niet": [
+   "*bal*",
+   "*maaltijd*",
+   "*saus*",
+   "*lasagne*",
+   "*schotel*",
+   "*soep*"
+  ],
+  "min_maat": 250
+ },
+ {
+  "naam": "zalmfilet",
+  "eenheid": "g",
+  "zoek": [
+   "zalmfilet"
+  ],
+  "niet": [
+   "gerookt*",
+   "*salade",
+   "*kat*",
+   "*hond*",
+   "*spread*",
+   "*blik",
+   "plantaardig*",
+   "*dillesaus*",
+   "*puree*"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "spaghetti",
+  "eenheid": "g",
+  "zoek": [
+   "spaghetti"
+  ],
+  "niet": [
+   "*saus*",
+   "bolognese",
+   "*maaltijd*",
+   "*hapje*",
+   "*kant*",
+   "*ping*",
+   "*mix*",
+   "*pakket*",
+   "*squash*",
+   "*soep*"
+  ],
+  "min_maat": 300,
+  "houdbaar": true
+ },
+ {
+  "naam": "penne",
+  "eenheid": "g",
+  "zoek": [
+   "penne"
+  ],
+  "niet": [
+   "*saus*",
+   "*maaltijd*",
+   "*hapje*",
+   "*kant*",
+   "*salade*",
+   "*pakket*"
+  ],
+  "min_maat": 300,
+  "houdbaar": true
+ },
+ {
+  "naam": "rijst",
+  "eenheid": "g",
+  "zoek": [
+   "witte rijst",
+   "langkorrel rijst",
+   "basmati rijst",
+   "basmatirijst",
+   "pandan rijst",
+   "zilvervliesrijst",
+   "zilvervlies rijst"
+  ],
+  "niet": [
+   "*wafel*",
+   "*maaltijd*",
+   "*kant*",
+   "*ping*",
+   "*pap*",
+   "*drink*",
+   "*azijn*",
+   "*crackers*",
+   "*noodle*",
+   "*cups"
+  ],
+  "min_maat": 400,
+  "houdbaar": true
+ },
+ {
+  "naam": "aardappelen",
+  "eenheid": "g",
+  "zoek": [
+   "aardappelen",
+   "kruimige aardappelen",
+   "vastkokende aardappelen"
+  ],
+  "niet": [
+   "*partjes",
+   "*schijfjes",
+   "*blokjes",
+   "*salade*",
+   "*puree*",
+   "*kroket*",
+   "*rosti*",
+   "*frites*",
+   "*chips*",
+   "*poffer*",
+   "*kriel*",
+   "*gebakken*",
+   "*schotel*",
+   "*gnocchi*",
+   "*soep*",
+   "*maaltijd*",
+   "*zoete*",
+   "*wedges*",
+   "*schijfjes*"
+  ],
+  "min_maat": 1000
+ },
+ {
+  "naam": "uien",
+  "eenheid": "g",
+  "stuk_gewicht": 120,
+  "zoek": [
+   "uien",
+   "ui"
+  ],
+  "niet": [
+   "*soep*",
+   "*ringen*",
+   "*saus*",
+   "*chips*",
+   "*gebakken*",
+   "gesnipperd*",
+   "*poeder*",
+   "*rode*",
+   "*lente*",
+   "*sjalot*",
+   "*zilver*",
+   "*augurk*",
+   "*mix*",
+   "*krokante*",
+   "*gedroogd*",
+   "*knoflook*"
+  ],
+  "min_maat": 500
+ },
+ {
+  "naam": "knoflook",
+  "eenheid": "stuk",
+  "zoek": [
+   "knoflook"
+  ],
+  "niet": [
+   "*saus*",
+   "*poeder*",
+   "*pasta*",
+   "*olie*",
+   "*boter*",
+   "*brood*",
+   "*kruiden*",
+   "*dressing*",
+   "*chips*",
+   "*geperst*",
+   "*zwarte*",
+   "*gemalen*",
+   "*gedroogd*",
+   "*gekonfijt*",
+   "*granulaat*",
+   "*mayo*",
+   "*worst*",
+   "*crackers*",
+   "*kaas*",
+   "*vlokken*",
+   "*gerookt*",
+   "*knofl*br*",
+   "*boursin*",
+   "*fuet*",
+   "*braadworst*",
+   "*dip*",
+   "*fijn gehakt*",
+   "*gehakte*",
+   "*bertolli*",
+   "*calve*",
+   "*saus*",
+   "*tomat*",
+   "*naan*",
+   "*pita*",
+   "*olijven*",
+   "*polpa*",
+   "*pomodoro*",
+   "ui"
+  ],
+  "max_maat": 10,
+  "stuk_gewicht": 50,
+  "standaard_maat": 3
+ },
+ {
+  "naam": "tomaten",
+  "eenheid": "g",
+  "zoek": [
+   "tomaten",
+   "trostomaten",
+   "tomaat"
+  ],
+  "niet": [
+   "*saus*",
+   "*soep*",
+   "*puree*",
+   "*gepeld*",
+   "*blokjes",
+   "gedroogd*",
+   "*passata*",
+   "*ketchup*",
+   "*sap*",
+   "*chips*",
+   "*cherry*",
+   "*snoep*",
+   "*pasta*",
+   "*zongedroogd*",
+   "*mozzarella*",
+   "*pesto*",
+   "*tapenade*",
+   "*kruiden*",
+   "*salade*",
+   "*gezeefd*",
+   "*crackers*",
+   "*olie*",
+   "*basilicum*",
+   "*geconcentreerd*",
+   "*soepgroente*",
+   "*gebakken*",
+   "*fijngesneden*",
+   "*polpa*",
+   "*knoflook*",
+   "*trostomaatjes*",
+   "*snack*",
+   "*pizza*",
+   "*kaas*"
+  ],
+  "min_maat": 300
+ },
+ {
+  "naam": "tomatenblokjes",
+  "eenheid": "g",
+  "zoek": [
+   "tomatenblokjes",
+   "tomaten blokjes",
+   "gehakte tomaten",
+   "tomaten gehakt"
+  ],
+  "niet": [
+   "*soep*"
+  ],
+  "min_maat": 300,
+  "houdbaar": true
+ },
+ {
+  "naam": "passata",
+  "eenheid": "g",
+  "stuk_gewicht": 1,
+  "zoek": [
+   "passata",
+   "gezeefde tomaten",
+   "tomaten gezeefd"
+  ],
+  "niet": [
+   "*soep*"
+  ],
+  "min_maat": 300,
+  "houdbaar": true
+ },
+ {
+  "naam": "paprika",
+  "eenheid": "stuk",
+  "stuk_gewicht": 160,
+  "zoek": [
+   "paprika rood",
+   "paprika geel",
+   "paprika groen",
+   "paprika mix",
+   "paprika s",
+   "paprikamix",
+   "rode paprika",
+   "gele paprika",
+   "groene paprika",
+   "paprika"
+  ],
+  "niet": [
+   "*poeder*",
+   "*chips*",
+   "*saus*",
+   "*kruiden*",
+   "*gerookt*",
+   "*worst*",
+   "*gegrild*",
+   "*mix*",
+   "*tapenade*",
+   "*spread*",
+   "*pasta*",
+   "*soep*",
+   "*olie*",
+   "*gemalen*",
+   "*zakje*",
+   "*rookworst*",
+   "*hummus*",
+   "*kaas*",
+   "*crackers*",
+   "*reepjes*",
+   "*snack*",
+   "*zoete puntpaprika*",
+   "*gevuld*",
+   "*smeer*",
+   "*marinade*",
+   "*grill*",
+   "*mini*",
+   "*zuur*",
+   "*aardappel*",
+   "*wraps*",
+   "*wavy*",
+   "*gratin*",
+   "*ovengroente*",
+   "geroosterd*",
+   "*arrabbiata*",
+   "*courgette*",
+   "*chilipeper*",
+   "*puntpaprika*",
+   "*mini*",
+   "*drumsticks*",
+   "*olijven*",
+   "*borrelnoten*",
+   "*smaak*"
+  ],
+  "standaard_maat": 1
+ },
+ {
+  "naam": "broccoli",
+  "eenheid": "g",
+  "zoek": [
+   "broccoli",
+   "broccoliroosjes"
+  ],
+  "niet": [
+   "*soep*",
+   "*roosjes diepvries*",
+   "*mix*",
+   "*rijst*",
+   "*salade*",
+   "*schotel*",
+   "*ovenschotel*",
+   "*kaas*",
+   "*maaltijd*",
+   "*hapje*",
+   "*baby*",
+   "*crackers*",
+   "*bloemkool*",
+   "*mix",
+   "*bloemkool*",
+   "*olvarit*",
+   "*fish*",
+   "*potat*",
+   "*fusilli*",
+   "*kalkoen*"
+  ],
+  "min_maat": 250
+ },
+ {
+  "naam": "spinazie",
+  "eenheid": "g",
+  "zoek": [
+   "spinazie"
+  ],
+  "niet": [
+   "*soep*",
+   "*a la creme*",
+   "*creme*",
+   "*pasta*",
+   "*ravioli*",
+   "*taart*",
+   "*quiche*",
+   "*lasagne*",
+   "*smoothie*",
+   "*crackers*",
+   "*wrap*",
+   "*kaas*",
+   "*gnocchi*",
+   "*maaltijd*",
+   "*hapje*",
+   "*baby*",
+   "*tortellini*",
+   "*rijst*",
+   "*ricotta*",
+   "*bladerdeeg*",
+   "*feta*"
+  ],
+  "min_maat": 200
+ },
+ {
+  "naam": "wortelen",
+  "eenheid": "g",
+  "zoek": [
+   "wortelen",
+   "winterpeen",
+   "waspeen",
+   "wortels"
+  ],
+  "niet": [
+   "*sap*",
+   "*soep*",
+   "*salade*",
+   "*taart*",
+   "*cake*",
+   "*mix*",
+   "*hapje*",
+   "*baby*",
+   "*doperwten*",
+   "*erwten*",
+   "*hutspot*",
+   "*gesneden*",
+   "*rasp*",
+   "*knijp*",
+   "*snack*",
+   "*pot*",
+   "*blik*"
+  ],
+  "min_maat": 300
+ },
+ {
+  "naam": "komkommer",
+  "eenheid": "stuk",
+  "zoek": [
+   "komkommer"
+  ],
+  "niet": [
+   "*salade*",
+   "*zuur*",
+   "*augurk*",
+   "*water*",
+   "*tzatziki*",
+   "*drink*",
+   "*mini*",
+   "*snack*",
+   "*reepjes*",
+   "*mix*",
+   "*blokjes",
+   "*snoep*",
+   "*veld*",
+   "*spread*",
+   "*atjar*",
+   "*rauwkost*",
+   "*sap*",
+   "*salade*",
+   "*tomaatjes*",
+   "*shot*",
+   "*smoothie*",
+   "*banaan*"
+  ],
+  "max_maat": 1,
+  "standaard_maat": 1
+ },
+ {
+  "naam": "sla",
+  "eenheid": "g",
+  "zoek": [
+   "ijsbergsla",
+   "rucola",
+   "veldsla",
+   "slamelange",
+   "sla melange",
+   "mesclun",
+   "romaine"
+  ],
+  "niet": [
+   "*dressing*",
+   "*maaltijd*",
+   "*kip*",
+   "*salade bowl*",
+   "*kaas*",
+   "*tonijn*",
+   "*ei*",
+   "*pasta*"
+  ],
+  "min_maat": 50
+ },
+ {
+  "naam": "olijfolie",
+  "eenheid": "ml",
+  "zoek": [
+   "olijfolie"
+  ],
+  "niet": [
+   "*spray*",
+   "*tonijn*",
+   "*sardine*",
+   "*chips*",
+   "*in olijfolie*",
+   "*crackers*",
+   "*zeep*",
+   "*tapenade*",
+   "*pesto*",
+   "*tomaten*",
+   "*artisjok*",
+   "*makreel*",
+   "*ansjovis*",
+   "*olijven*",
+   "*paprika*",
+   "*gedroogd*",
+   "*knoflook*",
+   "*bodylotion*",
+   "*shampoo*",
+   "*mayo*",
+   "*dressing*"
+  ],
+  "min_maat": 250,
+  "houdbaar": true
+ },
+ {
+  "naam": "zonnebloemolie",
+  "eenheid": "ml",
+  "zoek": [
+   "zonnebloemolie"
+  ],
+  "niet": [
+   "*spray*",
+   "*tonijn*",
+   "*chips*",
+   "*in zonnebloemolie*",
+   "*makreel*",
+   "*sardine*",
+   "*vis*",
+   "*mayo*"
+  ],
+  "min_maat": 500,
+  "houdbaar": true
+ },
+ {
+  "naam": "kidneybonen",
+  "eenheid": "g",
+  "zoek": [
+   "kidneybonen",
+   "kidney bonen",
+   "rode bonen",
+   "rode kidneybonen"
+  ],
+  "niet": [
+   "*salade*",
+   "*soep*",
+   "*chili*",
+   "*mix*",
+   "*maaltijd*",
+   "*tomatensaus*"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "kikkererwten",
+  "eenheid": "g",
+  "zoek": [
+   "kikkererwten"
+  ],
+  "niet": [
+   "*salade*",
+   "*soep*",
+   "*hummus*",
+   "*chips*",
+   "*meel*",
+   "*pasta*",
+   "*curry*",
+   "*snack*",
+   "*crackers*",
+   "*geroosterd*"
+  ],
+  "min_maat": 200,
+  "houdbaar": true
+ },
+ {
+  "naam": "tonijn",
+  "eenheid": "g",
+  "zoek": [
+   "tonijn",
+   "tonijnstukken",
+   "tonijn stukken"
+  ],
+  "niet": [
+   "*salade*",
+   "*kat*",
+   "*hond*",
+   "*spread*",
+   "*pizza*",
+   "*sandwich*",
+   "*broodje*",
+   "*steak*",
+   "*sushi*",
+   "*pasta*",
+   "*maaltijd*",
+   "*tataki*",
+   "*poke*",
+   "*snack*",
+   "*wrap*",
+   "*filet*",
+   "*vers*",
+   "*saus*",
+   "*bonen*",
+   "*quinoa*",
+   "*mousse*",
+   "*bowl*"
+  ],
+  "min_maat": 100,
+  "houdbaar": true
+ },
+ {
+  "naam": "geraspte kaas",
+  "eenheid": "g",
+  "zoek": [
+   "geraspte kaas",
+   "geraspt*",
+   "*rasp"
+  ],
+  "niet": [
+   "*kokos*",
+   "*sinaasappel*",
+   "*citroen*",
+   "*chocolade*",
+   "*bieten*",
+   "*mierikswortel*",
+   "*wortel*",
+   "*kool*",
+   "*courgette*",
+   "*gember*",
+   "*parmezaan*",
+   "*parmigiano*",
+   "*grana*",
+   "*mozzarella*",
+   "*cheddar*",
+   "*vegan*",
+   "plantaardig*",
+   "*appel*",
+   "*knolselderij*",
+   "*biet*"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "wraps",
+  "eenheid": "stuk",
+  "stuk_gewicht": 62,
+  "standaard_maat": 6,
+  "zoek": [
+   "wraps",
+   "tortilla wraps",
+   "tortilla s",
+   "tortillas",
+   "wraps naturel",
+   "naturel wraps"
+  ],
+  "niet": [
+   "*chips*",
+   "*maaltijd*",
+   "*pakket*",
+   "*kip*",
+   "*saus*",
+   "*kruiden*",
+   "*kit*",
+   "*mix*",
+   "*broodje*",
+   "*snack*",
+   "*shoarma*",
+   "*falafel*",
+   "*kant*",
+   "*gevuld*",
+   "*salade*",
+   "*mini*",
+   "*durum*",
+   "*duroem*",
+   "groente*",
+   "*mexicanez*",
+   "*kras*",
+   "*carpaccio*",
+   "*bieten*",
+   "*wortel*",
+   "*paprika*",
+   "*spinazie*",
+   "*protein*",
+   "*protei*",
+   "*bfree*",
+   "*mais*"
+  ],
+  "min_maat": 4,
+  "max_maat": 12
+ },
+ {
+  "naam": "kipfiletbeleg",
+  "eenheid": "g",
+  "zoek": [
+   "kipfilet broodbeleg",
+   "gerookte kipfilet",
+   "kipfilet gerookt"
+  ],
+  "niet": [
+   "*salade*",
+   "*snack*",
+   "*hond*",
+   "*kat*",
+   "*reepjes*"
+  ],
+  "min_maat": 80
+ },
+ {
+  "naam": "rookworst",
+  "eenheid": "g",
+  "zoek": [
+   "rookworst"
+  ],
+  "niet": [
+   "*soep*",
+   "*snack*",
+   "*stamppot*",
+   "*schotel*",
+   "*broodje*",
+   "*maaltijd*",
+   "*hutspot*",
+   "*boerenkool*",
+   "*zuurkool*",
+   "*erwten*",
+   "*mini*",
+   "*plakjes*"
+  ],
+  "min_maat": 200
+ },
+ {
+  "naam": "bouillonblokjes",
+  "eenheid": "stuk",
+  "zoek": [
+   "bouillonblokjes",
+   "bouillon blokjes",
+   "bouillontabletten",
+   "*bouillonblok*",
+   "*bouillonblokjes"
+  ],
+  "niet": [
+   "*soep*",
+   "*vis*",
+   "*paddenstoel*"
+  ],
+  "stuk_gewicht": 10,
+  "houdbaar": true
+ }
+]

@@ -1,0 +1,4928 @@
+{
+ "gemaakt": "2026-10-21T08:42",
+ "ingredienten": {
+  "halfvolle melk": {
+   "eenheid": "ml",
+   "ketens": {
+    "ah": [
+     {
+      "product": "De Zaanse Hoeve Halfvolle melk",
+      "prijs": 1.89,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00094,
+      "url": "https://www.ah.nl/producten/product/wi200486/de-zaanse-hoeve-halfvolle-melk",
+      "geschat": false
+     },
+     {
+      "product": "AH Houdbare halfvolle melk",
+      "prijs": 0.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00099,
+      "url": "https://www.ah.nl/producten/product/wi450534/ah-houdbare-halfvolle-melk",
+      "geschat": false
+     },
+     {
+      "product": "AH Halfvolle melk",
+      "prijs": 1.79,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00119,
+      "url": "https://www.ah.nl/producten/product/wi33693/ah-halfvolle-melk",
+      "geschat": false
+     },
+     {
+      "product": "AH Houdbare halfvolle melk 6-pack",
+      "prijs": 1.49,
+      "verpakking": 1200.0,
+      "eenheidsprijs": 0.00124,
+      "url": "https://www.ah.nl/producten/product/wi130270/ah-houdbare-halfvolle-melk-6-pack",
+      "geschat": false
+     },
+     {
+      "product": "Campina Halfvolle melk voordeelpak",
+      "prijs": 2.99,
+      "verpakking": 2400.0,
+      "eenheidsprijs": 0.00125,
+      "url": "https://www.ah.nl/producten/product/wi208278/campina-halfvolle-melk-voordeelpak",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Halfvolle Melk 2 L",
+      "prijs": 1.55,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00077,
+      "url": "https://www.jumbo.com/producten/halfvolle-melk-2-l-765573CAN",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Houdbare Halfvolle Melk Voordeelverpakking 6 x 1 L",
+      "prijs": 4.79,
+      "verpakking": 6000.0,
+      "eenheidsprijs": 0.0008,
+      "url": "https://www.jumbo.com/producten/jumbo-houdbare-halfvolle-melk-voordeelverpakking-6-x-1-l-305425PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Houdbare Halfvolle Melk 1 L",
+      "prijs": 0.82,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00082,
+      "url": "https://www.jumbo.com/producten/jumbo-houdbare-halfvolle-melk-1-l-49609STK",
+      "geschat": false
+     },
+     {
+      "product": "Halfvolle Melk 1 L",
+      "prijs": 0.85,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00085,
+      "url": "https://www.jumbo.com/producten/halfvolle-melk-1-l-751918PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Halfvolle Melk 2 L",
+      "prijs": 1.99,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.001,
+      "url": "https://www.jumbo.com/producten/jumbo-halfvolle-melk-2-l-771364CAN",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Houdbare halfvolle melk",
+      "prijs": 0.82,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00082,
+      "url": "https://boodschaapje.nl/product/128758",
+      "geschat": false
+     },
+     {
+      "product": "Houdbare biologische halfvolle melk",
+      "prijs": 1.29,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00086,
+      "url": "https://boodschaapje.nl/product/85659",
+      "geschat": false
+     },
+     {
+      "product": "Verse halfvolle melk",
+      "prijs": 1.75,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00088,
+      "url": "https://boodschaapje.nl/product/5799",
+      "geschat": false
+     },
+     {
+      "product": "Verse biologische halfvolle melk",
+      "prijs": 1.35,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00135,
+      "url": "https://boodschaapje.nl/product/6602966",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "volkoren brood": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Extra lang lekker volkoren heel",
+      "prijs": 0.95,
+      "verpakking": 1.0,
+      "eenheidsprijs": 0.95,
+      "url": "https://www.ah.nl/producten/product/wi589882/ah-extra-lang-lekker-volkoren-heel",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra lang lekker tijger volkoren heel",
+      "prijs": 1.25,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.25,
+      "url": "https://www.ah.nl/producten/product/wi523365/ah-extra-lang-lekker-tijger-volkoren-heel",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra lang lekker Zaans volkoren heel",
+      "prijs": 1.75,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.75,
+      "url": "https://www.ah.nl/producten/product/wi582990/ah-extra-lang-lekker-zaans-volkoren-heel",
+      "geschat": false
+     },
+     {
+      "product": "AH Rond volkoren heel",
+      "prijs": 1.89,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.89,
+      "url": "https://www.ah.nl/producten/product/wi487022/ah-rond-volkoren-heel",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Volkoren havermout fijn",
+      "prijs": 2.15,
+      "verpakking": 1.12,
+      "eenheidsprijs": 1.91111,
+      "url": "https://www.ah.nl/producten/product/wi475244/ah-biologisch-volkoren-havermout-fijn",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Fijn Volkorenbrood",
+      "prijs": 0.93,
+      "verpakking": 1,
+      "eenheidsprijs": 0.93,
+      "url": "https://www.jumbo.com/producten/fijn-volkorenbrood-705295ZK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo - Boeren Tijger Volkoren",
+      "prijs": 1.09,
+      "verpakking": 1,
+      "eenheidsprijs": 1.09,
+      "url": "https://www.jumbo.com/producten/jumbo-boeren-tijger-volkoren-631885STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo - Fijn Volkoren",
+      "prijs": 1.89,
+      "verpakking": 1,
+      "eenheidsprijs": 1.89,
+      "url": "https://www.jumbo.com/producten/jumbo-fijn-volkoren-300146STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo - Boeren Tijger Volkoren - Knapperig en Vers",
+      "prijs": 2,
+      "verpakking": 1,
+      "eenheidsprijs": 2.0,
+      "url": "https://www.jumbo.com/producten/jumbo-boeren-tijger-volkoren-knapperig-en-vers-221360STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo - Rond Fijn Volkoren - Knapperig en Vers",
+      "prijs": 2,
+      "verpakking": 1,
+      "eenheidsprijs": 2.0,
+      "url": "https://www.jumbo.com/producten/jumbo-rond-fijn-volkoren-knapperig-en-vers-430651STK",
+      "geschat": true
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Fijn volkoren heel L",
+      "prijs": 0.93,
+      "verpakking": 1,
+      "eenheidsprijs": 0.93,
+      "url": "https://boodschaapje.nl/product/6615170",
+      "geschat": true
+     },
+     {
+      "product": "Fijn volkoren, heel",
+      "prijs": 0.93,
+      "verpakking": 1,
+      "eenheidsprijs": 0.93,
+      "url": "https://boodschaapje.nl/product/5327",
+      "geschat": true
+     },
+     {
+      "product": "Knip volkoren",
+      "prijs": 1.79,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.79,
+      "url": "https://boodschaapje.nl/product/6604539",
+      "geschat": false
+     },
+     {
+      "product": "Sesam volkoren heel",
+      "prijs": 1.99,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.99,
+      "url": "https://boodschaapje.nl/product/2457",
+      "geschat": false
+     },
+     {
+      "product": "Sesam volkoren heel",
+      "prijs": 1.99,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.99,
+      "url": "https://boodschaapje.nl/product/6615178",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "boter": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Halvarine 100% plantaardig",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.ah.nl/producten/product/wi594562/ah-halvarine-100-plantaardig",
+      "geschat": false
+     },
+     {
+      "product": "AH Margarine",
+      "prijs": 1.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00258,
+      "url": "https://www.ah.nl/producten/product/wi136100/ah-margarine",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Plantaardig halvarine lekker op brood",
+      "prijs": 1.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00258,
+      "url": "https://www.ah.nl/producten/product/wi127489/ah-terra-plantaardig-halvarine-lekker-op-brood",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Plantaardig halvarine goed begin",
+      "prijs": 1.39,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00278,
+      "url": "https://www.ah.nl/producten/product/wi138500/ah-terra-plantaardig-halvarine-goed-begin",
+      "geschat": false
+     },
+     {
+      "product": "AH Margarine",
+      "prijs": 0.75,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.003,
+      "url": "https://www.ah.nl/producten/product/wi56350/ah-margarine",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Halvarine 500 g",
+      "prijs": 0.54,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00108,
+      "url": "https://www.jumbo.com/producten/jumbo-halvarine-500-g-667840CUP",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Margarine 500 g",
+      "prijs": 1.59,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00318,
+      "url": "https://www.jumbo.com/producten/jumbo-margarine-500-g-392061PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Margarine 250 g",
+      "prijs": 0.85,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.0034,
+      "url": "https://www.jumbo.com/producten/jumbo-margarine-250-g-392062PAK",
+      "geschat": false
+     },
+     {
+      "product": "Blue Band Halvarine 500g",
+      "prijs": 2.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00438,
+      "url": "https://www.jumbo.com/producten/blue-band-halvarine-500g-206940STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Roomboter Ongezouten 500 g",
+      "prijs": 2.25,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0045,
+      "url": "https://www.jumbo.com/producten/jumbo-roomboter-ongezouten-500-g-758601PAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Halvarine",
+      "prijs": 0.57,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00114,
+      "url": "https://boodschaapje.nl/product/1236",
+      "geschat": false
+     },
+     {
+      "product": "Margarine Goed Begin",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://boodschaapje.nl/product/3011",
+      "geschat": false
+     },
+     {
+      "product": "Blue Band margarine",
+      "prijs": 1.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://boodschaapje.nl/product/208240",
+      "geschat": false
+     },
+     {
+      "product": "Roomboter appeltaart",
+      "prijs": 4.59,
+      "verpakking": 1100.0,
+      "eenheidsprijs": 0.00417,
+      "url": "https://boodschaapje.nl/product/4300",
+      "geschat": false
+     },
+     {
+      "product": "Roomboter m. puntjes",
+      "prijs": 2.29,
+      "verpakking": 540.0,
+      "eenheidsprijs": 0.00424,
+      "url": "https://boodschaapje.nl/product/6612235",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "jong belegen kaas": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "De Zaanse Hoeve Goudse jong belegen 48+ stuk voordeel",
+      "prijs": 8.8,
+      "verpakking": 1006.0,
+      "eenheidsprijs": 0.00875,
+      "url": "https://www.ah.nl/producten/product/wi447741/de-zaanse-hoeve-goudse-jong-belegen-48-stuk-voordeel",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Jong belegen 48+ stuk",
+      "prijs": 4.26,
+      "verpakking": 440.0,
+      "eenheidsprijs": 0.00968,
+      "url": "https://www.ah.nl/producten/product/wi447743/de-zaanse-hoeve-jong-belegen-48-stuk",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Jong belegen 30+ stuk",
+      "prijs": 4.93,
+      "verpakking": 452.0,
+      "eenheidsprijs": 0.01091,
+      "url": "https://www.ah.nl/producten/product/wi447750/de-zaanse-hoeve-jong-belegen-30-stuk",
+      "geschat": false
+     },
+     {
+      "product": "AH Goudse jong belegen 48+ stuk",
+      "prijs": 6.26,
+      "verpakking": 535.0,
+      "eenheidsprijs": 0.0117,
+      "url": "https://www.ah.nl/producten/product/wi486703/ah-goudse-jong-belegen-48-stuk",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Jong belegen 48+ plakken voordeelpak",
+      "prijs": 4.75,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01188,
+      "url": "https://www.ah.nl/producten/product/wi197227/de-zaanse-hoeve-jong-belegen-48-plakken-voordeelpak",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Goudse Kaas 48+ Jong Belegen Stuk 1KG",
+      "prijs": 8.69,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00869,
+      "url": "https://www.jumbo.com/producten/goudse-kaas-48-jong-belegen-stuk-1kg-746548DS",
+      "geschat": false
+     },
+     {
+      "product": "Goudse Kaas 48+ Jong Belegen Stuk 450 g",
+      "prijs": 4.36,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00969,
+      "url": "https://www.jumbo.com/producten/goudse-kaas-48-jong-belegen-stuk-450-g-746545DS",
+      "geschat": false
+     },
+     {
+      "product": "Goudse Kaas Jong 48+ Belegen Plakken 400 g",
+      "prijs": 3.89,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00973,
+      "url": "https://www.jumbo.com/producten/goudse-kaas-jong-48-belegen-plakken-400-g-746552DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Goudse Kaas Jong Belegen 48+ – Voordeelverpakking 4 x 400 g",
+      "prijs": 15.56,
+      "verpakking": 1600.0,
+      "eenheidsprijs": 0.00973,
+      "url": "https://www.jumbo.com/producten/jumbo-goudse-kaas-jong-belegen-48-voordeelverpakking-4-x-400-g-566746STK",
+      "geschat": false
+     },
+     {
+      "product": "Goudse Kaas Jong Belegen 48+ Plak 4 x 190 g",
+      "prijs": 9.16,
+      "verpakking": 760.0,
+      "eenheidsprijs": 0.01205,
+      "url": "https://www.jumbo.com/producten/goudse-kaas-jong-belegen-48-plak-4-x-190-g-566773STK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Gouda jong belegen",
+      "prijs": 2.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00598,
+      "url": "https://boodschaapje.nl/product/145583",
+      "geschat": false
+     },
+     {
+      "product": "MILBONA Plakken Goudse jong belegen kaas",
+      "prijs": 3.49,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00698,
+      "url": "https://www.lidl.nl/p/milbona-plakken-goudse-jong-belegen-kaas/p11323338",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Gouda jong belegen stuk",
+      "prijs": 4.19,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00931,
+      "url": "https://boodschaapje.nl/product/159296",
+      "geschat": false
+     },
+     {
+      "product": "Goudse jong bel plak",
+      "prijs": 3.75,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00937,
+      "url": "https://boodschaapje.nl/product/208579",
+      "geschat": false
+     },
+     {
+      "product": "Goudse kaas jong belegen plakken 48+",
+      "prijs": 3.75,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00937,
+      "url": "https://boodschaapje.nl/product/146205",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "eieren": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Scharreleieren",
+      "prijs": 3.19,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.26583,
+      "url": "https://www.ah.nl/producten/product/wi588275/ah-scharreleieren",
+      "geschat": false
+     },
+     {
+      "product": "Natuurfarm de Boed Maïs scharreleieren M L",
+      "prijs": 7.99,
+      "verpakking": 30.0,
+      "eenheidsprijs": 0.26633,
+      "url": "https://www.ah.nl/producten/product/wi418209/natuurfarm-de-boed-mais-scharreleieren-m-l",
+      "geschat": false
+     },
+     {
+      "product": "AH Verse scharreleieren M",
+      "prijs": 6.29,
+      "verpakking": 20.0,
+      "eenheidsprijs": 0.3145,
+      "url": "https://www.ah.nl/producten/product/wi130273/ah-verse-scharreleieren-m",
+      "geschat": false
+     },
+     {
+      "product": "AH Witte vrije uitloopeieren M",
+      "prijs": 1.89,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.315,
+      "url": "https://www.ah.nl/producten/product/wi442922/ah-witte-vrije-uitloopeieren-m",
+      "geschat": false
+     },
+     {
+      "product": "Natuurfarm de Boed 10 scharrel eieren S M L",
+      "prijs": 3.69,
+      "verpakking": 10.0,
+      "eenheidsprijs": 0.369,
+      "url": "https://www.ah.nl/producten/product/wi479760/natuurfarm-de-boed-10-scharrel-eieren-s-m-l",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Powerful Eggs Nederlandse Witte Scharreleieren 30 Stuks",
+      "prijs": 8.15,
+      "verpakking": 30.0,
+      "eenheidsprijs": 0.27167,
+      "url": "https://www.jumbo.com/producten/powerful-eggs-nederlandse-witte-scharreleieren-30-stuks-610412TRA",
+      "geschat": false
+     },
+     {
+      "product": "Scharreleieren 12 Stuks",
+      "prijs": 3.29,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.27417,
+      "url": "https://www.jumbo.com/producten/scharreleieren-12-stuks-610413DS",
+      "geschat": false
+     },
+     {
+      "product": "Powerful Eggs Nederlandse Scharreleieren 20 Stuks",
+      "prijs": 6.99,
+      "verpakking": 20.0,
+      "eenheidsprijs": 0.3495,
+      "url": "https://www.jumbo.com/producten/powerful-eggs-nederlandse-scharreleieren-20-stuks-602954DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Vrije Uitloop Eieren M/L 10 Stuks",
+      "prijs": 3.99,
+      "verpakking": 10.0,
+      "eenheidsprijs": 0.399,
+      "url": "https://www.jumbo.com/producten/jumbo-vrije-uitloop-eieren-ml-10-stuks-602670DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Scharreleieren M/L 12 Stuks",
+      "prijs": 4.79,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.39917,
+      "url": "https://www.jumbo.com/producten/jumbo-scharreleieren-ml-12-stuks-602645DS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Vrije uitloop eieren",
+      "prijs": 1.39,
+      "verpakking": 10,
+      "eenheidsprijs": 0.139,
+      "url": "https://boodschaapje.nl/product/3057",
+      "geschat": true
+     },
+     {
+      "product": "Kipster scharreleieren",
+      "prijs": 1.89,
+      "verpakking": 10,
+      "eenheidsprijs": 0.189,
+      "url": "https://boodschaapje.nl/product/6605422",
+      "geschat": true
+     },
+     {
+      "product": "Scharreleieren 6 st",
+      "prijs": 1.59,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.265,
+      "url": "https://boodschaapje.nl/product/6615396",
+      "geschat": false
+     },
+     {
+      "product": "Scharreleieren 6st",
+      "prijs": 1.59,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.265,
+      "url": "https://boodschaapje.nl/product/6615152",
+      "geschat": false
+     },
+     {
+      "product": "Scharreleieren 18st.",
+      "prijs": 4.79,
+      "verpakking": 18.0,
+      "eenheidsprijs": 0.26611,
+      "url": "https://boodschaapje.nl/product/6615319",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "magere yoghurt": {
+   "eenheid": "ml",
+   "ketens": {
+    "ah": [
+     {
+      "product": "De Zaanse Hoeve Magere yoghurt",
+      "prijs": 0.85,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00085,
+      "url": "https://www.ah.nl/producten/product/wi1519/de-zaanse-hoeve-magere-yoghurt",
+      "geschat": false
+     },
+     {
+      "product": "AH Magere yoghurt",
+      "prijs": 1.99,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00133,
+      "url": "https://www.ah.nl/producten/product/wi177476/ah-magere-yoghurt",
+      "geschat": false
+     },
+     {
+      "product": "AH Magere yoghurt",
+      "prijs": 1.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00149,
+      "url": "https://www.ah.nl/producten/product/wi96643/ah-magere-yoghurt",
+      "geschat": false
+     },
+     {
+      "product": "AH Magere yoghurt perzik",
+      "prijs": 1.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00149,
+      "url": "https://www.ah.nl/producten/product/wi575460/ah-magere-yoghurt-perzik",
+      "geschat": false
+     },
+     {
+      "product": "AH Magere yoghurt",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://www.ah.nl/producten/product/wi33703/ah-magere-yoghurt",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Magere yoghurt 1 L",
+      "prijs": 0.75,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00075,
+      "url": "https://www.jumbo.com/producten/magere-yoghurt-1-l-619617PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Magere Yoghurt 0,1% Vet 1,5 L",
+      "prijs": 1.99,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00133,
+      "url": "https://www.jumbo.com/producten/jumbo-magere-yoghurt-0,1-vet-1,5-l-751914PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Frisse Magere Yoghurt 0,1% Vet 1 L",
+      "prijs": 1.39,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00139,
+      "url": "https://www.jumbo.com/producten/jumbo-frisse-magere-yoghurt-0,1-vet-1-l-751913PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Magere Yoghurt 1 L",
+      "prijs": 1.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00149,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-magere-yoghurt-1-l-420597PAK",
+      "geschat": false
+     },
+     {
+      "product": "Campina Magere Yoghurt Voordeelpak 1,5 L",
+      "prijs": 2.29,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00153,
+      "url": "https://www.jumbo.com/producten/campina-magere-yoghurt-voordeelpak-1,5-l-206421STK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Magere yoghurt",
+      "prijs": 0.82,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00082,
+      "url": "https://boodschaapje.nl/product/1085",
+      "geschat": false
+     },
+     {
+      "product": "Biologische magere yoghurt",
+      "prijs": 1.39,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00139,
+      "url": "https://boodschaapje.nl/product/6602964",
+      "geschat": false
+     },
+     {
+      "product": "Magere yoghurt perzik",
+      "prijs": 1.44,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00144,
+      "url": "https://boodschaapje.nl/product/6600006",
+      "geschat": false
+     },
+     {
+      "product": "Magere yoghurt aardbei",
+      "prijs": 1.45,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00145,
+      "url": "https://boodschaapje.nl/product/6600004",
+      "geschat": false
+     },
+     {
+      "product": "Magere yoghurt bosvruchten",
+      "prijs": 1.45,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00145,
+      "url": "https://boodschaapje.nl/product/6600005",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "havermout": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Volkoren havermout grove vlokken",
+      "prijs": 1.45,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00145,
+      "url": "https://www.ah.nl/producten/product/wi569945/ah-volkoren-havermout-grove-vlokken",
+      "geschat": false
+     },
+     {
+      "product": "AH Volkoren havermout fijne vlokken",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.ah.nl/producten/product/wi48405/ah-volkoren-havermout-fijne-vlokken",
+      "geschat": false
+     },
+     {
+      "product": "AH Volkoren havermout grove vlokken",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.ah.nl/producten/product/wi509276/ah-volkoren-havermout-grove-vlokken",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Volkoren havermout grof",
+      "prijs": 2.15,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00215,
+      "url": "https://www.ah.nl/producten/product/wi475247/ah-biologisch-volkoren-havermout-grof",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Havermout fijne vlokken",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.ah.nl/producten/product/wi500173/ah-biologisch-havermout-fijne-vlokken",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Havermout Fijne Vlokken Volkoren Voordeelverpakking 1 kg",
+      "prijs": 1.45,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00145,
+      "url": "https://www.jumbo.com/producten/jumbo-havermout-fijne-vlokken-volkoren-voordeelverpakking-1-kg-676477TAS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Havermout Fijne Vlokken Volkoren 500 g",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.jumbo.com/producten/jumbo-havermout-fijne-vlokken-volkoren-500-g-676476TAS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Havermout Grove Vlokken Volkoren 500 g",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.jumbo.com/producten/jumbo-havermout-grove-vlokken-volkoren-500-g-676478TAS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Volkoren Havermout 500 g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-volkoren-havermout-500-g-638144ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Volkoren Havervlokken 500 g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-volkoren-havervlokken-500-g-638128ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Havermout grove vlokken",
+      "prijs": 0.74,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00148,
+      "url": "https://boodschaapje.nl/product/51958",
+      "geschat": false
+     },
+     {
+      "product": "Havervlokken",
+      "prijs": 0.74,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00148,
+      "url": "https://boodschaapje.nl/product/19661",
+      "geschat": false
+     },
+     {
+      "product": "Bio havervlokken",
+      "prijs": 1.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00199,
+      "url": "https://boodschaapje.nl/product/187297",
+      "geschat": false
+     },
+     {
+      "product": "Biologisch havermout",
+      "prijs": 1.08,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00216,
+      "url": "https://boodschaapje.nl/product/134634",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "pindakaas": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Terra Plantaardig 100% pindakaas naturel",
+      "prijs": 5.69,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00569,
+      "url": "https://www.ah.nl/producten/product/wi479791/ah-terra-plantaardig-100-pindakaas-naturel",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Plantaardig 100% pindakaas met stukjes",
+      "prijs": 5.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00599,
+      "url": "https://www.ah.nl/producten/product/wi503358/ah-terra-plantaardig-100-pindakaas-met-stukjes",
+      "geschat": false
+     },
+     {
+      "product": "AH Smeuïge pindakaas",
+      "prijs": 3.69,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00615,
+      "url": "https://www.ah.nl/producten/product/wi123432/ah-smeuige-pindakaas",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Plantaardig 100% pindakaas naturel",
+      "prijs": 3.89,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00648,
+      "url": "https://www.ah.nl/producten/product/wi564838/ah-terra-plantaardig-100-pindakaas-naturel",
+      "geschat": false
+     },
+     {
+      "product": "AH Smeuïge pindakaas stukjes noot",
+      "prijs": 3.99,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00665,
+      "url": "https://www.ah.nl/producten/product/wi123431/ah-smeuige-pindakaas-stukjes-noot",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Pindakaas Naturel 600 g",
+      "prijs": 1.45,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00242,
+      "url": "https://www.jumbo.com/producten/jumbo-pindakaas-naturel-600-g-618591POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Pindakaas Naturel 350 g",
+      "prijs": 1.19,
+      "verpakking": 350.0,
+      "eenheidsprijs": 0.0034,
+      "url": "https://www.jumbo.com/producten/jumbo-pindakaas-naturel-350-g-618928POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Pindakaas met Stukjes Pinda 600 g",
+      "prijs": 2.09,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00348,
+      "url": "https://www.jumbo.com/producten/jumbo-pindakaas-met-stukjes-pinda-600-g-452144POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's 100% Pindakaas Naturel 1 kg",
+      "prijs": 5.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00519,
+      "url": "https://www.jumbo.com/producten/jumbo-s-100-pindakaas-naturel-1-kg-668565EM",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's 100% Pindakaas Stukjes Pinda 1 kg",
+      "prijs": 5.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00529,
+      "url": "https://www.jumbo.com/producten/jumbo-s-100-pindakaas-stukjes-pinda-1-kg-668566EM",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Pindakaas",
+      "prijs": 1.38,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.0023,
+      "url": "https://boodschaapje.nl/product/6605161",
+      "geschat": false
+     },
+     {
+      "product": "Pindakaas XXL",
+      "prijs": 2.19,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.00274,
+      "url": "https://boodschaapje.nl/product/6605156",
+      "geschat": false
+     },
+     {
+      "product": "Pindakaas met noot",
+      "prijs": 2.09,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00348,
+      "url": "https://boodschaapje.nl/product/175623",
+      "geschat": false
+     },
+     {
+      "product": "Pindakaas met noot",
+      "prijs": 2.09,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00348,
+      "url": "https://boodschaapje.nl/product/6605160",
+      "geschat": false
+     },
+     {
+      "product": "Pindakaas 100% XXL",
+      "prijs": 3.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00399,
+      "url": "https://boodschaapje.nl/product/6610994",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "jam": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Extra jam aardbeien",
+      "prijs": 1.09,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00242,
+      "url": "https://www.ah.nl/producten/product/wi132400/ah-extra-jam-aardbeien",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra jam abrikozen",
+      "prijs": 1.45,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00322,
+      "url": "https://www.ah.nl/producten/product/wi132398/ah-extra-jam-abrikozen",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra jam bosvruchten",
+      "prijs": 1.69,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00376,
+      "url": "https://www.ah.nl/producten/product/wi132394/ah-extra-jam-bosvruchten",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra jam gember",
+      "prijs": 1.79,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://www.ah.nl/producten/product/wi136063/ah-extra-jam-gember",
+      "geschat": false
+     },
+     {
+      "product": "AH Extra jam frambozen",
+      "prijs": 1.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00442,
+      "url": "https://www.ah.nl/producten/product/wi132396/ah-extra-jam-frambozen",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo's Extra Jam Aardbei 430 g",
+      "prijs": 0.55,
+      "verpakking": 430.0,
+      "eenheidsprijs": 0.00128,
+      "url": "https://www.jumbo.com/producten/jumbo-s-extra-jam-aardbei-430-g-644462POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Extra Jam Abrikoos 430 g",
+      "prijs": 1.19,
+      "verpakking": 430.0,
+      "eenheidsprijs": 0.00277,
+      "url": "https://www.jumbo.com/producten/jumbo-s-extra-jam-abrikoos-430-g-644465POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Extra Jam Kersen 430 g",
+      "prijs": 1.29,
+      "verpakking": 430.0,
+      "eenheidsprijs": 0.003,
+      "url": "https://www.jumbo.com/producten/jumbo-s-extra-jam-kersen-430-g-644464POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Extra Jam Bosvruchten 430 g",
+      "prijs": 1.45,
+      "verpakking": 430.0,
+      "eenheidsprijs": 0.00337,
+      "url": "https://www.jumbo.com/producten/jumbo-s-extra-jam-bosvruchten-430-g-644463POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Roerbaksaus Ajam Pangang met Bamboescheuten 490 g",
+      "prijs": 1.99,
+      "verpakking": 490.0,
+      "eenheidsprijs": 0.00406,
+      "url": "https://www.jumbo.com/producten/jumbo-roerbaksaus-ajam-pangang-met-bamboescheuten-490-g-71824FLS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Aardbeienjam",
+      "prijs": 1.19,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00264,
+      "url": "https://boodschaapje.nl/product/181094",
+      "geschat": false
+     },
+     {
+      "product": "Jam abrikoos/kers",
+      "prijs": 1.34,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00298,
+      "url": "https://boodschaapje.nl/product/31566",
+      "geschat": false
+     },
+     {
+      "product": "Jam bos-/viervrucht",
+      "prijs": 1.42,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00316,
+      "url": "https://boodschaapje.nl/product/224395",
+      "geschat": false
+     },
+     {
+      "product": "Jam framboos/bosbes",
+      "prijs": 1.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00442,
+      "url": "https://boodschaapje.nl/product/208869",
+      "geschat": false
+     },
+     {
+      "product": "Light jam",
+      "prijs": 1.79,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00447,
+      "url": "https://boodschaapje.nl/product/52381",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "hagelslag": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Hagelslag mix",
+      "prijs": 3,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.005,
+      "url": "https://www.ah.nl/producten/product/wi479581/ah-hagelslag-mix",
+      "geschat": false
+     },
+     {
+      "product": "AH Hagelslag puur",
+      "prijs": 3.39,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00565,
+      "url": "https://www.ah.nl/producten/product/wi425491/ah-hagelslag-puur",
+      "geschat": false
+     },
+     {
+      "product": "AH Hagelslag melk",
+      "prijs": 2.89,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00723,
+      "url": "https://www.ah.nl/producten/product/wi1607/ah-hagelslag-melk",
+      "geschat": false
+     },
+     {
+      "product": "AH Hagelslag mix",
+      "prijs": 2.89,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00723,
+      "url": "https://www.ah.nl/producten/product/wi1606/ah-hagelslag-mix",
+      "geschat": false
+     },
+     {
+      "product": "AH Hagelslag puur",
+      "prijs": 2.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00748,
+      "url": "https://www.ah.nl/producten/product/wi1608/ah-hagelslag-puur",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Chocolade Hagelslag Melk 600 g",
+      "prijs": 2.85,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00475,
+      "url": "https://www.jumbo.com/producten/jumbo-chocolade-hagelslag-melk-600-g-474156STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Duo Hagelslag Mix 600 g",
+      "prijs": 2.85,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00475,
+      "url": "https://www.jumbo.com/producten/jumbo-duo-hagelslag-mix-600-g-732035DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Hagelslag Melkchocolade 380 g",
+      "prijs": 2.29,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00603,
+      "url": "https://www.jumbo.com/producten/jumbo-hagelslag-melkchocolade-380-g-474180STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Chocolade Hagelslag Puur 380 g",
+      "prijs": 2.56,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00674,
+      "url": "https://www.jumbo.com/producten/jumbo-chocolade-hagelslag-puur-380-g-625076DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Duo Hagelslag Mix 380 g",
+      "prijs": 2.56,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00674,
+      "url": "https://www.jumbo.com/producten/jumbo-duo-hagelslag-mix-380-g-625090DS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Hagelslag melk Twinkelz",
+      "prijs": 2.49,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00415,
+      "url": "https://boodschaapje.nl/product/1421",
+      "geschat": false
+     },
+     {
+      "product": "Hagelslag mix",
+      "prijs": 2.69,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00448,
+      "url": "https://boodschaapje.nl/product/1418",
+      "geschat": false
+     },
+     {
+      "product": "Hagelslag puur",
+      "prijs": 2.69,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00448,
+      "url": "https://boodschaapje.nl/product/1419",
+      "geschat": false
+     },
+     {
+      "product": "Hagelslag melk",
+      "prijs": 2.85,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00475,
+      "url": "https://boodschaapje.nl/product/6611647",
+      "geschat": false
+     },
+     {
+      "product": "Hagelslag puur",
+      "prijs": 2.89,
+      "verpakking": 550.0,
+      "eenheidsprijs": 0.00525,
+      "url": "https://boodschaapje.nl/product/6611645",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "bananen": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "Chiquita Later lekker bananen",
+      "prijs": 1.89,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.378,
+      "url": "https://www.ah.nl/producten/product/wi595324/chiquita-later-lekker-bananen",
+      "geschat": false
+     },
+     {
+      "product": "Chiquita Ready to eat bananen",
+      "prijs": 1.89,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.378,
+      "url": "https://www.ah.nl/producten/product/wi595323/chiquita-ready-to-eat-bananen",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Fairtrade bananen",
+      "prijs": 2.25,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.45,
+      "url": "https://www.ah.nl/producten/product/wi368480/ah-biologisch-fairtrade-bananen",
+      "geschat": false
+     },
+     {
+      "product": "AH Bananen tros",
+      "prijs": 1.35,
+      "verpakking": 1,
+      "eenheidsprijs": 1.35,
+      "url": "https://www.ah.nl/producten/product/wi197393/ah-bananen-tros",
+      "geschat": true
+     },
+     {
+      "product": "AH Terra Plantaardig protein gurt banaan",
+      "prijs": 1.59,
+      "verpakking": 1.11,
+      "eenheidsprijs": 1.431,
+      "url": "https://www.ah.nl/producten/product/wi585913/ah-terra-plantaardig-protein-gurt-banaan",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Dole Bananen 5 Stuks",
+      "prijs": 1.69,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.338,
+      "url": "https://www.jumbo.com/producten/jumbo-dole-bananen-5-stuks-532148ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Fairtrade Bio Bananen 850 g",
+      "prijs": 1.99,
+      "verpakking": 4.72,
+      "eenheidsprijs": 0.42141,
+      "url": "https://www.jumbo.com/producten/jumbo-fairtrade-bio-bananen-850-g-226925ZK",
+      "geschat": false
+     },
+     {
+      "product": "Campina Magere Fruitmelk Banaan 1 L",
+      "prijs": 1.99,
+      "verpakking": 1,
+      "eenheidsprijs": 1.99,
+      "url": "https://www.jumbo.com/producten/campina-magere-fruitmelk-banaan-1-l-526943PAK",
+      "geschat": true
+     },
+     {
+      "product": "Müller Protein Banaan 400ml",
+      "prijs": 2.19,
+      "verpakking": 1,
+      "eenheidsprijs": 2.19,
+      "url": "https://www.jumbo.com/producten/muller-protein-banaan-400ml-736183FLS",
+      "geschat": true
+     },
+     {
+      "product": "Venz Rimboe Bananen Split 200g",
+      "prijs": 2.69,
+      "verpakking": 1.11,
+      "eenheidsprijs": 2.421,
+      "url": "https://www.jumbo.com/producten/venz-rimboe-bananen-split-200g-730863DS",
+      "geschat": false
+     }
+    ],
+    "lidl": []
+   }
+  },
+  "appels": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Jonagold zak",
+      "prijs": 2.69,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.3228,
+      "url": "https://www.ah.nl/producten/product/wi109078/ah-jonagold-zak",
+      "geschat": false
+     },
+     {
+      "product": "AH Elstar zak",
+      "prijs": 2.89,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.3468,
+      "url": "https://www.ah.nl/producten/product/wi123209/ah-elstar-zak",
+      "geschat": false
+     },
+     {
+      "product": "SPRANK Appels zak",
+      "prijs": 1.97,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.3546,
+      "url": "https://www.ah.nl/producten/product/wi490394/sprank-appels-zak",
+      "geschat": false
+     },
+     {
+      "product": "AH Appels",
+      "prijs": 4.99,
+      "verpakking": 13.89,
+      "eenheidsprijs": 0.35928,
+      "url": "https://www.ah.nl/producten/product/wi128780/ah-appels",
+      "geschat": false
+     },
+     {
+      "product": "AH Fruitbox appels",
+      "prijs": 5.99,
+      "verpakking": 16.0,
+      "eenheidsprijs": 0.37438,
+      "url": "https://www.ah.nl/producten/product/wi234268/ah-fruitbox-appels",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Jonagold Appels 1,5 kg",
+      "prijs": 1.99,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.2388,
+      "url": "https://www.jumbo.com/producten/jumbo-jonagold-appels-1,5-kg-772466ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Friszoet & Sappig Elstar Voordeel 1,5 kg",
+      "prijs": 2.79,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.3348,
+      "url": "https://www.jumbo.com/producten/jumbo-friszoet-sappig-elstar-voordeel-1,5-kg-773419ZK",
+      "geschat": false
+     },
+     {
+      "product": "Fruitbox Jonagold Appels 3KG",
+      "prijs": 6.49,
+      "verpakking": 16.67,
+      "eenheidsprijs": 0.3894,
+      "url": "https://www.jumbo.com/producten/fruitbox-jonagold-appels-3kg-564773DS",
+      "geschat": false
+     },
+     {
+      "product": "Tessa Appels 1 KG",
+      "prijs": 2.99,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.5382,
+      "url": "https://www.jumbo.com/producten/tessa-appels-1-kg-409779ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Elstar Friszoet & Sappig 4 Stuks",
+      "prijs": 2.49,
+      "verpakking": 4.0,
+      "eenheidsprijs": 0.6225,
+      "url": "https://www.jumbo.com/producten/jumbo-elstar-friszoet-sappig-4-stuks-543431SC",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Appel Elstar tas",
+      "prijs": 1.89,
+      "verpakking": 11.11,
+      "eenheidsprijs": 0.1701,
+      "url": "https://boodschaapje.nl/product/80251",
+      "geschat": false
+     },
+     {
+      "product": "Biologische Royal Gala appels",
+      "prijs": 2.45,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.441,
+      "url": "https://boodschaapje.nl/product/81332",
+      "geschat": false
+     },
+     {
+      "product": "Bio appels",
+      "prijs": 3.99,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.7182,
+      "url": "https://boodschaapje.nl/product/81571",
+      "geschat": false
+     },
+     {
+      "product": "Bio appels",
+      "prijs": 2.39,
+      "verpakking": 2.11,
+      "eenheidsprijs": 1.13211,
+      "url": "https://boodschaapje.nl/product/81559",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "kipfilet": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Scharrel kipfilet",
+      "prijs": 9.99,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.01249,
+      "url": "https://www.ah.nl/producten/product/wi531825/ah-scharrel-kipfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel kipfilet 3 stuks",
+      "prijs": 7.99,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.01332,
+      "url": "https://www.ah.nl/producten/product/wi533079/ah-scharrel-kipfilet-3-stuks",
+      "geschat": false
+     },
+     {
+      "product": "Wahid Kipfilet",
+      "prijs": 5.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01498,
+      "url": "https://www.ah.nl/producten/product/wi513753/wahid-kipfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel kipfilet 2 stuks",
+      "prijs": 4.69,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01563,
+      "url": "https://www.ah.nl/producten/product/wi533083/ah-scharrel-kipfilet-2-stuks",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel kipfilet à la minute paprika",
+      "prijs": 5.29,
+      "verpakking": 325.0,
+      "eenheidsprijs": 0.01628,
+      "url": "https://www.ah.nl/producten/product/wi531834/ah-scharrel-kipfilet-a-la-minute-paprika",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Kipfilet 800 g",
+      "prijs": 9.59,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.01199,
+      "url": "https://www.jumbo.com/producten/jumbo-kipfilet-800-g-753633KGR",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Kipfilet ca. 600g",
+      "prijs": 8.28,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.0138,
+      "url": "https://www.jumbo.com/producten/jumbo-kipfilet-ca-600g-515106KGR",
+      "geschat": false
+     },
+     {
+      "product": "Lezziz Kipfilet Halal ca. 400 g",
+      "prijs": 5.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01498,
+      "url": "https://www.jumbo.com/producten/lezziz-kipfilet-halal-ca-400-g-623145TRA",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Scharrel Kipfilet Voordeelverpakking 200 g",
+      "prijs": 3.35,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01675,
+      "url": "https://www.jumbo.com/producten/jumbo-scharrel-kipfilet-voordeelverpakking-200-g-610611STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Kipfilet ca. 215 g",
+      "prijs": 3.86,
+      "verpakking": 215.0,
+      "eenheidsprijs": 0.01795,
+      "url": "https://www.jumbo.com/producten/jumbo-kipfilet-ca-215-g-596629KGR",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Kipfilet",
+      "prijs": 8.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00899,
+      "url": "https://boodschaapje.nl/product/128018",
+      "geschat": false
+     },
+     {
+      "product": "Kipfilet",
+      "prijs": 9.79,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00979,
+      "url": "https://boodschaapje.nl/product/134809",
+      "geschat": false
+     },
+     {
+      "product": "Kipfilet",
+      "prijs": 9.49,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.01054,
+      "url": "https://www.lidl.nl/p/kipfilet/p11318025",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Kipfilet gr.verpak.",
+      "prijs": 9.65,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.01206,
+      "url": "https://boodschaapje.nl/product/6607321",
+      "geschat": false
+     },
+     {
+      "product": "Kipfilet a la minute",
+      "prijs": 5.85,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01462,
+      "url": "https://boodschaapje.nl/product/6611274",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "rundergehakt": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Rundergehakt",
+      "prijs": 11.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.01149,
+      "url": "https://www.ah.nl/producten/product/wi3954/ah-rundergehakt",
+      "geschat": false
+     },
+     {
+      "product": "AH Rundergehakt minder vet",
+      "prijs": 5.85,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0117,
+      "url": "https://www.ah.nl/producten/product/wi594927/ah-rundergehakt-minder-vet",
+      "geschat": false
+     },
+     {
+      "product": "AH Rundergehakt",
+      "prijs": 6.49,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01298,
+      "url": "https://www.ah.nl/producten/product/wi4011/ah-rundergehakt",
+      "geschat": false
+     },
+     {
+      "product": "AH Mager rundergehakt",
+      "prijs": 6.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01398,
+      "url": "https://www.ah.nl/producten/product/wi187592/ah-mager-rundergehakt",
+      "geschat": false
+     },
+     {
+      "product": "AH Rundergehakt minder vet",
+      "prijs": 4.49,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01497,
+      "url": "https://www.ah.nl/producten/product/wi594926/ah-rundergehakt-minder-vet",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Rundergehakt 1 Kg",
+      "prijs": 10.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.01049,
+      "url": "https://www.jumbo.com/producten/jumbo-rundergehakt-1-kg-629761TRA",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Rundergehakt 500 g",
+      "prijs": 5.4,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0108,
+      "url": "https://www.jumbo.com/producten/jumbo-rundergehakt-500-g-131278BAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Rundergehakt 300 g",
+      "prijs": 4.25,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01417,
+      "url": "https://www.jumbo.com/producten/jumbo-rundergehakt-300-g-505479BAK",
+      "geschat": false
+     },
+     {
+      "product": "Lezziz Rundergehakt Halal 500 g",
+      "prijs": 7.69,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01538,
+      "url": "https://www.jumbo.com/producten/lezziz-rundergehakt-halal-500-g-638319TRA",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Rundergehakt 500 g",
+      "prijs": 8.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01798,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-rundergehakt-500-g-188768BAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Rundergehakt 15%",
+      "prijs": 10.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.01049,
+      "url": "https://boodschaapje.nl/product/6609250",
+      "geschat": false
+     },
+     {
+      "product": "Rundergehakt 15%",
+      "prijs": 5.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01178,
+      "url": "https://boodschaapje.nl/product/6609249",
+      "geschat": false
+     },
+     {
+      "product": "Biologisch rundergehakt",
+      "prijs": 3.95,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01317,
+      "url": "https://boodschaapje.nl/product/6610865",
+      "geschat": false
+     },
+     {
+      "product": "Rundergehakt",
+      "prijs": 4.69,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01563,
+      "url": "https://boodschaapje.nl/product/6610869",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "half om half gehakt": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Half-om-half gehakt",
+      "prijs": 5.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01058,
+      "url": "https://www.ah.nl/producten/product/wi4007/ah-half-om-half-gehakt",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Half-om-half gehakt",
+      "prijs": 4.59,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.0153,
+      "url": "https://www.ah.nl/producten/product/wi436762/ah-biologisch-half-om-half-gehakt",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Half-om-Half Gehakt Varken-Rund 500 g",
+      "prijs": 4.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00958,
+      "url": "https://www.jumbo.com/producten/jumbo-half-om-half-gehakt-varken-rund-500-g-785730BAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Half-om-Half Gehakt Varken-Rund 300 g",
+      "prijs": 3.79,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01263,
+      "url": "https://www.jumbo.com/producten/jumbo-half-om-half-gehakt-varken-rund-300-g-785731BAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Gehakt half-om-half",
+      "prijs": 4.59,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00918,
+      "url": "https://boodschaapje.nl/product/2812",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "zalmfilet": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Wilde zalmfilet",
+      "prijs": 2.99,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01196,
+      "url": "https://www.ah.nl/producten/product/wi178129/ah-wilde-zalmfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Zalmfilet",
+      "prijs": 4.59,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01836,
+      "url": "https://www.ah.nl/producten/product/wi135757/ah-zalmfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Zalmfilet op huid",
+      "prijs": 7.79,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.02597,
+      "url": "https://www.ah.nl/producten/product/wi132045/ah-zalmfilet-op-huid",
+      "geschat": false
+     },
+     {
+      "product": "AH Zalmfilet à la minute",
+      "prijs": 6.13,
+      "verpakking": 225.0,
+      "eenheidsprijs": 0.02724,
+      "url": "https://www.ah.nl/producten/product/wi213759/ah-zalmfilet-a-la-minute",
+      "geschat": false
+     },
+     {
+      "product": "AH Zalmfilet limoen dille",
+      "prijs": 6.99,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.02796,
+      "url": "https://www.ah.nl/producten/product/wi600550/ah-zalmfilet-limoen-dille",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Wilde Zalmfilet 2 x 125 g",
+      "prijs": 2.99,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01196,
+      "url": "https://www.jumbo.com/producten/jumbo-wilde-zalmfilet-2-x-125-g-76159PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zalmfilet met Huid 4 x 125 g",
+      "prijs": 9.48,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01896,
+      "url": "https://www.jumbo.com/producten/jumbo-zalmfilet-met-huid-4-x-125-g-723101STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zalmfilet met Huid 2 x 125 g",
+      "prijs": 4.79,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01916,
+      "url": "https://www.jumbo.com/producten/jumbo-zalmfilet-met-huid-2-x-125-g-723226DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zalmfilet met Huid Naturel ca. 360 g",
+      "prijs": 8.99,
+      "verpakking": 360.0,
+      "eenheidsprijs": 0.02497,
+      "url": "https://www.jumbo.com/producten/jumbo-zalmfilet-met-huid-naturel-ca-360-g-715170STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zalmfilet met Huid Naturel ca. 270 g",
+      "prijs": 6.83,
+      "verpakking": 270.0,
+      "eenheidsprijs": 0.0253,
+      "url": "https://www.jumbo.com/producten/jumbo-zalmfilet-met-huid-naturel-ca-270-g-715172STK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Wilde zalmfilet",
+      "prijs": 2.57,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01028,
+      "url": "https://boodschaapje.nl/product/502",
+      "geschat": false
+     },
+     {
+      "product": "Zalmfilet met huid",
+      "prijs": 13.99,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.01554,
+      "url": "https://boodschaapje.nl/product/6614398",
+      "geschat": false
+     },
+     {
+      "product": "Verse zalmfilet",
+      "prijs": 7.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01598,
+      "url": "https://boodschaapje.nl/product/6613907",
+      "geschat": false
+     },
+     {
+      "product": "Verse zalmfilet XXL",
+      "prijs": 8.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01798,
+      "url": "https://boodschaapje.nl/product/6602979",
+      "geschat": false
+     },
+     {
+      "product": "Zalmfilet zonder hu.",
+      "prijs": 4.85,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.0194,
+      "url": "https://boodschaapje.nl/product/163624",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "spaghetti": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Biologisch Volkoren spaghetti",
+      "prijs": 0.95,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0019,
+      "url": "https://www.ah.nl/producten/product/wi58169/ah-biologisch-volkoren-spaghetti",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Spaghetti",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://www.ah.nl/producten/product/wi159760/ah-biologisch-spaghetti",
+      "geschat": false
+     },
+     {
+      "product": "AH Spaghetti vlugkokend",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://www.ah.nl/producten/product/wi543649/ah-spaghetti-vlugkokend",
+      "geschat": false
+     },
+     {
+      "product": "AH Glutenvrij Spaghetti",
+      "prijs": 1.39,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00278,
+      "url": "https://www.ah.nl/producten/product/wi408452/ah-glutenvrij-spaghetti",
+      "geschat": false
+     },
+     {
+      "product": "AH Spaghetti met ei",
+      "prijs": 1.39,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00278,
+      "url": "https://www.ah.nl/producten/product/wi421620/ah-spaghetti-met-ei",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Spaghetti Vlugkokend 500 g",
+      "prijs": 0.45,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0009,
+      "url": "https://www.jumbo.com/producten/jumbo-spaghetti-vlugkokend-500-g-714719ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Naturel Spaghetti 500 g",
+      "prijs": 0.69,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00138,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-naturel-spaghetti-500-g-169216ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Spaghetti met Ei 500 g",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://www.jumbo.com/producten/jumbo-spaghetti-met-ei-500-g-719712ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Biologisch Half Volkoren Spaghetti 500 g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/jumbo-s-biologisch-half-volkoren-spaghetti-500-g-730408ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Spaghetti 500 g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/jumbo-s-spaghetti-500-g-710328ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Spaghetti HWG",
+      "prijs": 0.74,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00074,
+      "url": "https://boodschaapje.nl/product/27325",
+      "geschat": false
+     },
+     {
+      "product": "Spaghetti",
+      "prijs": 0.45,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0009,
+      "url": "https://boodschaapje.nl/product/1274",
+      "geschat": false
+     },
+     {
+      "product": "Spaghetti",
+      "prijs": 0.79,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00132,
+      "url": "https://boodschaapje.nl/product/146618",
+      "geschat": false
+     },
+     {
+      "product": "Spaghetti 4-eieren",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://boodschaapje.nl/product/2103",
+      "geschat": false
+     },
+     {
+      "product": "Bio spaghetti",
+      "prijs": 0.97,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00194,
+      "url": "https://boodschaapje.nl/product/127393",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "penne": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Penne",
+      "prijs": 0.85,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0017,
+      "url": "https://www.ah.nl/producten/product/wi62027/ah-penne",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Penne",
+      "prijs": 0.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00178,
+      "url": "https://www.ah.nl/producten/product/wi543590/ah-biologisch-penne",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Volkoren penne",
+      "prijs": 0.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00178,
+      "url": "https://www.ah.nl/producten/product/wi58168/ah-biologisch-volkoren-penne",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Mini penne volkoren",
+      "prijs": 1.05,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0021,
+      "url": "https://www.ah.nl/producten/product/wi543604/ah-biologisch-mini-penne-volkoren",
+      "geschat": false
+     },
+     {
+      "product": "Grand' Italia Penne tradizionali",
+      "prijs": 1.95,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0039,
+      "url": "https://www.ah.nl/producten/product/wi2065/grand-italia-penne-tradizionali",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Penne Durum Tarwe 500 g",
+      "prijs": 0.72,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00144,
+      "url": "https://www.jumbo.com/producten/jumbo-penne-durum-tarwe-500-g-714721ZK",
+      "geschat": false
+     },
+     {
+      "product": "Ankara Penne Pasta 500g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/ankara-penne-pasta-500g-704679ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Biologisch Volkoren Penne Rigate 500 g",
+      "prijs": 1.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00258,
+      "url": "https://www.jumbo.com/producten/jumbo-s-biologisch-volkoren-penne-rigate-500-g-730405ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo's Penne Rigate 500 g",
+      "prijs": 1.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00258,
+      "url": "https://www.jumbo.com/producten/jumbo-s-penne-rigate-500-g-710326ZK",
+      "geschat": false
+     },
+     {
+      "product": "Grand'Italia Penne Tradizionali Pasta 500 g",
+      "prijs": 1.95,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0039,
+      "url": "https://www.jumbo.com/producten/grand-italia-penne-tradizionali-pasta-500-g-505412ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Penne Rigate",
+      "prijs": 0.76,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00152,
+      "url": "https://boodschaapje.nl/product/19089",
+      "geschat": false
+     },
+     {
+      "product": "Grand'Italia penne trad.",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://boodschaapje.nl/product/6614239",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "rijst": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Witte snelkook rijst",
+      "prijs": 1.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00119,
+      "url": "https://www.ah.nl/producten/product/wi525287/ah-witte-snelkook-rijst",
+      "geschat": false
+     },
+     {
+      "product": "AH Zilvervliesrijst",
+      "prijs": 1.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00149,
+      "url": "https://www.ah.nl/producten/product/wi162513/ah-zilvervliesrijst",
+      "geschat": false
+     },
+     {
+      "product": "AH Witte rijst",
+      "prijs": 1.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00199,
+      "url": "https://www.ah.nl/producten/product/wi421641/ah-witte-rijst",
+      "geschat": false
+     },
+     {
+      "product": "AH Pandan rijst",
+      "prijs": 8.99,
+      "verpakking": 4500.0,
+      "eenheidsprijs": 0.002,
+      "url": "https://www.ah.nl/producten/product/wi199752/ah-pandan-rijst",
+      "geschat": false
+     },
+     {
+      "product": "AH Pandan rijst",
+      "prijs": 2.09,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00209,
+      "url": "https://www.ah.nl/producten/product/wi470852/ah-pandan-rijst",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Zilvervliesrijst Voordeelverpakking 1 kg",
+      "prijs": 1.09,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00109,
+      "url": "https://www.jumbo.com/producten/jumbo-zilvervliesrijst-voordeelverpakking-1-kg-409922DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zilvervliesrijst 400 g",
+      "prijs": 0.69,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00172,
+      "url": "https://www.jumbo.com/producten/jumbo-zilvervliesrijst-400-g-409770PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Basmatirijst 4,5 kg",
+      "prijs": 7.79,
+      "verpakking": 4500.0,
+      "eenheidsprijs": 0.00173,
+      "url": "https://www.jumbo.com/producten/jumbo-basmatirijst-4,5-kg-376475ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Basmati Rijst Voordeelverpakking 1 kg",
+      "prijs": 1.75,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00175,
+      "url": "https://www.jumbo.com/producten/jumbo-basmati-rijst-voordeelverpakking-1-kg-186364ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Witte Rijst 400 g",
+      "prijs": 0.85,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00213,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-witte-rijst-400-g-265621PAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Basmati rijst",
+      "prijs": 7.49,
+      "verpakking": 4500.0,
+      "eenheidsprijs": 0.00166,
+      "url": "https://boodschaapje.nl/product/55571",
+      "geschat": false
+     },
+     {
+      "product": "Basmati rijst",
+      "prijs": 1.79,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00179,
+      "url": "https://boodschaapje.nl/product/136419",
+      "geschat": false
+     },
+     {
+      "product": "Basmati rijst",
+      "prijs": 2.49,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00249,
+      "url": "https://boodschaapje.nl/product/12591",
+      "geschat": false
+     },
+     {
+      "product": "Basmati rijst",
+      "prijs": 4.99,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.0025,
+      "url": "https://boodschaapje.nl/product/98995",
+      "geschat": false
+     },
+     {
+      "product": "Lassie basmatirijst",
+      "prijs": 1.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00265,
+      "url": "https://boodschaapje.nl/product/6610578",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "aardappelen": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Aardappelen iets kruimig",
+      "prijs": 5.39,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.00108,
+      "url": "https://www.ah.nl/producten/product/wi127728/ah-aardappelen-iets-kruimig",
+      "geschat": false
+     },
+     {
+      "product": "AH Aardappelen vastkokend",
+      "prijs": 5.39,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.00108,
+      "url": "https://www.ah.nl/producten/product/wi169400/ah-aardappelen-vastkokend",
+      "geschat": false
+     },
+     {
+      "product": "AH Iets kruimige roodschillige aardappelen",
+      "prijs": 3.99,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00133,
+      "url": "https://www.ah.nl/producten/product/wi115055/ah-iets-kruimige-roodschillige-aardappelen",
+      "geschat": false
+     },
+     {
+      "product": "AH Vastkokende aardappelen",
+      "prijs": 3.99,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00133,
+      "url": "https://www.ah.nl/producten/product/wi96050/ah-vastkokende-aardappelen",
+      "geschat": false
+     },
+     {
+      "product": "AH Iets kruimige aardappelen",
+      "prijs": 1.55,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00155,
+      "url": "https://www.ah.nl/producten/product/wi111388/ah-iets-kruimige-aardappelen",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Aardappelen Kruimig 3 kg",
+      "prijs": 3.79,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00126,
+      "url": "https://www.jumbo.com/producten/jumbo-aardappelen-kruimig-3-kg-383175ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Aardappelen Vastkokend 3 kg",
+      "prijs": 3.85,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00128,
+      "url": "https://www.jumbo.com/producten/jumbo-aardappelen-vastkokend-3-kg-380106ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Aardappelen Kruimig 1 kg",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://www.jumbo.com/producten/jumbo-aardappelen-kruimig-1-kg-383444ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Aardappelen Vastkokend 1 kg",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://www.jumbo.com/producten/jumbo-aardappelen-vastkokend-1-kg-380101ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Aardappelen Kruimig Extra Groot 3 kg",
+      "prijs": 3.99,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00133,
+      "url": "https://www.jumbo.com/producten/jumbo-aardappelen-kruimig-extra-groot-3-kg-383171ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Aardappelen",
+      "prijs": 4.39,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00146,
+      "url": "https://boodschaapje.nl/product/84663",
+      "geschat": false
+     },
+     {
+      "product": "Culinaire aardappelen",
+      "prijs": 2.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00219,
+      "url": "https://boodschaapje.nl/product/83383",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "uien": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Gele uien",
+      "prijs": 1.45,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00097,
+      "url": "https://www.ah.nl/producten/product/wi41246/ah-gele-uien",
+      "geschat": false
+     },
+     {
+      "product": "AH Gele uien",
+      "prijs": 0.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00099,
+      "url": "https://www.ah.nl/producten/product/wi4083/ah-gele-uien",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Gele uien",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.ah.nl/producten/product/wi525848/ah-biologisch-gele-uien",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Gele Uien Extra Groot 2 kg",
+      "prijs": 1.89,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00094,
+      "url": "https://www.jumbo.com/producten/jumbo-gele-uien-extra-groot-2-kg-213006NET",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gele Uien van Goede Aarde 1 kg",
+      "prijs": 0.95,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00095,
+      "url": "https://www.jumbo.com/producten/jumbo-gele-uien-van-goede-aarde-1-kg-213007NET",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gele Uien Biologisch 500 g",
+      "prijs": 0.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00178,
+      "url": "https://www.jumbo.com/producten/jumbo-gele-uien-biologisch-500-g-387074NET",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Uien 5kg XXL",
+      "prijs": 1.99,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.0004,
+      "url": "https://boodschaapje.nl/product/83335",
+      "geschat": false
+     },
+     {
+      "product": "Uien geel",
+      "prijs": 1.69,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00084,
+      "url": "https://boodschaapje.nl/product/83333",
+      "geschat": false
+     },
+     {
+      "product": "Uien geel 1kg",
+      "prijs": 0.89,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00089,
+      "url": "https://boodschaapje.nl/product/8128985",
+      "geschat": false
+     },
+     {
+      "product": "Roscoff uien",
+      "prijs": 0.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00099,
+      "url": "https://boodschaapje.nl/product/83127",
+      "geschat": false
+     },
+     {
+      "product": "Biologische uien",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://boodschaapje.nl/product/84665",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "knoflook": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Knoflook",
+      "prijs": 2.35,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.47,
+      "url": "https://www.ah.nl/producten/product/wi377126/ah-knoflook",
+      "geschat": false
+     },
+     {
+      "product": "AH Knoflook",
+      "prijs": 1.29,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.645,
+      "url": "https://www.ah.nl/producten/product/wi4160/ah-knoflook",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Knoflook",
+      "prijs": 1.39,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.695,
+      "url": "https://www.ah.nl/producten/product/wi185774/ah-biologisch-knoflook",
+      "geschat": false
+     },
+     {
+      "product": "AH Picos knoflook",
+      "prijs": 2.09,
+      "verpakking": 3.0,
+      "eenheidsprijs": 0.69667,
+      "url": "https://www.ah.nl/producten/product/wi306507/ah-picos-knoflook",
+      "geschat": false
+     },
+     {
+      "product": "Remia Friteslijn knoflook",
+      "prijs": 2.19,
+      "verpakking": 3,
+      "eenheidsprijs": 0.73,
+      "url": "https://www.ah.nl/producten/product/wi596160/remia-friteslijn-knoflook",
+      "geschat": true
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Verse Knoflook",
+      "prijs": 1.29,
+      "verpakking": 3,
+      "eenheidsprijs": 0.43,
+      "url": "https://www.jumbo.com/producten/verse-knoflook-213178STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo Knoflook 250 g",
+      "prijs": 2.59,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.518,
+      "url": "https://www.jumbo.com/producten/jumbo-knoflook-250-g-524704ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Knoflook 100 g",
+      "prijs": 1.39,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.695,
+      "url": "https://www.jumbo.com/producten/jumbo-knoflook-100-g-82080NET",
+      "geschat": false
+     },
+     {
+      "product": "Snacktural Bruschetta Knoflook en Peterselie 150 g",
+      "prijs": 2.09,
+      "verpakking": 3.0,
+      "eenheidsprijs": 0.69667,
+      "url": "https://www.jumbo.com/producten/snacktural-bruschetta-knoflook-en-peterselie-150-g-669647ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Knoflook 2 Stuks",
+      "prijs": 1.49,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.745,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-knoflook-2-stuks-387102NET",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Knoflook in mand",
+      "prijs": 0.99,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.198,
+      "url": "https://boodschaapje.nl/product/82709",
+      "geschat": false
+     },
+     {
+      "product": "Knoflook vers",
+      "prijs": 0.69,
+      "verpakking": 3,
+      "eenheidsprijs": 0.23,
+      "url": "https://boodschaapje.nl/product/83417",
+      "geschat": true
+     },
+     {
+      "product": "Knoflook",
+      "prijs": 1.69,
+      "verpakking": 4.0,
+      "eenheidsprijs": 0.4225,
+      "url": "https://boodschaapje.nl/product/82711",
+      "geschat": false
+     },
+     {
+      "product": "Knoflook paars",
+      "prijs": 2.49,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.498,
+      "url": "https://boodschaapje.nl/product/82712",
+      "geschat": false
+     },
+     {
+      "product": "Knoflook-/zeezoutbot",
+      "prijs": 1.09,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.545,
+      "url": "https://boodschaapje.nl/product/6601967",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "tomaten": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Tomaten",
+      "prijs": 1.55,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0031,
+      "url": "https://www.ah.nl/producten/product/wi4088/ah-tomaten",
+      "geschat": false
+     },
+     {
+      "product": "AH Roma tomaten",
+      "prijs": 2.65,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00353,
+      "url": "https://www.ah.nl/producten/product/wi67874/ah-roma-tomaten",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Trostomaten",
+      "prijs": 2.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0055,
+      "url": "https://www.ah.nl/producten/product/wi389076/ah-biologisch-trostomaten",
+      "geschat": false
+     },
+     {
+      "product": "AH Finest Red Nederlandse trostomaten",
+      "prijs": 2.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00664,
+      "url": "https://www.ah.nl/producten/product/wi455430/ah-finest-red-nederlandse-trostomaten",
+      "geschat": false
+     },
+     {
+      "product": "AH Pomodoro San Marzano tomaten",
+      "prijs": 3.39,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00678,
+      "url": "https://www.ah.nl/producten/product/wi575257/ah-pomodoro-san-marzano-tomaten",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Tomaten 500g",
+      "prijs": 1.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00358,
+      "url": "https://www.jumbo.com/producten/jumbo-tomaten-500g-415609BAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Roma Tomaten 750 g",
+      "prijs": 2.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00399,
+      "url": "https://www.jumbo.com/producten/jumbo-roma-tomaten-750-g-417400SC",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Trostomaten 500 g",
+      "prijs": 2.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00598,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-trostomaten-500-g-159526PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Cocktail Tros Tomaten 400 g",
+      "prijs": 2.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00748,
+      "url": "https://www.jumbo.com/producten/jumbo-cocktail-tros-tomaten-400-g-528413STK",
+      "geschat": false
+     },
+     {
+      "product": "Heinz Sandwich spread tomaat-lente ui 300g",
+      "prijs": 2.39,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.00797,
+      "url": "https://www.jumbo.com/producten/heinz-sandwich-spread-tomaat-lente-ui-300g-151372POT",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Tomaten net 1kg",
+      "prijs": 0.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00099,
+      "url": "https://boodschaapje.nl/product/82488",
+      "geschat": false
+     },
+     {
+      "product": "Tomaten",
+      "prijs": 1.69,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00169,
+      "url": "https://boodschaapje.nl/product/82487",
+      "geschat": false
+     },
+     {
+      "product": "Red pearl tomaten",
+      "prijs": 1.99,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.00221,
+      "url": "https://boodschaapje.nl/product/83819",
+      "geschat": false
+     },
+     {
+      "product": "Roma tomaten",
+      "prijs": 2.49,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00332,
+      "url": "https://boodschaapje.nl/product/82447",
+      "geschat": false
+     },
+     {
+      "product": "Tomaten basis",
+      "prijs": 1.99,
+      "verpakking": 550.0,
+      "eenheidsprijs": 0.00362,
+      "url": "https://boodschaapje.nl/product/82514",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "tomatenblokjes": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Tomatenblokjes",
+      "prijs": 0.59,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00147,
+      "url": "https://www.ah.nl/producten/product/wi30851/ah-tomatenblokjes",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Tomatenblokjes",
+      "prijs": 0.65,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00163,
+      "url": "https://www.ah.nl/producten/product/wi395307/ah-biologisch-tomatenblokjes",
+      "geschat": false
+     },
+     {
+      "product": "Heinz Tomaten blokjes naturel",
+      "prijs": 1.29,
+      "verpakking": 390.0,
+      "eenheidsprijs": 0.00331,
+      "url": "https://www.ah.nl/producten/product/wi378626/heinz-tomaten-blokjes-naturel",
+      "geschat": false
+     },
+     {
+      "product": "Heinz Tomaten blokjes basilicum & oregano",
+      "prijs": 1.69,
+      "verpakking": 390.0,
+      "eenheidsprijs": 0.00433,
+      "url": "https://www.ah.nl/producten/product/wi378627/heinz-tomaten-blokjes-basilicum-en-oregano",
+      "geschat": false
+     },
+     {
+      "product": "Heinz Tomaten blokjes met knoflook",
+      "prijs": 1.69,
+      "verpakking": 390.0,
+      "eenheidsprijs": 0.00433,
+      "url": "https://www.ah.nl/producten/product/wi378628/heinz-tomaten-blokjes-met-knoflook",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Tomatenblokjes 400 g",
+      "prijs": 0.37,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00093,
+      "url": "https://www.jumbo.com/producten/jumbo-tomatenblokjes-400-g-218376DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Tomatenblokjes 400 g",
+      "prijs": 0.59,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00147,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-tomatenblokjes-400-g-760798BLK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Tomatenblokjes met Kruiden 400 g",
+      "prijs": 1.29,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00323,
+      "url": "https://www.jumbo.com/producten/jumbo-tomatenblokjes-met-kruiden-400-g-744312BLK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Tomatenblokjes met Knoflook 400 g",
+      "prijs": 1.35,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00338,
+      "url": "https://www.jumbo.com/producten/jumbo-tomatenblokjes-met-knoflook-400-g-475938BLK",
+      "geschat": false
+     },
+     {
+      "product": "Heinz Tomatenblokjes 390g",
+      "prijs": 1.69,
+      "verpakking": 390.0,
+      "eenheidsprijs": 0.00433,
+      "url": "https://www.jumbo.com/producten/heinz-tomatenblokjes-390g-745167PAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Bio tomatenblokjes",
+      "prijs": 0.69,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00172,
+      "url": "https://boodschaapje.nl/product/133303",
+      "geschat": false
+     },
+     {
+      "product": "Tomatenblokjes",
+      "prijs": 1.29,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00323,
+      "url": "https://boodschaapje.nl/product/126007",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "passata": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Tomaten passata gezeefd",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://www.ah.nl/producten/product/wi481844/ah-tomaten-passata-gezeefd",
+      "geschat": false
+     },
+     {
+      "product": "AH Tomaten passata gezeefd basilicum",
+      "prijs": 1.69,
+      "verpakking": 690.0,
+      "eenheidsprijs": 0.00245,
+      "url": "https://www.ah.nl/producten/product/wi455615/ah-tomaten-passata-gezeefd-basilicum",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Tomaten passata gezeefd",
+      "prijs": 1.99,
+      "verpakking": 690.0,
+      "eenheidsprijs": 0.00288,
+      "url": "https://www.ah.nl/producten/product/wi101207/ah-biologisch-tomaten-passata-gezeefd",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Passata di pomodoro fijn gekruid",
+      "prijs": 2.09,
+      "verpakking": 690.0,
+      "eenheidsprijs": 0.00303,
+      "url": "https://www.ah.nl/producten/product/wi239716/ah-biologisch-passata-di-pomodoro-fijn-gekruid",
+      "geschat": false
+     },
+     {
+      "product": "Mutti Passata gezeefde tomaten bio",
+      "prijs": 3.39,
+      "verpakking": 560.0,
+      "eenheidsprijs": 0.00605,
+      "url": "https://www.ah.nl/producten/product/wi445996/mutti-passata-gezeefde-tomaten-bio",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Tomaten Gezeefd Passata 500 g",
+      "prijs": 0.69,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00138,
+      "url": "https://www.jumbo.com/producten/jumbo-tomaten-gezeefd-passata-500-g-723887PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Tomaten Passata 680 g",
+      "prijs": 1.99,
+      "verpakking": 680.0,
+      "eenheidsprijs": 0.00293,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-tomaten-passata-680-g-216785POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Tomaten Passata Rustica 680 g",
+      "prijs": 1.99,
+      "verpakking": 680.0,
+      "eenheidsprijs": 0.00293,
+      "url": "https://www.jumbo.com/producten/jumbo-tomaten-passata-rustica-680-g-216787POT",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Tomaten gezeefd XXL",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://boodschaapje.nl/product/28935",
+      "geschat": false
+     },
+     {
+      "product": "Gezeefde tomaten",
+      "prijs": 0.71,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00142,
+      "url": "https://boodschaapje.nl/product/517",
+      "geschat": false
+     },
+     {
+      "product": "Gezeefde tomaten",
+      "prijs": 1.49,
+      "verpakking": 700.0,
+      "eenheidsprijs": 0.00213,
+      "url": "https://boodschaapje.nl/product/28931",
+      "geschat": false
+     },
+     {
+      "product": "Mutti passata",
+      "prijs": 1.99,
+      "verpakking": 700.0,
+      "eenheidsprijs": 0.00284,
+      "url": "https://boodschaapje.nl/product/6613774",
+      "geschat": false
+     },
+     {
+      "product": "Mutti passata",
+      "prijs": 1.99,
+      "verpakking": 560.0,
+      "eenheidsprijs": 0.00355,
+      "url": "https://boodschaapje.nl/product/6613775",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "paprika": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Paprika rood",
+      "prijs": 0.79,
+      "verpakking": 1.0,
+      "eenheidsprijs": 0.79,
+      "url": "https://www.ah.nl/producten/product/wi4117/ah-paprika-rood",
+      "geschat": false
+     },
+     {
+      "product": "AH Paprika geel",
+      "prijs": 1.19,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.19,
+      "url": "https://www.ah.nl/producten/product/wi368705/ah-paprika-geel",
+      "geschat": false
+     },
+     {
+      "product": "AH Paprika groen",
+      "prijs": 1.19,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.19,
+      "url": "https://www.ah.nl/producten/product/wi368706/ah-paprika-groen",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Paprika rood",
+      "prijs": 1.29,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.29,
+      "url": "https://www.ah.nl/producten/product/wi128874/ah-biologisch-paprika-rood",
+      "geschat": false
+     },
+     {
+      "product": "AH Focaccia paprika olijf",
+      "prijs": 2.69,
+      "verpakking": 2.0,
+      "eenheidsprijs": 1.345,
+      "url": "https://www.ah.nl/producten/product/wi524349/ah-focaccia-paprika-olijf",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Paprika Rood",
+      "prijs": 0.95,
+      "verpakking": 1,
+      "eenheidsprijs": 0.95,
+      "url": "https://www.jumbo.com/producten/jumbo-paprika-rood-641085STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo Paprika Geel",
+      "prijs": 1.19,
+      "verpakking": 1,
+      "eenheidsprijs": 1.19,
+      "url": "https://www.jumbo.com/producten/jumbo-paprika-geel-719402STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo Paprika Groen",
+      "prijs": 1.19,
+      "verpakking": 1,
+      "eenheidsprijs": 1.19,
+      "url": "https://www.jumbo.com/producten/jumbo-paprika-groen-679963STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo Knapperige Salto's Paprika 125 g",
+      "prijs": 1.12,
+      "verpakking": 0.78,
+      "eenheidsprijs": 1.4336,
+      "url": "https://www.jumbo.com/producten/jumbo-knapperige-salto-s-paprika-125-g-423730ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Rode Paprika Biologisch",
+      "prijs": 1.49,
+      "verpakking": 1,
+      "eenheidsprijs": 1.49,
+      "url": "https://www.jumbo.com/producten/jumbo-rode-paprika-biologisch-159564STK",
+      "geschat": true
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Bio paprika geel",
+      "prijs": 0.79,
+      "verpakking": 1,
+      "eenheidsprijs": 0.79,
+      "url": "https://boodschaapje.nl/product/84422",
+      "geschat": true
+     },
+     {
+      "product": "Paprika rood",
+      "prijs": 0.89,
+      "verpakking": 1,
+      "eenheidsprijs": 0.89,
+      "url": "https://boodschaapje.nl/product/82616",
+      "geschat": true
+     },
+     {
+      "product": "Bio paprika groen",
+      "prijs": 0.99,
+      "verpakking": 1,
+      "eenheidsprijs": 0.99,
+      "url": "https://boodschaapje.nl/product/84421",
+      "geschat": true
+     },
+     {
+      "product": "Bio paprika rood",
+      "prijs": 1.19,
+      "verpakking": 1,
+      "eenheidsprijs": 1.19,
+      "url": "https://boodschaapje.nl/product/84588",
+      "geschat": true
+     },
+     {
+      "product": "Proper paprika lent.",
+      "prijs": 1.19,
+      "verpakking": 1,
+      "eenheidsprijs": 1.19,
+      "url": "https://boodschaapje.nl/product/6615649",
+      "geschat": true
+     }
+    ]
+   }
+  },
+  "broccoli": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Broccoli",
+      "prijs": 1.05,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0021,
+      "url": "https://www.ah.nl/producten/product/wi4177/ah-broccoli",
+      "geschat": false
+     },
+     {
+      "product": "AH Broccoli",
+      "prijs": 2.1,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.0021,
+      "url": "https://www.ah.nl/producten/product/wi210154/ah-broccoli",
+      "geschat": false
+     },
+     {
+      "product": "AH Broccoliroosjes",
+      "prijs": 1.49,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00331,
+      "url": "https://www.ah.nl/producten/product/wi226367/ah-broccoliroosjes",
+      "geschat": false
+     },
+     {
+      "product": "AH Broccoliroosjes",
+      "prijs": 2.19,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00547,
+      "url": "https://www.ah.nl/producten/product/wi395954/ah-broccoliroosjes",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Broccoliroosjes",
+      "prijs": 2.29,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00573,
+      "url": "https://www.ah.nl/producten/product/wi533328/ah-biologisch-broccoliroosjes",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Broccoli 500 g",
+      "prijs": 1.19,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00238,
+      "url": "https://www.jumbo.com/producten/jumbo-broccoli-500-g-479521STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Broccoli Roosjes 750 g",
+      "prijs": 1.79,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00239,
+      "url": "https://www.jumbo.com/producten/jumbo-broccoli-roosjes-750-g-786517ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Broccoli Roosjes 450 g",
+      "prijs": 1.49,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00331,
+      "url": "https://www.jumbo.com/producten/jumbo-broccoli-roosjes-450-g-666059ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Broccoli",
+      "prijs": 2.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0055,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-broccoli-718903STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologisch Broccoli Roosjes 450 g",
+      "prijs": 2.49,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00553,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-broccoli-roosjes-450-g-620066ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Broccoliroosjes",
+      "prijs": 2.29,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00573,
+      "url": "https://boodschaapje.nl/product/6604598",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "spinazie": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Spinazie",
+      "prijs": 1.15,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00153,
+      "url": "https://www.ah.nl/producten/product/wi162711/ah-spinazie",
+      "geschat": false
+     },
+     {
+      "product": "Iglo Spinazie fijn gehakt",
+      "prijs": 2.09,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00279,
+      "url": "https://www.ah.nl/producten/product/wi226439/iglo-spinazie-fijn-gehakt",
+      "geschat": false
+     },
+     {
+      "product": "Iglo Spinazie fijn gehakt",
+      "prijs": 1.59,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00318,
+      "url": "https://www.ah.nl/producten/product/wi486424/iglo-spinazie-fijn-gehakt",
+      "geschat": false
+     },
+     {
+      "product": "AH Spinazie grootverpakking",
+      "prijs": 2.89,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00482,
+      "url": "https://www.ah.nl/producten/product/wi160707/ah-spinazie-grootverpakking",
+      "geschat": false
+     },
+     {
+      "product": "AH Spinazie",
+      "prijs": 1.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00498,
+      "url": "https://www.ah.nl/producten/product/wi395960/ah-spinazie",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Gehakte Spinazie Voordeelverpakking 750 g",
+      "prijs": 1.29,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00172,
+      "url": "https://www.jumbo.com/producten/jumbo-gehakte-spinazie-voordeelverpakking-750-g-713747ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gehakte Spinazie 450 g",
+      "prijs": 0.79,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00176,
+      "url": "https://www.jumbo.com/producten/jumbo-gehakte-spinazie-450-g-766199ZK",
+      "geschat": false
+     },
+     {
+      "product": "Iglo Spinazie fijn gehakt 500 g",
+      "prijs": 1.59,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00318,
+      "url": "https://www.jumbo.com/producten/iglo-spinazie-fijn-gehakt-500-g-388775DS",
+      "geschat": false
+     },
+     {
+      "product": "Iglo Spinazie fijn gehakt 750 g",
+      "prijs": 2.39,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00319,
+      "url": "https://www.jumbo.com/producten/iglo-spinazie-fijn-gehakt-750-g-64548DS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gewassen Spinazie 600 g",
+      "prijs": 2.89,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00482,
+      "url": "https://www.jumbo.com/producten/jumbo-gewassen-spinazie-600-g-771163ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Gewassen spinazie",
+      "prijs": 0.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.0022,
+      "url": "https://www.lidl.nl/p/gewassen-spinazie/p11492621",
+      "geschat": false,
+      "bron": "lidl.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Iglo spinazie gehakt",
+      "prijs": 2.15,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00287,
+      "url": "https://boodschaapje.nl/product/6610590",
+      "geschat": false
+     },
+     {
+      "product": "Spinazie",
+      "prijs": 1.79,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://boodschaapje.nl/product/82318",
+      "geschat": false
+     },
+     {
+      "product": "Iglo bio spinazie",
+      "prijs": 1.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00442,
+      "url": "https://boodschaapje.nl/product/6611601",
+      "geschat": false
+     },
+     {
+      "product": "Iglo spinazie boursin",
+      "prijs": 1.99,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00442,
+      "url": "https://boodschaapje.nl/product/6611600",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "wortelen": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Winterpeen",
+      "prijs": 1.05,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00105,
+      "url": "https://www.ah.nl/producten/product/wi4076/ah-winterpeen",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Winterpeen",
+      "prijs": 1.15,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00153,
+      "url": "https://www.ah.nl/producten/product/wi561136/ah-biologisch-winterpeen",
+      "geschat": false
+     },
+     {
+      "product": "AH Wortelen",
+      "prijs": 1.15,
+      "verpakking": 680.0,
+      "eenheidsprijs": 0.00169,
+      "url": "https://www.ah.nl/producten/product/wi39144/ah-wortelen",
+      "geschat": false
+     },
+     {
+      "product": "AH Wortelen",
+      "prijs": 1.09,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00218,
+      "url": "https://www.ah.nl/producten/product/wi221495/ah-wortelen",
+      "geschat": false
+     },
+     {
+      "product": "AH Wortelen",
+      "prijs": 0.79,
+      "verpakking": 340.0,
+      "eenheidsprijs": 0.00232,
+      "url": "https://www.ah.nl/producten/product/wi806/ah-wortelen",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Wortelen 1 kg",
+      "prijs": 1.39,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00139,
+      "url": "https://www.jumbo.com/producten/jumbo-wortelen-1-kg-196113ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Wortelen 680 g",
+      "prijs": 1.05,
+      "verpakking": 680.0,
+      "eenheidsprijs": 0.00154,
+      "url": "https://www.jumbo.com/producten/jumbo-wortelen-680-g-656960POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Wortelen 750 g",
+      "prijs": 1.39,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00185,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-wortelen-750-g-775842STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Wortelen 340 g",
+      "prijs": 0.79,
+      "verpakking": 340.0,
+      "eenheidsprijs": 0.00232,
+      "url": "https://www.jumbo.com/producten/jumbo-wortelen-340-g-302283POT",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Waspeen van Goede Aarde 500 g",
+      "prijs": 1.29,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00258,
+      "url": "https://www.jumbo.com/producten/jumbo-waspeen-van-goede-aarde-500-g-285590ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Biologische wortelen",
+      "prijs": 1.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00119,
+      "url": "https://boodschaapje.nl/product/84611",
+      "geschat": false
+     },
+     {
+      "product": "Wortels",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://boodschaapje.nl/product/82761",
+      "geschat": false
+     },
+     {
+      "product": "Waspeen",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://boodschaapje.nl/product/82759",
+      "geschat": false
+     },
+     {
+      "product": "Wortelen",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://boodschaapje.nl/product/2727",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "komkommer": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Komkommer",
+      "prijs": 0.85,
+      "verpakking": 1.0,
+      "eenheidsprijs": 0.85,
+      "url": "https://www.ah.nl/producten/product/wi54074/ah-komkommer",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Komkommer",
+      "prijs": 1.45,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.45,
+      "url": "https://www.ah.nl/producten/product/wi101130/ah-biologisch-komkommer",
+      "geschat": false
+     },
+     {
+      "product": "AH Komkommer dille dressing",
+      "prijs": 1.79,
+      "verpakking": 1,
+      "eenheidsprijs": 1.79,
+      "url": "https://www.ah.nl/producten/product/wi430909/ah-komkommer-dille-dressing",
+      "geschat": true
+     },
+     {
+      "product": "Dove Anti-transpirant roller komkommer",
+      "prijs": 5.59,
+      "verpakking": 1,
+      "eenheidsprijs": 5.59,
+      "url": "https://www.ah.nl/producten/product/wi566929/dove-anti-transpirant-roller-komkommer",
+      "geschat": true
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Komkommer",
+      "prijs": 0.75,
+      "verpakking": 1,
+      "eenheidsprijs": 0.75,
+      "url": "https://www.jumbo.com/producten/jumbo-komkommer-526991STK",
+      "geschat": true
+     },
+     {
+      "product": "Jumbo Biologische Komkommer",
+      "prijs": 1.59,
+      "verpakking": 1,
+      "eenheidsprijs": 1.59,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-komkommer-159429STK",
+      "geschat": true
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Komkommer",
+      "prijs": 0.75,
+      "verpakking": 1,
+      "eenheidsprijs": 0.75,
+      "url": "https://boodschaapje.nl/product/82231",
+      "geschat": true
+     },
+     {
+      "product": "Biologische komkommer",
+      "prijs": 1.39,
+      "verpakking": 1,
+      "eenheidsprijs": 1.39,
+      "url": "https://boodschaapje.nl/product/84535",
+      "geschat": true
+     }
+    ]
+   }
+  },
+  "sla": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH IJsbergsla grootverpakking",
+      "prijs": 1.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00498,
+      "url": "https://www.ah.nl/producten/product/wi168153/ah-ijsbergsla-grootverpakking",
+      "geschat": false
+     },
+     {
+      "product": "AH IJsbergsla",
+      "prijs": 1.09,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00545,
+      "url": "https://www.ah.nl/producten/product/wi129684/ah-ijsbergsla",
+      "geschat": false
+     },
+     {
+      "product": "AH IJsbergsla melange",
+      "prijs": 1.29,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00645,
+      "url": "https://www.ah.nl/producten/product/wi3840/ah-ijsbergsla-melange",
+      "geschat": false
+     },
+     {
+      "product": "AH IJsbergsla fijngesneden",
+      "prijs": 1.65,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00825,
+      "url": "https://www.ah.nl/producten/product/wi517597/ah-ijsbergsla-fijngesneden",
+      "geschat": false
+     },
+     {
+      "product": "AH Fijngesneden ijsbergsla",
+      "prijs": 0.99,
+      "verpakking": 100.0,
+      "eenheidsprijs": 0.0099,
+      "url": "https://www.ah.nl/producten/product/wi193247/ah-fijngesneden-ijsbergsla",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Gesneden IJsbergsla 400 g",
+      "prijs": 1.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00498,
+      "url": "https://www.jumbo.com/producten/jumbo-gesneden-ijsbergsla-400-g-787710ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gesneden IJsbergsla 200 g",
+      "prijs": 1.09,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00545,
+      "url": "https://www.jumbo.com/producten/jumbo-gesneden-ijsbergsla-200-g-787689ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Melange IJsbergsla 400 g",
+      "prijs": 2.39,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00598,
+      "url": "https://www.jumbo.com/producten/jumbo-melange-ijsbergsla-400-g-237827ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gesneden IJsbergsla Radijs & Maïs 200 g",
+      "prijs": 1.39,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00695,
+      "url": "https://www.jumbo.com/producten/jumbo-gesneden-ijsbergsla-radijs-mais-200-g-736465ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Fijngesneden IJsbergsla 200 g",
+      "prijs": 1.69,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00845,
+      "url": "https://www.jumbo.com/producten/jumbo-fijngesneden-ijsbergsla-200-g-787686ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "IJsbergsla",
+      "prijs": 0.89,
+      "verpakking": 346.0,
+      "eenheidsprijs": 0.00257,
+      "url": "https://boodschaapje.nl/product/82031",
+      "geschat": false
+     },
+     {
+      "product": "IJsbergsla",
+      "prijs": 0.79,
+      "verpakking": 100.0,
+      "eenheidsprijs": 0.0079,
+      "url": "https://boodschaapje.nl/product/6605441",
+      "geschat": false
+     },
+     {
+      "product": "Slamelange XXL",
+      "prijs": 1.49,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.00993,
+      "url": "https://boodschaapje.nl/product/6605330",
+      "geschat": false
+     },
+     {
+      "product": "Rucola sla",
+      "prijs": 0.99,
+      "verpakking": 85.0,
+      "eenheidsprijs": 0.01165,
+      "url": "https://boodschaapje.nl/product/6606103",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "olijfolie": {
+   "eenheid": "ml",
+   "ketens": {
+    "ah": [
+     {
+      "product": "Allegro Olijfolie pomace",
+      "prijs": 6.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00699,
+      "url": "https://www.ah.nl/producten/product/wi563297/allegro-olijfolie-pomace",
+      "geschat": false
+     },
+     {
+      "product": "AH Olijfolie extra vierge",
+      "prijs": 7.12,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00712,
+      "url": "https://www.ah.nl/producten/product/wi58043/ah-olijfolie-extra-vierge",
+      "geschat": false
+     },
+     {
+      "product": "AH Olijfolie traditioneel",
+      "prijs": 4.12,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00824,
+      "url": "https://www.ah.nl/producten/product/wi48896/ah-olijfolie-traditioneel",
+      "geschat": false
+     },
+     {
+      "product": "AH Olijfolie mild",
+      "prijs": 4.27,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00854,
+      "url": "https://www.ah.nl/producten/product/wi54443/ah-olijfolie-mild",
+      "geschat": false
+     },
+     {
+      "product": "AH Olijfolie extra vierge",
+      "prijs": 4.34,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00868,
+      "url": "https://www.ah.nl/producten/product/wi48897/ah-olijfolie-extra-vierge",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Olijfolie Classico 1 L",
+      "prijs": 7.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00799,
+      "url": "https://www.jumbo.com/producten/jumbo-olijfolie-classico-1-l-418265FLS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Olijfolie Mild 1 L",
+      "prijs": 7.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00799,
+      "url": "https://www.jumbo.com/producten/jumbo-olijfolie-mild-1-l-418264FLS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Olijfolie Mild 500 ml",
+      "prijs": 4.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00958,
+      "url": "https://www.jumbo.com/producten/jumbo-olijfolie-mild-500-ml-418263FLS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Olijfolie Extra Vierge 1 L",
+      "prijs": 9.65,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00965,
+      "url": "https://www.jumbo.com/producten/jumbo-olijfolie-extra-vierge-1-l-418280FLS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Olijfolie Classico 500 ml",
+      "prijs": 4.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00998,
+      "url": "https://www.jumbo.com/producten/jumbo-olijfolie-classico-500-ml-418266FLS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Olijfolie extra vierge",
+      "prijs": 4.49,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00599,
+      "url": "https://boodschaapje.nl/product/1234",
+      "geschat": false
+     },
+     {
+      "product": "Olijfolie mild",
+      "prijs": 6.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00699,
+      "url": "https://boodschaapje.nl/product/96048",
+      "geschat": false
+     },
+     {
+      "product": "Olijfolie XXL",
+      "prijs": 10.99,
+      "verpakking": 1500.0,
+      "eenheidsprijs": 0.00733,
+      "url": "https://boodschaapje.nl/product/122036",
+      "geschat": false
+     },
+     {
+      "product": "Olijfolie classico",
+      "prijs": 7.65,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00765,
+      "url": "https://boodschaapje.nl/product/97197",
+      "geschat": false
+     },
+     {
+      "product": "Griekse olijfolie Kreta",
+      "prijs": 5.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00799,
+      "url": "https://boodschaapje.nl/product/117821",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "zonnebloemolie": {
+   "eenheid": "ml",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Zonnebloemolie",
+      "prijs": 3.55,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00177,
+      "url": "https://www.ah.nl/producten/product/wi575766/ah-zonnebloemolie",
+      "geschat": false
+     },
+     {
+      "product": "AH Zonnebloemolie",
+      "prijs": 1.79,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00179,
+      "url": "https://www.ah.nl/producten/product/wi906/ah-zonnebloemolie",
+      "geschat": false
+     },
+     {
+      "product": "AH Biologisch Zonnebloemolie",
+      "prijs": 2.35,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00235,
+      "url": "https://www.ah.nl/producten/product/wi67845/ah-biologisch-zonnebloemolie",
+      "geschat": false
+     },
+     {
+      "product": "Reddy Zonnebloemolie",
+      "prijs": 3.35,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00335,
+      "url": "https://www.ah.nl/producten/product/wi211394/reddy-zonnebloemolie",
+      "geschat": false
+     },
+     {
+      "product": "Reddy Premium zonnebloemolie",
+      "prijs": 3.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00778,
+      "url": "https://www.ah.nl/producten/product/wi233271/reddy-premium-zonnebloemolie",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Zonnebloemolie 1 L",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://www.jumbo.com/producten/jumbo-zonnebloemolie-1-l-331242FLS",
+      "geschat": false
+     },
+     {
+      "product": "Reddy Zonnebloemolie 1 L",
+      "prijs": 3.59,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00359,
+      "url": "https://www.jumbo.com/producten/reddy-zonnebloemolie-1-l-430908FLS",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Zonnebloemolie 500 ML",
+      "prijs": 3.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00798,
+      "url": "https://www.jumbo.com/producten/jumbo-zonnebloemolie-500-ml-551399FLS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Zonnebloemolie",
+      "prijs": 1.35,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00135,
+      "url": "https://boodschaapje.nl/product/1231",
+      "geschat": false
+     },
+     {
+      "product": "Zonnebloemolie",
+      "prijs": 6.99,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.0014,
+      "url": "https://boodschaapje.nl/product/151827",
+      "geschat": false
+     },
+     {
+      "product": "Zonnebloemolie XXL",
+      "prijs": 8.99,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.0018,
+      "url": "https://boodschaapje.nl/product/11354",
+      "geschat": false
+     },
+     {
+      "product": "Bio zonnebloemolie",
+      "prijs": 1.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://boodschaapje.nl/product/7715487",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "kidneybonen": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Terra Kidneybonen",
+      "prijs": 0.65,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00163,
+      "url": "https://www.ah.nl/producten/product/wi30428/ah-terra-kidneybonen",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Kidneybonen",
+      "prijs": 0.49,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00245,
+      "url": "https://www.ah.nl/producten/product/wi182914/ah-terra-kidneybonen",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Biologisch kidneybonen",
+      "prijs": 0.99,
+      "verpakking": 360.0,
+      "eenheidsprijs": 0.00275,
+      "url": "https://www.ah.nl/producten/product/wi168814/ah-terra-biologisch-kidneybonen",
+      "geschat": false
+     },
+     {
+      "product": "Hak Kidneybonen",
+      "prijs": 1.29,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00339,
+      "url": "https://www.ah.nl/producten/product/wi569511/hak-kidneybonen",
+      "geschat": false
+     },
+     {
+      "product": "Valle del sole Rode kidney bonen",
+      "prijs": 3.19,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.00354,
+      "url": "https://www.ah.nl/producten/product/wi198420/valle-del-sole-rode-kidney-bonen",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Biologische Kidneybonen 400 g",
+      "prijs": 1.15,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00287,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-kidneybonen-400-g-692549PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Kidneybonen 205 g",
+      "prijs": 0.65,
+      "verpakking": 205.0,
+      "eenheidsprijs": 0.00317,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-kidneybonen-205-g-692548PAK",
+      "geschat": false
+     },
+     {
+      "product": "Hak Kidney Bonen 380 g",
+      "prijs": 1.35,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00355,
+      "url": "https://www.jumbo.com/producten/hak-kidney-bonen-380-g-599247PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gedroogde Rode Kidneybonen 500 g",
+      "prijs": 2.49,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00498,
+      "url": "https://www.jumbo.com/producten/jumbo-gedroogde-rode-kidneybonen-500-g-711088ZK",
+      "geschat": false
+     },
+     {
+      "product": "Bonduelle Rode kidneybonen 310g",
+      "prijs": 1.75,
+      "verpakking": 310.0,
+      "eenheidsprijs": 0.00565,
+      "url": "https://www.jumbo.com/producten/bonduelle-rode-kidneybonen-310g-432180BLK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Kidneybonen",
+      "prijs": 0.59,
+      "verpakking": 255.0,
+      "eenheidsprijs": 0.00231,
+      "url": "https://boodschaapje.nl/product/1374",
+      "geschat": false
+     },
+     {
+      "product": "Kidney bonen in zak",
+      "prijs": 0.69,
+      "verpakking": 225.0,
+      "eenheidsprijs": 0.00307,
+      "url": "https://boodschaapje.nl/product/6606903",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "kikkererwten": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Terra Kikkererwten",
+      "prijs": 0.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00247,
+      "url": "https://www.ah.nl/producten/product/wi167873/ah-terra-kikkererwten",
+      "geschat": false
+     },
+     {
+      "product": "Hak Kikkererwten",
+      "prijs": 1.25,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00329,
+      "url": "https://www.ah.nl/producten/product/wi569513/hak-kikkererwten",
+      "geschat": false
+     },
+     {
+      "product": "Miras Gekookte kikkererwten",
+      "prijs": 1.89,
+      "verpakking": 570.0,
+      "eenheidsprijs": 0.00332,
+      "url": "https://www.ah.nl/producten/product/wi202259/miras-gekookte-kikkererwten",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Biologisch kikkererwten",
+      "prijs": 1.39,
+      "verpakking": 350.0,
+      "eenheidsprijs": 0.00397,
+      "url": "https://www.ah.nl/producten/product/wi168813/ah-terra-biologisch-kikkererwten",
+      "geschat": false
+     },
+     {
+      "product": "AH Terra Kikkererwten",
+      "prijs": 0.85,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00425,
+      "url": "https://www.ah.nl/producten/product/wi167874/ah-terra-kikkererwten",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Biologische Kikkererwten 405 g",
+      "prijs": 1.09,
+      "verpakking": 405.0,
+      "eenheidsprijs": 0.00269,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-kikkererwten-405-g-692551PAK",
+      "geschat": false
+     },
+     {
+      "product": "Sera Gekookte Kikkererwten 580g",
+      "prijs": 1.59,
+      "verpakking": 580.0,
+      "eenheidsprijs": 0.00274,
+      "url": "https://www.jumbo.com/producten/sera-gekookte-kikkererwten-580g-703865POT",
+      "geschat": false
+     },
+     {
+      "product": "Hak Kikkererwten 380 g",
+      "prijs": 1.49,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00392,
+      "url": "https://www.jumbo.com/producten/hak-kikkererwten-380-g-599258PAK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gedroogde Kikkererwten 500 g",
+      "prijs": 1.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://www.jumbo.com/producten/jumbo-gedroogde-kikkererwten-500-g-711092ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Biologische Kikkererwten 210 g",
+      "prijs": 0.99,
+      "verpakking": 210.0,
+      "eenheidsprijs": 0.00471,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-kikkererwten-210-g-692550PAK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Kikkererwten",
+      "prijs": 0.99,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.00124,
+      "url": "https://boodschaapje.nl/product/123621",
+      "geschat": false
+     },
+     {
+      "product": "Kikkererwten",
+      "prijs": 0.99,
+      "verpakking": 540.0,
+      "eenheidsprijs": 0.00183,
+      "url": "https://boodschaapje.nl/product/5900018",
+      "geschat": false
+     },
+     {
+      "product": "Hak kikkererwten",
+      "prijs": 0.79,
+      "verpakking": 380.0,
+      "eenheidsprijs": 0.00208,
+      "url": "https://boodschaapje.nl/product/6612746",
+      "geschat": false
+     },
+     {
+      "product": "Kikkererwten",
+      "prijs": 0.9,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00225,
+      "url": "https://boodschaapje.nl/product/92959",
+      "geschat": false
+     },
+     {
+      "product": "Kikkererwten/linzen",
+      "prijs": 1.49,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00248,
+      "url": "https://boodschaapje.nl/product/129621",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "tonijn": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "Statesman Tonijn stukken in water",
+      "prijs": 1.35,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.00844,
+      "url": "https://www.ah.nl/producten/product/wi420789/statesman-tonijn-stukken-in-water",
+      "geschat": false
+     },
+     {
+      "product": "Statesman Tonijn stukken in zonnebloemolie",
+      "prijs": 1.79,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01119,
+      "url": "https://www.ah.nl/producten/product/wi420788/statesman-tonijn-stukken-in-zonnebloemolie",
+      "geschat": false
+     },
+     {
+      "product": "Princes Tonijnstukken groenten",
+      "prijs": 2.09,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01306,
+      "url": "https://www.ah.nl/producten/product/wi496944/princes-tonijnstukken-groenten",
+      "geschat": false
+     },
+     {
+      "product": "Statesman Tonijn stukken in olijfolie",
+      "prijs": 2.09,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01306,
+      "url": "https://www.ah.nl/producten/product/wi451669/statesman-tonijn-stukken-in-olijfolie",
+      "geschat": false
+     },
+     {
+      "product": "Princes Tonijnstukken in water",
+      "prijs": 1.94,
+      "verpakking": 145.0,
+      "eenheidsprijs": 0.01338,
+      "url": "https://www.ah.nl/producten/product/wi496941/princes-tonijnstukken-in-water",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Ribeira Tonijnstukken in Water 160 g",
+      "prijs": 1.49,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.00931,
+      "url": "https://www.jumbo.com/producten/ribeira-tonijnstukken-in-water-160-g-744725BLK",
+      "geschat": false
+     },
+     {
+      "product": "Ribeira tonijnstukken in water 3 x 160g",
+      "prijs": 4.47,
+      "verpakking": 480.0,
+      "eenheidsprijs": 0.00931,
+      "url": "https://www.jumbo.com/producten/ribeira-tonijnstukken-in-water-3-x-160g-628623STK",
+      "geschat": false
+     },
+     {
+      "product": "Ribeira Tonijnstukken in Zonnebloemolie 160 g",
+      "prijs": 1.69,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01056,
+      "url": "https://www.jumbo.com/producten/ribeira-tonijnstukken-in-zonnebloemolie-160-g-744726BLK",
+      "geschat": false
+     },
+     {
+      "product": "Ribeira Tonijnstukken in Olijfolie 160 g",
+      "prijs": 1.99,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01244,
+      "url": "https://www.jumbo.com/producten/ribeira-tonijnstukken-in-olijfolie-160-g-744727BLK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Tonijnstukken in Water 160 g",
+      "prijs": 2.09,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01306,
+      "url": "https://www.jumbo.com/producten/jumbo-tonijnstukken-in-water-160-g-373238BLK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Tonijn in olijfolie",
+      "prijs": 5.99,
+      "verpakking": 900.0,
+      "eenheidsprijs": 0.00666,
+      "url": "https://boodschaapje.nl/product/105621",
+      "geschat": false
+     },
+     {
+      "product": "Tonijn in zonnebl.",
+      "prijs": 6.29,
+      "verpakking": 740.0,
+      "eenheidsprijs": 0.0085,
+      "url": "https://boodschaapje.nl/product/200047",
+      "geschat": false
+     },
+     {
+      "product": "Tonijn zonnebl. olie",
+      "prijs": 6.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00932,
+      "url": "https://boodschaapje.nl/product/184669",
+      "geschat": false
+     },
+     {
+      "product": "MSC Tonijn in olie",
+      "prijs": 1.79,
+      "verpakking": 185.0,
+      "eenheidsprijs": 0.00968,
+      "url": "https://boodschaapje.nl/product/152886",
+      "geschat": false
+     },
+     {
+      "product": "Tonijn naturel MSC",
+      "prijs": 1.79,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.01193,
+      "url": "https://boodschaapje.nl/product/152887",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "geraspte kaas": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "De Zaanse Hoeve Mild 45+ geraspt voordeel",
+      "prijs": 4.59,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01147,
+      "url": "https://www.ah.nl/producten/product/wi560688/de-zaanse-hoeve-mild-45-geraspt-voordeel",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Mild 30+ geraspt",
+      "prijs": 2.35,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01175,
+      "url": "https://www.ah.nl/producten/product/wi197172/de-zaanse-hoeve-mild-30-geraspt",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Mild 45+ geraspt",
+      "prijs": 2.39,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01195,
+      "url": "https://www.ah.nl/producten/product/wi140101/de-zaanse-hoeve-mild-45-geraspt",
+      "geschat": false
+     },
+     {
+      "product": "De Zaanse Hoeve Pittig 45+ geraspt",
+      "prijs": 2.69,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01345,
+      "url": "https://www.ah.nl/producten/product/wi193770/de-zaanse-hoeve-pittig-45-geraspt",
+      "geschat": false
+     },
+     {
+      "product": "AH Goudse jong 48+ geraspt grootverpakking",
+      "prijs": 5.49,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.0183,
+      "url": "https://www.ah.nl/producten/product/wi56810/ah-goudse-jong-48-geraspt-grootverpakking",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Rasp Mild 48+ Kaas 250 g",
+      "prijs": 2.59,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01036,
+      "url": "https://www.jumbo.com/producten/rasp-mild-48-kaas-250-g-746536DS",
+      "geschat": false
+     },
+     {
+      "product": "Rasp Mild 30+ Kaas 250 g",
+      "prijs": 2.74,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01096,
+      "url": "https://www.jumbo.com/producten/rasp-mild-30-kaas-250-g-746538DS",
+      "geschat": false
+     },
+     {
+      "product": "Rasp Pittig 48+ Kaas 250 g",
+      "prijs": 2.99,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01196,
+      "url": "https://www.jumbo.com/producten/rasp-pittig-48-kaas-250-g-746537ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Geraspte Kaas Belegen 48+ Voordeelverpakking 500 g",
+      "prijs": 7.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01598,
+      "url": "https://www.jumbo.com/producten/jumbo-geraspte-kaas-belegen-48-voordeelverpakking-500-g-589660ZK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Geraspte Oven Gratin Kaas 40+ 150 g",
+      "prijs": 2.49,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.0166,
+      "url": "https://www.jumbo.com/producten/jumbo-geraspte-oven-gratin-kaas-40-150-g-588985ZK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Geraspte kazen mix",
+      "prijs": 1.99,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00995,
+      "url": "https://boodschaapje.nl/product/22759",
+      "geschat": false
+     },
+     {
+      "product": "Gouda geraspte kaas XXL",
+      "prijs": 4.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00998,
+      "url": "https://boodschaapje.nl/product/152346",
+      "geschat": false
+     },
+     {
+      "product": "Rasp kaas jong bel.",
+      "prijs": 2.63,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01052,
+      "url": "https://boodschaapje.nl/product/165703",
+      "geschat": false
+     },
+     {
+      "product": "Goudse 30+ geraspt",
+      "prijs": 2.19,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01095,
+      "url": "https://boodschaapje.nl/product/1000179",
+      "geschat": false
+     },
+     {
+      "product": "Jong belegen geraspt",
+      "prijs": 2.79,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01116,
+      "url": "https://boodschaapje.nl/product/161798",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "wraps": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Tortilla naturel wraps large 12 stuks",
+      "prijs": 1.79,
+      "verpakking": 11.94,
+      "eenheidsprijs": 0.14997,
+      "url": "https://www.ah.nl/producten/product/wi173410/ah-tortilla-naturel-wraps-large-12-stuks",
+      "geschat": false
+     },
+     {
+      "product": "AH Tortilla naturel wraps large 6 stuks",
+      "prijs": 0.95,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15919,
+      "url": "https://www.ah.nl/producten/product/wi140637/ah-tortilla-naturel-wraps-large-6-stuks",
+      "geschat": false
+     },
+     {
+      "product": "AH Tortilla wraps volkoren large",
+      "prijs": 0.95,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15919,
+      "url": "https://www.ah.nl/producten/product/wi453733/ah-tortilla-wraps-volkoren-large",
+      "geschat": false
+     },
+     {
+      "product": "AH Tortilla naturel wraps medium 8 stuks",
+      "prijs": 0.95,
+      "verpakking": 5.16,
+      "eenheidsprijs": 0.18406,
+      "url": "https://www.ah.nl/producten/product/wi136836/ah-tortilla-naturel-wraps-medium-8-stuks",
+      "geschat": false
+     },
+     {
+      "product": "AH Tortilla volkoren wraps medium",
+      "prijs": 0.95,
+      "verpakking": 5.16,
+      "eenheidsprijs": 0.18406,
+      "url": "https://www.ah.nl/producten/product/wi582864/ah-tortilla-volkoren-wraps-medium",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Santa Maria Tortilla Wraps Large 6 Stuks 371 g",
+      "prijs": 2.69,
+      "verpakking": 5.98,
+      "eenheidsprijs": 0.44954,
+      "url": "https://www.jumbo.com/producten/santa-maria-tortilla-wraps-large-6-stuks-371-g-87594PAK",
+      "geschat": false
+     },
+     {
+      "product": "Santa Maria Tortilla Wraps Medium 8 Stuks 320 g",
+      "prijs": 2.65,
+      "verpakking": 5.16,
+      "eenheidsprijs": 0.51344,
+      "url": "https://www.jumbo.com/producten/santa-maria-tortilla-wraps-medium-8-stuks-320-g-81319ZK",
+      "geschat": false
+     },
+     {
+      "product": "Old El Paso Wrap Tortillas Large 350g",
+      "prijs": 2.99,
+      "verpakking": 5.65,
+      "eenheidsprijs": 0.52966,
+      "url": "https://www.jumbo.com/producten/old-el-paso-wrap-tortillas-large-350g-703447ZK",
+      "geschat": false
+     },
+     {
+      "product": "Santa Maria Tortilla Wraps Corn&Wheat Medium 8 Stuks 336 g",
+      "prijs": 3.19,
+      "verpakking": 5.42,
+      "eenheidsprijs": 0.58863,
+      "url": "https://www.jumbo.com/producten/santa-maria-tortilla-wraps-cornwheat-medium-8-stuks-336-g-295052STK",
+      "geschat": false
+     },
+     {
+      "product": "Honig Mexicaanse Wraps 265g",
+      "prijs": 4.59,
+      "verpakking": 4.27,
+      "eenheidsprijs": 1.07389,
+      "url": "https://www.jumbo.com/producten/honig-mexicaanse-wraps-265g-626940DS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Tortilla wraps XXL",
+      "prijs": 1.69,
+      "verpakking": 11.94,
+      "eenheidsprijs": 0.14159,
+      "url": "https://boodschaapje.nl/product/42917",
+      "geschat": false
+     },
+     {
+      "product": "Volkoren wraps",
+      "prijs": 0.94,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.15667,
+      "url": "https://boodschaapje.nl/product/1002842",
+      "geschat": false
+     },
+     {
+      "product": "Wraps naturel",
+      "prijs": 0.94,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15751,
+      "url": "https://boodschaapje.nl/product/6608671",
+      "geschat": false
+     },
+     {
+      "product": "Wraps volkoren",
+      "prijs": 0.94,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15751,
+      "url": "https://boodschaapje.nl/product/6608666",
+      "geschat": false
+     },
+     {
+      "product": "Itza naturel wraps",
+      "prijs": 0.99,
+      "verpakking": 6,
+      "eenheidsprijs": 0.165,
+      "url": "https://boodschaapje.nl/product/6612699",
+      "geschat": true
+     }
+    ]
+   }
+  },
+  "kipfiletbeleg": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "Zandvliet Gerookte kipfilet",
+      "prijs": 3.49,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01396,
+      "url": "https://www.ah.nl/producten/product/wi203274/zandvliet-gerookte-kipfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel gerookte kipfilet",
+      "prijs": 2.99,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.01993,
+      "url": "https://www.ah.nl/producten/product/wi543390/ah-scharrel-gerookte-kipfilet",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel kipfilet plakjes gerookt",
+      "prijs": 3.49,
+      "verpakking": 155.0,
+      "eenheidsprijs": 0.02252,
+      "url": "https://www.ah.nl/producten/product/wi531864/ah-scharrel-kipfilet-plakjes-gerookt",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel kipfilet gerookt",
+      "prijs": 3.62,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.02262,
+      "url": "https://www.ah.nl/producten/product/wi165535/ah-scharrel-kipfilet-gerookt",
+      "geschat": false
+     },
+     {
+      "product": "AH Scharrel gerookte kipfilet",
+      "prijs": 3.59,
+      "verpakking": 125.0,
+      "eenheidsprijs": 0.02872,
+      "url": "https://www.ah.nl/producten/product/wi192859/ah-scharrel-gerookte-kipfilet",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Zandvliet Gerookte Kipfilet 250 g",
+      "prijs": 3.59,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01436,
+      "url": "https://www.jumbo.com/producten/zandvliet-gerookte-kipfilet-250-g-656958STK",
+      "geschat": false
+     },
+     {
+      "product": "Kipfilet Gerookt 175 g",
+      "prijs": 3.02,
+      "verpakking": 175.0,
+      "eenheidsprijs": 0.01726,
+      "url": "https://www.jumbo.com/producten/kipfilet-gerookt-175-g-719226STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gerookte Kipfilet ca. 165 g",
+      "prijs": 3.28,
+      "verpakking": 165.0,
+      "eenheidsprijs": 0.01988,
+      "url": "https://www.jumbo.com/producten/jumbo-gerookte-kipfilet-ca-165-g-700195KGR",
+      "geschat": false
+     },
+     {
+      "product": "Vergrill Gerookte Kipfilet Plakjes ca. 150 g",
+      "prijs": 3.19,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.02127,
+      "url": "https://www.jumbo.com/producten/vergrill-gerookte-kipfilet-plakjes-ca-150-g-722286KGR",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Scharrel Kipfilet Gerookt 120g",
+      "prijs": 2.89,
+      "verpakking": 120.0,
+      "eenheidsprijs": 0.02408,
+      "url": "https://www.jumbo.com/producten/jumbo-scharrel-kipfilet-gerookt-120g-714360STK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Kipfilet gerookt",
+      "prijs": 2.59,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.01727,
+      "url": "https://boodschaapje.nl/product/6610603",
+      "geschat": false
+     },
+     {
+      "product": "Gerookte kipfilet",
+      "prijs": 2.29,
+      "verpakking": 100.0,
+      "eenheidsprijs": 0.0229,
+      "url": "https://boodschaapje.nl/product/7719390",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "rookworst": {
+   "eenheid": "g",
+   "ketens": {
+    "ah": [
+     {
+      "product": "AH Rookworst Gelders",
+      "prijs": 1.35,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00491,
+      "url": "https://www.ah.nl/producten/product/wi229797/ah-rookworst-gelders",
+      "geschat": false
+     },
+     {
+      "product": "AH Rookworst mager",
+      "prijs": 1.59,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00578,
+      "url": "https://www.ah.nl/producten/product/wi229795/ah-rookworst-mager",
+      "geschat": false
+     },
+     {
+      "product": "AH Veluwse rookworst fijn",
+      "prijs": 3.19,
+      "verpakking": 280.0,
+      "eenheidsprijs": 0.01139,
+      "url": "https://www.ah.nl/producten/product/wi210296/ah-veluwse-rookworst-fijn",
+      "geschat": false
+     },
+     {
+      "product": "AH Veluwse rookworst grof",
+      "prijs": 3.19,
+      "verpakking": 280.0,
+      "eenheidsprijs": 0.01139,
+      "url": "https://www.ah.nl/producten/product/wi210297/ah-veluwse-rookworst-grof",
+      "geschat": false
+     },
+     {
+      "product": "AH Rookworst",
+      "prijs": 2.99,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01196,
+      "url": "https://www.ah.nl/producten/product/wi160782/ah-rookworst",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo Gelderse Rookworst 375 g",
+      "prijs": 3.95,
+      "verpakking": 375.0,
+      "eenheidsprijs": 0.01053,
+      "url": "https://www.jumbo.com/producten/jumbo-gelderse-rookworst-375-g-577731STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Extra Magere Rookworst 375 g",
+      "prijs": 3.99,
+      "verpakking": 375.0,
+      "eenheidsprijs": 0.01064,
+      "url": "https://www.jumbo.com/producten/jumbo-extra-magere-rookworst-375-g-577719STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Extra Magere Rookworst 275 g",
+      "prijs": 2.99,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.01087,
+      "url": "https://www.jumbo.com/producten/jumbo-extra-magere-rookworst-275-g-577786STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Gelderse Rookworst 275 g",
+      "prijs": 2.99,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.01087,
+      "url": "https://www.jumbo.com/producten/jumbo-gelderse-rookworst-275-g-577788STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo Kip Rookworst 275 g",
+      "prijs": 2.99,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.01087,
+      "url": "https://www.jumbo.com/producten/jumbo-kip-rookworst-275-g-577730STK",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Gelderse rookworst",
+      "prijs": 1.33,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00484,
+      "url": "https://boodschaapje.nl/product/1159",
+      "geschat": false
+     },
+     {
+      "product": "Gelderse rookworst",
+      "prijs": 1.89,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00687,
+      "url": "https://boodschaapje.nl/product/6613472",
+      "geschat": false
+     },
+     {
+      "product": "Rookworst XXL",
+      "prijs": 2.79,
+      "verpakking": 350.0,
+      "eenheidsprijs": 0.00797,
+      "url": "https://boodschaapje.nl/product/6613618",
+      "geschat": false
+     },
+     {
+      "product": "Unox Gelderse rookworst",
+      "prijs": 3.19,
+      "verpakking": 375.0,
+      "eenheidsprijs": 0.00851,
+      "url": "https://boodschaapje.nl/product/9182",
+      "geschat": false
+     },
+     {
+      "product": "Verse rookworst",
+      "prijs": 2.49,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00905,
+      "url": "https://boodschaapje.nl/product/4874",
+      "geschat": false
+     }
+    ]
+   }
+  },
+  "bouillonblokjes": {
+   "eenheid": "stuk",
+   "ketens": {
+    "ah": [
+     {
+      "product": "Maggi Bouillonblokjes voordeel",
+      "prijs": 3.19,
+      "verpakking": 64.0,
+      "eenheidsprijs": 0.04984,
+      "url": "https://www.ah.nl/producten/product/wi457680/maggi-bouillonblokjes-voordeel",
+      "geschat": false
+     },
+     {
+      "product": "Knorr Groente bouillonblokjes voordeelpak",
+      "prijs": 1.79,
+      "verpakking": 15.0,
+      "eenheidsprijs": 0.11933,
+      "url": "https://www.ah.nl/producten/product/wi384660/knorr-groente-bouillonblokjes-voordeelpak",
+      "geschat": false
+     },
+     {
+      "product": "Knorr Rundvlees bouillonblokjes voordeelpak",
+      "prijs": 1.79,
+      "verpakking": 15.0,
+      "eenheidsprijs": 0.11933,
+      "url": "https://www.ah.nl/producten/product/wi457581/knorr-rundvlees-bouillonblokjes-voordeelpak",
+      "geschat": false
+     },
+     {
+      "product": "Maggi Groente bouillon blokjes voordeelpak",
+      "prijs": 1.69,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.14083,
+      "url": "https://www.ah.nl/producten/product/wi457583/maggi-groente-bouillon-blokjes-voordeelpak",
+      "geschat": false
+     },
+     {
+      "product": "Maggi Kippen bouillon blokjes voordeelpak",
+      "prijs": 1.69,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.14083,
+      "url": "https://www.ah.nl/producten/product/wi457584/maggi-kippen-bouillon-blokjes-voordeelpak",
+      "geschat": false
+     }
+    ],
+    "jumbo": [
+     {
+      "product": "Jumbo runder bouillonblokjes 3 x 12 stuks",
+      "prijs": 1.35,
+      "verpakking": 36.0,
+      "eenheidsprijs": 0.0375,
+      "url": "https://www.jumbo.com/producten/jumbo-runder-bouillonblokjes-3-x-12-stuks-628618STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo kippen bouillonblokjes 3 x 8 stuks",
+      "prijs": 1.17,
+      "verpakking": 24.0,
+      "eenheidsprijs": 0.04875,
+      "url": "https://www.jumbo.com/producten/jumbo-kippen-bouillonblokjes-3-x-8-stuks-628620STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo biologisch kippen bouillonblokjes 3 x 6 stuks",
+      "prijs": 1.77,
+      "verpakking": 18.0,
+      "eenheidsprijs": 0.09833,
+      "url": "https://www.jumbo.com/producten/jumbo-biologisch-kippen-bouillonblokjes-3-x-6-stuks-628617STK",
+      "geschat": false
+     },
+     {
+      "product": "Jumbo biologische runder bouillonblokjes 3 x 6 stuks",
+      "prijs": 1.77,
+      "verpakking": 18.0,
+      "eenheidsprijs": 0.09833,
+      "url": "https://www.jumbo.com/producten/jumbo-biologische-runder-bouillonblokjes-3-x-6-stuks-628619STK",
+      "geschat": false
+     },
+     {
+      "product": "Knorr Bouillon Blokjes Groente 15 tabletten",
+      "prijs": 1.79,
+      "verpakking": 15.0,
+      "eenheidsprijs": 0.11933,
+      "url": "https://www.jumbo.com/producten/knorr-bouillon-blokjes-groente-15-tabletten-448029DS",
+      "geschat": false
+     }
+    ],
+    "lidl": [
+     {
+      "product": "Groentebouillonblok.",
+      "prijs": 0.54,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.045,
+      "url": "https://boodschaapje.nl/product/194022",
+      "geschat": false
+     },
+     {
+      "product": "Bouillonblokjes",
+      "prijs": 0.59,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.04917,
+      "url": "https://boodschaapje.nl/product/63258",
+      "geschat": false
+     },
+     {
+      "product": "Groentebouillonblokjes",
+      "prijs": 0.59,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.04917,
+      "url": "https://boodschaapje.nl/product/36474",
+      "geschat": false
+     },
+     {
+      "product": "Runderbouillonblokjes",
+      "prijs": 0.59,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.04917,
+      "url": "https://boodschaapje.nl/product/36468",
+      "geschat": false
+     }
+    ]
+   }
+  }
+ }
+}

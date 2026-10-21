@@ -1,0 +1,15 @@
+{
+ "personen": [
+  {
+   "naam": "Sander",
+   "factor": 1.0
+  }
+ ],
+ "budget_per_week": 50,
+ "supermarkten": [
+  "ah",
+  "jumbo",
+  "lidl"
+ ],
+ "voorraad": {}
+}
