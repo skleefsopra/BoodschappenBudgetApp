@@ -1,4 +1,4 @@
-import { TYPES, DAGEN, vergelijk, metEigenPrijzen, eigenKandidaat, porties, benodigd } from "./planner.js";
+import { vergelijkWinkels, receptPrijs, metEigenPrijzen, eigenKandidaat, porties, benodigd } from "./planner.js";
 
 const KETENS = { ah: "AH", jumbo: "Jumbo", lidl: "Lidl" };
 const FACTOREN = [["Volwassene", 1], ["Grote eter", 1.3], ["Tiener", 1.1], ["Kind (4-11)", 0.6], ["Peuter", 0.4]];
@@ -8,7 +8,7 @@ const EENHEID = { g: "gram", ml: "ml", stuk: "stuks" };
 
 const STANDAARD = {
   huishouden: { personen: [{ naam: "Ik", factor: 1 }], budget_per_week: 50, supermarkten: ["ah", "jumbo", "lidl"], voorraad: {} },
-  eigenRecepten: [], verborgen: [], eigenPrijzen: {}, keten: null, seed: 1, afgevinkt: {}, tab: "week",
+  aantallen: {}, eigenPrijzen: {}, keten: null, afgevinkt: {}, tab: "week",
 };
 function lees() {
   try { return { ...STANDAARD, ...JSON.parse(localStorage.getItem("weekmenu") || "{}") }; } catch { return structuredClone(STANDAARD); }
@@ -20,7 +20,6 @@ function bewaar() { try { localStorage.setItem("weekmenu", JSON.stringify(staat)
 
 let data = null; // { prijzen, gemaakt, recepten, ingredienten }
 let plannen = [];
-let rekenen = false;
 
 async function laadData() {
   const [p, r, i] = await Promise.all(["data/ingredientprijzen.json", "data/recepten.json", "data/ingredienten.json"]
@@ -28,7 +27,8 @@ async function laadData() {
   data = { prijzen: p.ingredienten, gemaakt: p.gemaakt, recepten: r, ingredienten: Object.fromEntries(i.map((d) => [d.naam, d])) };
 }
 
-const alleRecepten = () => [...staat.eigenRecepten, ...data.recepten.filter((r) => !staat.verborgen.includes(r.naam))];
+const alleRecepten = () => data.recepten;
+const aantal = (naam) => staat.aantallen[naam] ?? 1;
 const recept = (naam) => alleRecepten().find((r) => r.naam === naam);
 const houdbaar = () => new Set(Object.values(data.ingredienten).filter((d) => d.houdbaar).map((d) => d.naam));
 const vandaag = () => new Date().toLocaleDateString("sv-SE");
@@ -39,12 +39,9 @@ function prijzen() {
 }
 
 function herbereken() {
-  rekenen = true; teken();
-  setTimeout(() => {
-    plannen = vergelijk(alleRecepten(), prijzen(), staat.huishouden, { dag: vandaag(), houdbaar: houdbaar(), seed: staat.seed });
-    if (!plannen.some((p) => p.keten === staat.keten)) staat.keten = plannen[0]?.keten ?? null;
-    rekenen = false; bewaar(); teken();
-  }, 30);
+  plannen = vergelijkWinkels(alleRecepten(), prijzen(), staat.huishouden, { dag: vandaag(), houdbaar: houdbaar(), aantallen: staat.aantallen });
+  if (!plannen.some((p) => p.keten === staat.keten)) staat.keten = plannen[0]?.keten ?? null;
+  bewaar(); teken();
 }
 
 // --- Hulpjes -----------------------------------------------------------------------------
@@ -71,52 +68,60 @@ const ingredientOpties = (gekozenNaam = "") => Object.keys(data.prijzen).sort((a
 
 function schermWeek() {
   const h = staat.huishouden, p = gekozen();
-  if (rekenen && !plannen.length) return `<p class="bezig">Weekmenu wordt samengesteld…</p>`;
-  if (!plannen.length) return `<div class="card">Er is geen weekmenu te maken. Kies minstens één supermarkt bij Huishouden en zorg dat er van elk soort maaltijd een recept is.</div>`;
-  const pct = Math.min(100, (p.totaal / h.budget_per_week) * 100);
+  if (!plannen.length) return `<div class="card">Kies bij Huishouden minstens één supermarkt om te vergelijken.</div>`;
+  const keer = alleRecepten().reduce((n, r) => n + aantal(r.naam), 0);
+  const budget = h.budget_per_week;
+  const pct = budget ? Math.min(100, (p.weekbedrag / budget) * 100) : 0;
+  const goedkoopst = (r) => {
+    const bedragen = plannen.map((w) => [w.keten, receptPrijs(r, prijzen(), w.keten, h.personen)]).filter(([, b]) => b != null);
+    return bedragen.length ? bedragen.reduce((a, b) => (b[1] < a[1] ? b : a)) : null;
+  };
   return `
   <header class="kop">
-    <div class="row between"><h1>Deze week</h1><span class="pill">${porties(h.personen).toLocaleString("nl-NL")} ${porties(h.personen) === 1 ? "portie" : "porties"} per maaltijd</span></div>
-    <div class="stack" style="gap:6px">
+    <div class="row between"><h1>Deze week</h1><span class="pill">${keer} ${keer === 1 ? "maaltijd" : "maaltijden"} · ${porties(h.personen).toLocaleString("nl-NL")} ${porties(h.personen) === 1 ? "portie" : "porties"}</span></div>
+    ${budget ? `<div class="stack" style="gap:6px">
       <div class="row between"><span class="muted small">Weekbedrag bij ${KETENS[p.keten]}</span>
-        <span class="geld">${euro(p.totaal)} <span class="muted">van ${euro(h.budget_per_week)}</span></span></div>
-      <div class="meter ${p.binnen_budget ? "" : "over"}" role="img" aria-label="${Math.round(pct)}% van het budget"><i style="width:${pct}%"></i></div>
-      ${p.binnen_budget ? "" : `<p class="fout">Dit menu is ${euro(p.totaal - h.budget_per_week)} duurder dan je budget. Voeg goedkopere recepten toe of verhoog het budget.</p>`}
-    </div>
+        <span class="geld">${euro(p.weekbedrag)} <span class="muted">van ${euro(budget)}</span></span></div>
+      <div class="meter ${p.weekbedrag <= budget ? "" : "over"}" role="img" aria-label="${Math.round(pct)}% van het budget"><i style="width:${pct}%"></i></div>
+    </div>` : ""}
   </header>
 
   <section class="stack" aria-labelledby="kies">
-    <div class="row between"><h2 id="kies">Kies je supermarkt</h2>
-      <button class="klein" id="nieuw" ${rekenen ? "disabled" : ""}>${rekenen ? "Bezig…" : "Ander menu"}</button></div>
+    <h2 id="kies">Waar is het goedkoopst?</h2>
     <div class="winkels">
       ${plannen.map((x, i) => `
         <button class="winkel card" data-keten="${x.keten}" aria-pressed="${x.keten === staat.keten}">
-          <span class="row between"><span class="naam">${KETENS[x.keten]}</span>${i === 0 ? `<span class="pill ok">Goedkoopst</span>` : ""}</span>
-          <span class="bedrag">${euro(x.totaal)}</span>
+          <span class="row between"><span class="naam">${KETENS[x.keten]}</span>${i === 0 && !x.ontbrekend.length ? `<span class="pill ok">Goedkoopst</span>` : ""}</span>
+          <span class="bedrag">${euro(x.weekbedrag)}</span>
           <span class="small muted">Kassabon ${euro(x.kassabon)}</span>
-          <span>${x.binnen_budget ? `<span class="pill ok">Binnen budget</span>` : `<span class="pill bad">${euro(x.totaal - h.budget_per_week)} te duur</span>`}</span>
+          ${x.ontbrekend.length ? `<span class="small fout">Mist ${x.ontbrekend.map(esc).join(", ")}</span>` : ""}
         </button>`).join("")}
     </div>
-    <p class="small muted">Elke winkel krijgt een eigen menu, want wat goedkoop is verschilt per winkel. Lang houdbare producten tellen mee voor wat je deze week gebruikt; de kassabon is wat je nu afrekent.</p>
+    <p class="small muted">Lang houdbare producten, zoals rijst en sriracha mayo, tellen mee voor wat je deze week gebruikt; de kassabon is wat je nu afrekent. Mist een winkel iets, vul het dan in bij Prijzen.</p>
   </section>
 
-  <section class="card" aria-labelledby="menu">
-    <h2 id="menu" style="margin-bottom:8px">Menu bij ${KETENS[p.keten]}</h2>
-    ${p.menu.map((d, i) => `
-      <div class="dag">
-        <div class="wk">${d.dag.slice(0, 2).replace(/^./, (c) => c.toUpperCase())}<small>${d.dag}</small></div>
-        <div class="maaltijden">
-          ${TYPES.map((t) => `<button class="maal" data-recept="${esc(d[t])}"><span class="soort">${t}</span>
-            <span class="gerecht">${esc(d[t])}${recept(d[t])?.bron === "eigen" ? `<span class="eigen-tag">eigen</span>` : ""}</span></button>`).join("")}
-        </div>
-      </div>`).join("")}
+  <section class="card stack" aria-labelledby="menu">
+    <h2 id="menu">Recepten deze week</h2>
+    <ul class="lijstje">
+      ${alleRecepten().map((r) => {
+        const g = goedkoopst(r);
+        return `<li style="align-items:center">
+          <span style="min-width:0"><button class="tekst" data-recept="${esc(r.naam)}" style="text-align:left;padding-left:0">${esc(r.naam)}</button>
+            <span class="detail small muted" style="display:block">${g ? `Goedkoopst bij ${KETENS[g[0]]}, ${euro(g[1])}` : "Nergens compleet"}</span></span>
+          <span class="row" style="flex-wrap:nowrap;gap:4px">
+            <button class="klein" data-minder="${esc(r.naam)}" aria-label="${esc(r.naam)} minder vaak" ${aantal(r.naam) === 0 ? "disabled" : ""}>−</button>
+            <span class="mono" style="min-width:2.4em;text-align:center">${aantal(r.naam)}×</span>
+            <button class="klein" data-meer="${esc(r.naam)}" aria-label="${esc(r.naam)} vaker" ${aantal(r.naam) >= 7 ? "disabled" : ""}>+</button>
+          </span></li>`;
+      }).join("")}
+    </ul>
   </section>`;
 }
 
 function schermLijst() {
   const p = gekozen();
-  if (!p) return `<div class="card">Nog geen menu. Kies eerst een supermarkt bij Week.</div>`;
-  const af = new Set(staat.afgevinkt[p.keten + p.boodschappendag + staat.seed] || []);
+  if (!p) return `<div class="card">Kies eerst een supermarkt bij Week.</div>`;
+  const af = new Set(staat.afgevinkt[p.keten + p.boodschappendag] || []);
   const open = p.boodschappen.filter((r) => !af.has(r.ingredient));
   return `
   <header class="row between"><h1>Boodschappen</h1><span class="pill">${open.length} van ${p.boodschappen.length} te halen</span></header>
@@ -134,25 +139,26 @@ function schermLijst() {
     }).join("")}
     <div class="streep"></div>
     <div class="totaal groot"><span>TOTAAL</span><span>${euro(p.kassabon)}</span></div>
-    <div class="totaal muted small"><span>waarvan deze week verbruikt</span><span>${euro(p.totaal)}</span></div>
+    <div class="totaal muted small"><span>waarvan deze week verbruikt</span><span>${euro(p.weekbedrag)}</span></div>
+    ${p.ontbrekend.length ? `<p class="fout small" style="font-family:var(--f-body)">Niet te koop in de gegevens: ${p.ontbrekend.map(esc).join(", ")}. Vul het in bij Prijzen.</p>` : ""}
   </section>
   <p class="small muted">Klopt een prijs of verpakking niet? Vul hem zelf in bij Prijzen.</p>`;
 }
 
 function schermRecepten() {
-  const lijst = (t) => alleRecepten().filter((r) => r.type === t);
+  const h = staat.huishouden, p = prijzen();
   return `
-  <header class="row between"><h1>Recepten</h1><button class="primair klein" id="recept-nieuw">Recept toevoegen</button></header>
-  ${TYPES.map((t) => `
-    <section class="card stack" aria-label="${t}">
-      <h2>${t[0].toUpperCase() + t.slice(1)}</h2>
-      <ul class="lijstje">
-        ${lijst(t).map((r) => `<li><button class="tekst" data-recept="${esc(r.naam)}" style="text-align:left">${esc(r.naam)}</button>
-          <span class="row">${r.bron === "eigen" ? `<span class="pill ok">eigen</span>` : ""}
-          <button class="tekst small" data-verwijder-recept="${esc(r.naam)}" aria-label="${esc(r.naam)} niet meer gebruiken">Weg</button></span></li>`).join("")}
-      </ul>
-    </section>`).join("")}
-  ${staat.verborgen.length ? `<p class="small muted">${staat.verborgen.length} voorgestelde recepten staan uit. <button class="tekst" id="herstel">Zet ze terug</button></p>` : ""}`;
+  <header class="stack" style="gap:4px"><h1>Recepten</h1>
+    <p class="small muted">Je vaste recepten. Wil je er een wijzigen of toevoegen, vraag het dan in de chat. Hoe vaak je ze deze week maakt, stel je in bij Week.</p></header>
+  ${alleRecepten().map((r) => `
+    <section class="card stack" aria-label="${esc(r.naam)}">
+      <div class="row between"><h2>${esc(r.naam)}</h2><button class="tekst small" data-recept="${esc(r.naam)}">Bereiding</button></div>
+      <p class="small muted">${r.ingredienten.map((i) => esc(i.naam)).join(", ")}</p>
+      <div class="row">${plannen.map((w) => {
+        const b = receptPrijs(r, p, w.keten, h.personen);
+        return `<span class="pill ${b == null ? "bad" : ""}">${KETENS[w.keten]} ${b == null ? "mist iets" : euro(b)}</span>`;
+      }).join("")}</div>
+    </section>`).join("")}`;
 }
 
 function schermPrijzen() {
@@ -205,7 +211,7 @@ function schermInstellingen() {
   <header><h1>Huishouden</h1></header>
   <section class="card stack" aria-labelledby="budget-kop">
     <h2 id="budget-kop">Budget</h2>
-    <label class="veld">Weekbudget in euro<input id="budget" inputmode="decimal" value="${h.budget_per_week}"></label>
+    <label class="veld">Weekbudget in euro (leeg laten mag)<input id="budget" inputmode="decimal" value="${h.budget_per_week ?? ""}"></label>
   </section>
 
   <section class="card stack" aria-labelledby="pers">
@@ -234,7 +240,7 @@ function schermInstellingen() {
       <button class="klein" type="submit">Toevoegen</button>
     </form>
   </section>
-  <button class="primair" id="opnieuw">Menu opnieuw berekenen</button>`;
+  <button class="primair" id="opnieuw">Opnieuw vergelijken</button>`;
 }
 
 function receptVenster(naam) {
@@ -248,26 +254,6 @@ function receptVenster(naam) {
     <p class="small muted">Voor ${per.toLocaleString("nl-NL")} porties</p>
     <ul class="lijstje">${Object.entries(nodig).map(([n, q]) => `<li><span>${esc(n)}</span><span class="mono">${hoeveelTekst(n, q)}</span></li>`).join("")}</ul>
     ${r.bereiding ? `<p>${esc(r.bereiding)}</p>` : ""}`;
-  $("#venster").showModal();
-}
-
-function receptFormulier() {
-  const rij = () => `<div class="grid3" data-rij><label class="veld">Ingrediënt<select data-r-ing>${ingredientOpties()}</select></label>
-    <label class="veld">Per persoon<input data-r-hoeveel inputmode="decimal" placeholder="100" required></label>
-    <button type="button" class="klein" data-r-weg aria-label="Regel weg">Weg</button></div>`;
-  $("#venster-inhoud").innerHTML = `
-    <form id="recept-form" class="stack">
-      <div class="row between"><h2>Eigen recept</h2><button type="button" class="tekst" data-sluit>Annuleren</button></div>
-      <label class="veld">Naam<input id="rf-naam" required placeholder="Ovenschotel van oma"></label>
-      <label class="veld">Soort<select id="rf-type">${TYPES.map((t) => `<option>${t}</option>`).join("")}</select></label>
-      <div class="stack" id="rf-rijen">${rij()}${rij()}</div>
-      <p class="small muted">Hoeveelheid voor één volwassen portie, in de eenheid achter het ingrediënt. Brood: één snee is 0,045. Knoflook: één teen is 0,1.</p>
-      <button type="button" class="klein" id="rf-erbij">Ingrediënt toevoegen</button>
-      <label class="veld">Bereiding (mag leeg)<textarea id="rf-bereiding"></textarea></label>
-      <p class="fout" id="rf-fout" hidden></p>
-      <button class="primair" type="submit">Recept opslaan</button>
-    </form>`;
-  $("#rf-erbij").onclick = () => $("#rf-rijen").insertAdjacentHTML("beforeend", rij());
   $("#venster").showModal();
 }
 
@@ -289,25 +275,20 @@ document.addEventListener("click", (e) => {
   const d = t.dataset;
   if (d.tab) { staat.tab = d.tab; bewaar(); teken(); scrollTo(0, 0); }
   else if (d.keten) { staat.keten = d.keten; bewaar(); teken(); }
-  else if (t.id === "nieuw") { staat.seed = Math.floor(Math.random() * 1e6); herbereken(); }
+  else if (d.meer || d.minder) {
+    const n = d.meer || d.minder;
+    staat.aantallen[n] = Math.max(0, Math.min(7, aantal(n) + (d.meer ? 1 : -1)));
+    herbereken();
+  }
   else if (d.recept) receptVenster(d.recept);
   else if (d.sluit !== undefined) $("#venster").close();
   else if (d.af) {
-    const p = gekozen(), sleutel = p.keten + p.boodschappendag + staat.seed;
+    const p = gekozen(), sleutel = p.keten + p.boodschappendag;
     const af = new Set(staat.afgevinkt[sleutel] || []);
     t.checked ? af.add(d.af) : af.delete(d.af);
     staat.afgevinkt = { [sleutel]: [...af] }; // alleen de lijst van deze week bewaren
     bewaar(); teken();
   }
-  else if (t.id === "recept-nieuw") receptFormulier();
-  else if (d.rWeg !== undefined) t.closest("[data-rij]").remove();
-  else if (d.verwijderRecept) {
-    const n = d.verwijderRecept;
-    if (staat.eigenRecepten.some((r) => r.naam === n)) staat.eigenRecepten = staat.eigenRecepten.filter((r) => r.naam !== n);
-    else staat.verborgen.push(n);
-    toon(`${n} wordt niet meer gebruikt`); herbereken();
-  }
-  else if (t.id === "herstel") { staat.verborgen = []; herbereken(); }
   else if (d.vul) {
     const [k, n] = d.vul.split("|");
     $("#pf-keten").value = k; $("#pf-ing").value = n; $("#pf-product").focus();
@@ -326,7 +307,7 @@ document.addEventListener("click", (e) => {
 
 document.addEventListener("change", (e) => {
   const t = e.target, d = t.dataset, h = staat.huishouden;
-  if (t.id === "budget") { const b = decimaal(t.value); if (b > 0) { h.budget_per_week = b; bewaar(); } else toon("Vul een bedrag in, bijvoorbeeld 50"); }
+  if (t.id === "budget") { const b = decimaal(t.value); h.budget_per_week = b > 0 ? b : null; bewaar(); }
   else if (d.persoonNaam) { h.personen[+d.persoonNaam].naam = t.value; bewaar(); }
   else if (d.persoonFactor) { h.personen[+d.persoonFactor].factor = +t.value; bewaar(); }
   else if (d.winkel) { h.supermarkten = Object.keys(KETENS).filter((k) => $(`[data-winkel=${k}]`).checked); bewaar(); }
@@ -349,15 +330,6 @@ document.addEventListener("submit", (e) => {
     const q = decimaal($("#vr-hoeveel").value);
     if (!(q > 0)) return toon("Vul een hoeveelheid in");
     staat.huishouden.voorraad[$("#vr-ing").value] = q; bewaar(); teken();
-  } else if (f.id === "recept-form") {
-    const naam = $("#rf-naam").value.trim(), fout = $("#rf-fout");
-    const ingredienten = [...f.querySelectorAll("[data-rij]")].map((r) => ({ naam: $("[data-r-ing]", r).value, hoeveelheid: decimaal($("[data-r-hoeveel]", r).value) }));
-    const probleem = !naam ? "Geef het recept een naam."
-      : alleRecepten().some((r) => r.naam === naam) ? "Er is al een recept met deze naam."
-      : !ingredienten.length || ingredienten.some((i) => !(i.hoeveelheid > 0)) ? "Vul bij elk ingrediënt een hoeveelheid in." : null;
-    if (probleem) { fout.textContent = probleem; fout.hidden = false; return; }
-    staat.eigenRecepten.push({ naam, type: $("#rf-type").value, bron: "eigen", ingredienten, bereiding: $("#rf-bereiding").value.trim() });
-    $("#venster").close(); toon(`${naam} toegevoegd`); herbereken();
   }
 });
 

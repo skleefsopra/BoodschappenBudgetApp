@@ -17,7 +17,7 @@ De dataset (10 MB) wordt 12 uur bewaard in `cache/`.
 - `ingredienten.json`: de 41 basisingrediënten met zoektermen. Hier voeg je ingrediënten toe of verbeter je een koppeling.
 - `prijzen/maat.py`: leest verpakkingsgroottes uit ('2 x 75 ml', 'ca. 350 g', '18st.', 'per stuk').
 - `prijzen/koppel.py`: zoekt per ingrediënt de producten en rekent uit hoeveel verpakkingen je nodig hebt.
-- `ingredientprijzen.json`: de uitvoer, per ingrediënt de 5 goedkoopste producten per keten. Dit kleine bestand (±140 KB) gebruiken de planner en de app.
+- `ingredientprijzen.json`: de uitvoer, per ingrediënt de 5 goedkoopste producten per keten. Dit kleine bestand (±140 KB) gebruikt de app.
 
 ## Hoe een ingrediënt werkt
 
@@ -49,7 +49,7 @@ De dataset (10 MB) wordt 12 uur bewaard in `cache/`.
 
 # Stap 2: recepten en porties
 
-- `recepten.json`: 22 voorgestelde recepten (6 ontbijt, 6 lunch, 10 diner) die alleen ingrediënten uit `ingredienten.json` gebruiken.
+- `recepten.json`: je vaste recepten (poke bowl, pasta bolognese, AVG met biefstuk, gym maaltijd, smash burger).
 - `huishouden.json`: personen met een portiefactor, het weekbudget en de supermarkten om te vergelijken.
 - `prijzen/recepten.py`: controleert recepten, rekent ze om naar het huishouden en maakt een boodschappenlijst per supermarkt.
 
@@ -95,46 +95,38 @@ Als de dataset een product of verpakkingsgrootte mist, vul je die zelf in via `e
 `python3 bouw_prijzen.py` toont na het bouwen per supermarkt welke ingrediënten geen product hebben of alleen een
 geschatte maat. Dat is je lijstje om in te vullen. In de telefoon-app (stap 4) komt hier een invulscherm voor.
 
-# Stap 3: weekplanner
+# Stap 3: waar zijn je recepten het goedkoopst?
 
-    python3 plan_week.py                   # weekmenu per supermarkt, goedkoopste eerst
-    python3 plan_week.py lidl              # menu plus boodschappenlijst voor één supermarkt
-    python3 plan_week.py --dag 2026-10-26  # plannen voor een andere boodschappendag
+Je hebt vaste recepten in `recepten.json` (nu 5 diners). Per week vergelijkt de app wat die recepten samen kosten bij
+AH, Jumbo en Lidl, en maakt hij de boodschappenlijst voor de winkel die je kiest. De app stelt zelf geen recepten voor.
 
-De planner kiest 7 ontbijten, 7 lunches en 7 diners en maakt per supermarkt een eigen menu, omdat wat goedkoop is
-per winkel verschilt. Jij kiest daarna de winkel. De uitkomst komt ook in `weekplan.json`, voor de app.
+    python3 vergelijk.py                   # weekbedrag en kassabon per supermarkt
+    python3 vergelijk.py jumbo             # plus de boodschappenlijst voor één supermarkt
+    python3 vergelijk.py --dag 2026-10-26  # voor een andere boodschappendag
 
-Waar de planner op let, van zwaar naar licht:
-1. Binnen het budget uit `huishouden.json` blijven. Lukt dat niet, dan zie je hoeveel het te duur is.
-2. Afwisseling: een ontbijt of lunch hoogstens 3 keer per week, een diner hoogstens 2 keer, en niet twee dagen achter elkaar.
-3. Eigen recepten (`"bron": "eigen"`) gaan voor voorgestelde.
-4. Goedkoper is beter. Recepten die ingrediënten delen worden vanzelf vaker gekozen, want je koopt hele verpakkingen.
+- Per recept stel je in de app in hoe vaak je het deze week maakt (0 tot 7 keer, standaard 1).
+- **Twee bedragen.** Houdbare producten (`"houdbaar": true` in `ingredienten.json`, zoals rijst, pasta en sriracha mayo)
+  tellen voor het weekbedrag alleen mee voor wat je deze week gebruikt. De kassabon is wat je nu afrekent.
+- Een winkel waar een ingrediënt in de gegevens ontbreekt, komt achteraan met de lijst van wat mist. Vul het aan bij Prijzen.
+- **Voorraad.** Wat je al in huis hebt (`"voorraad"` in `huishouden.json`, of bij Huishouden in de app) wordt niet gekocht.
+- Lidl-aanbiedingen van lidl.nl tellen alleen mee als ze op de boodschappendag geldig zijn.
 
-**Twee bedragen.** Houdbare producten (in `ingredienten.json` gemarkeerd met `"houdbaar": true`, zoals pindakaas,
-olie, rijst en blikken) gaan meerdere weken mee. Voor het budget telt alleen wat je deze week gebruikt. Daarom zie je:
-- het weekbedrag dat tegen je budget wordt afgezet;
-- wat je deze week bij de kassa betaalt. De eerste week is dat hoger, omdat je je voorraad aanvult.
-
-**Voorraad.** Wat je al in huis hebt zet je in `huishouden.json`, in de eenheid van het ingrediënt. Dat wordt niet gekocht:
-
-    "voorraad": {"rijst": 800, "olijfolie": 500, "pindakaas": 300}
-
-Lidl-aanbiedingen van lidl.nl tellen alleen mee als ze op de boodschappendag geldig zijn.
+Een recept toevoegen of wijzigen gaat via `recepten.json`; hoeveelheden zijn per volwassen portie.
 
 # Stap 4: de app op je telefoon
 
-De app staat in `web/` en is een web-app die je op je beginscherm zet. Hij rekent het weekmenu op de telefoon zelf
-uit (`web/planner.js`, dezelfde planner als `prijzen/planner.py`) en heeft alleen de drie bestanden in `web/data/` nodig.
+De app staat in `web/` en is een web-app die je op je beginscherm zet. Hij rekent de vergelijking op de telefoon zelf
+uit (`web/planner.js`, hetzelfde rekenwerk als `prijzen/recepten.py`) en heeft alleen de drie bestanden in `web/data/` nodig.
 
     python3 bouw_prijzen.py && python3 bouw_web.py   # nieuwe prijzen in de app zetten
     cd web && python3 -m http.server 8000             # proberen op http://localhost:8000
-    node --test web/tests/planner.test.mjs            # tests van de app-planner
+    node --test web/tests/planner.test.mjs            # tests van het rekenwerk in de app
 
 Schermen:
-- **Week**: per supermarkt het weekbedrag, de kassabon en of het binnen je budget past. Tik een winkel aan voor zijn menu,
-  tik een maaltijd aan voor ingrediënten en bereiding. "Ander menu" maakt een nieuw menu.
+- **Week**: per supermarkt het weekbedrag en de kassabon voor je recepten, en hoe vaak je elk recept deze week maakt.
+  Tik een winkel aan om die te kiezen.
 - **Lijst**: de boodschappenlijst als kassabon, met afvinken. Productnamen linken naar de winkel.
-- **Recepten**: eigen recepten toevoegen, voorgestelde uitzetten.
+- **Recepten**: je vaste recepten met de prijs per supermarkt.
 - **Prijzen**: wat per winkel ontbreekt of geschat is. Tik erop en vul prijs en verpakking in.
 - **Huishouden**: budget, wie er meeeet (met portiegrootte), welke winkels, en wat je al in huis hebt.
 

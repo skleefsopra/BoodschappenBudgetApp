@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { leesMaat, kosten, eigenKandidaat, metEigenPrijzen, vergelijk, prijzenOpDag } from "../planner.js";
+import { leesMaat, kosten, eigenKandidaat, metEigenPrijzen, vergelijkWinkels, receptPrijs, prijzenOpDag } from "../planner.js";
 
 const lees = (p) => JSON.parse(fs.readFileSync(new URL(p, import.meta.url)));
 const prijzen = lees("../data/ingredientprijzen.json").ingredienten;
@@ -32,11 +32,21 @@ test("verlopen aanbiedingen vallen weg", () => {
   assert.deepEqual(prijzenOpDag(p, "2026-10-21").x.ketens.lidl.map((c) => c.product), ["vast"]);
 });
 
-test("weekmenu per winkel, goedkoopste eerst, binnen ruim budget", () => {
+test("winkels vergelijken: goedkoopste complete winkel eerst, aantallen tellen mee", () => {
   const houdbaar = new Set(Object.values(ing).filter((d) => d.houdbaar).map((d) => d.naam));
-  const plannen = vergelijk(recepten, prijzen, { personen: [{ naam: "a", factor: 1 }], budget_per_week: 60, supermarkten: ["ah", "jumbo", "lidl"] },
-    { dag: "2026-10-21", houdbaar, seed: 1 });
-  assert.equal(plannen.length, 3);
-  assert.ok(plannen.every((p) => p.binnen_budget && p.menu.length === 7));
-  assert.deepEqual(plannen.map((p) => p.totaal), [...plannen.map((p) => p.totaal)].sort((a, b) => a - b));
+  const huishouden = { personen: [{ naam: "a", factor: 1 }], supermarkten: ["ah", "jumbo", "lidl"] };
+  const w = vergelijkWinkels(recepten, prijzen, huishouden, { dag: "2026-10-21", houdbaar });
+  assert.equal(w.length, 3);
+  const compleet = w.filter((x) => !x.ontbrekend.length);
+  assert.deepEqual(w.slice(0, compleet.length), compleet);
+  assert.ok(w.every((x) => x.weekbedrag <= x.kassabon));
+  const zonder = vergelijkWinkels(recepten, prijzen, huishouden, { dag: "2026-10-21", aantallen: Object.fromEntries(recepten.map((r) => [r.naam, 0])) });
+  assert.ok(zonder.every((x) => x.kassabon === 0));
+});
+
+test("receptprijs schaalt met personen en is null als iets ontbreekt", () => {
+  const r = { ingredienten: [{ naam: "uien", hoeveelheid: 100 }] };
+  const een = receptPrijs(r, prijzen, "ah", [{ factor: 1 }]);
+  assert.ok(Math.abs(receptPrijs(r, prijzen, "ah", [{ factor: 1 }, { factor: 1 }]) - 2 * een) < 0.011);
+  assert.equal(receptPrijs({ ingredienten: [{ naam: "bestaat niet", hoeveelheid: 1 }] }, prijzen, "ah", [{}]), null);
 });

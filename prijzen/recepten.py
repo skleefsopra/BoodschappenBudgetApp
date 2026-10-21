@@ -5,6 +5,7 @@ personen met een portiefactor, zodat een kind of een grote eter meeschaalt:
 
     [{"naam": "Sander", "factor": 1.0}, {"naam": "kind", "factor": 0.6}]
 """
+import copy
 import json
 from collections import defaultdict
 
@@ -82,3 +83,44 @@ def portieprijs(recept, ingredientprijzen, keten):
             return None
         totaal += opties[0]["eenheidsprijs"] * i["hoeveelheid"]
     return round(totaal, 2)
+
+
+def prijzen_op_dag(ingredientprijzen, dag):
+    """Laat aanbiedingen weg die op de boodschappendag niet geldig zijn (lidl.nl-folder)."""
+    dag = dag.isoformat()
+    uit = copy.deepcopy(ingredientprijzen)
+    for info in uit.values():
+        for keten, opties in info["ketens"].items():
+            info["ketens"][keten] = [c for c in opties
+                                     if not (c.get("geldig_tot") and c["geldig_tot"] < dag)
+                                     and not (c.get("geldig_van") and c["geldig_van"] > dag)]
+    return uit
+
+
+def vergelijk_winkels(recepten, ingredientprijzen, huishouden, dag, houdbaar=(), aantallen=None):
+    """Wat je weekrecepten kosten bij elke supermarkt, goedkoopste eerst.
+
+    `aantallen` zegt hoe vaak je een recept deze week maakt (standaard 1 keer, 0 is overslaan).
+    Houdbare ingrediënten (pot, fles, pak) tellen voor het weekbedrag alleen mee voor wat je
+    deze week gebruikt; de kassabon telt hele verpakkingen. Een winkel die een ingrediënt niet
+    heeft, komt achteraan met de lijst van wat ontbreekt.
+    """
+    aantallen = aantallen or {}
+    menu = [r for r in recepten for _ in range(aantallen.get(r["naam"], 1))]
+    prijzen = prijzen_op_dag(ingredientprijzen, dag)
+    nodig = benodigd(menu, huishouden["personen"])
+    for naam, hoeveel in huishouden.get("voorraad", {}).items():
+        if naam in nodig:
+            nodig[naam] = max(0.0, nodig[naam] - hoeveel)
+    nodig = {n: h for n, h in nodig.items() if h > 0}
+
+    uit = []
+    for keten in huishouden.get("supermarkten", ("ah", "jumbo", "lidl")):
+        lijst, kassabon, ontbrekend = boodschappen(nodig, prijzen, keten)
+        weekbedrag = 0.0
+        for r in lijst:
+            r["houdbaar"] = r["ingredient"] in houdbaar
+            weekbedrag += r["prijs"] * min(1.0, r["nodig"] / (r["aantal"] * r["verpakking"])) if r["houdbaar"] else r["prijs"]
+        uit.append({"keten": keten, "weekbedrag": round(weekbedrag, 2), "kassabon": kassabon,
+                    "ontbrekend": ontbrekend, "boodschappen": lijst})
+    return sorted(uit, key=lambda w: (bool(w["ontbrekend"]), w["weekbedrag"]))

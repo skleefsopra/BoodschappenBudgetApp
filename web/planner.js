@@ -1,12 +1,5 @@
-// De weekplanner van prijzen/planner.py, omgezet naar JavaScript zodat hij op de telefoon draait.
+// Het rekenwerk van prijzen/recepten.py, in JavaScript zodat de app het op de telefoon doet.
 // Werkt in de browser en in Node (voor de tests).
-
-export const TYPES = ["ontbijt", "lunch", "diner"];
-export const DAGEN = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"];
-export const MAX_HERHALING = { ontbijt: 3, lunch: 3, diner: 2 };
-const STRAF_BUDGET = 100; // per euro boven budget
-const STRAF_HERHALING = 1.5; // 2e keer hetzelfde recept € 1,50, 3e keer € 6
-const BONUS_EIGEN = 0.5;
 
 // --- Maten, zoals prijzen/maat.py ---------------------------------------------------------
 
@@ -112,7 +105,7 @@ export function boodschappen(nodig, prijzen, keten) {
   return lijst;
 }
 
-// --- Planner, zoals prijzen/planner.py ---------------------------------------------------
+// --- Winkels vergelijken, zoals prijzen/recepten.vergelijk_winkels ------------------------
 
 export function prijzenOpDag(prijzen, dag) {
   const uit = structuredClone(prijzen);
@@ -123,100 +116,38 @@ export function prijzenOpDag(prijzen, dag) {
   return uit;
 }
 
-const beschikbaar = (recepten, prijzen, keten) =>
-  recepten.filter((r) => r.ingredienten.every((i) => prijzen[i.naam]?.ketens[keten]?.length));
-
-function rekening(menu, huishouden, prijzen, keten, houdbaar) {
+// Wat de weekrecepten kosten per supermarkt, goedkoopste eerst; winkels waar iets ontbreekt achteraan.
+// `aantallen`: hoe vaak per week je een recept maakt (standaard 1, 0 is overslaan).
+export function vergelijkWinkels(recepten, prijzen, huishouden, { dag, houdbaar = new Set(), aantallen = {} } = {}) {
+  dag = dag || new Date().toISOString().slice(0, 10);
+  const p = prijzenOpDag(prijzen, dag);
+  const menu = recepten.flatMap((r) => Array(aantallen[r.naam] ?? 1).fill(r));
   const nodig = benodigd(menu, huishouden.personen);
   for (const [naam, n] of Object.entries(huishouden.voorraad || {}))
     if (naam in nodig) nodig[naam] = Math.max(0, nodig[naam] - n);
   for (const naam of Object.keys(nodig)) if (nodig[naam] <= 0) delete nodig[naam];
-  const lijst = boodschappen(nodig, prijzen, keten);
-  let kassabon = 0, budgetbedrag = 0;
-  for (const r of lijst) {
-    r.houdbaar = houdbaar.has(r.ingredient);
-    kassabon += r.prijs;
-    budgetbedrag += r.houdbaar ? r.prijs * Math.min(1, r.nodig / (r.aantal * r.verpakking)) : r.prijs;
-  }
-  return { lijst, kassabon: Math.round(kassabon * 100) / 100, budgetbedrag: Math.round(budgetbedrag * 100) / 100 };
-}
 
-function score(keuze, totaal, budget) {
-  let s = Math.max(0, totaal - budget) * STRAF_BUDGET + totaal;
-  for (const [soort, recepten] of Object.entries(keuze)) {
-    const tel = {};
-    for (const r of recepten) tel[r.naam] = (tel[r.naam] || 0) + 1;
-    for (const n of Object.values(tel)) {
-      s += STRAF_HERHALING * (n - 1) ** 2;
-      if (n > MAX_HERHALING[soort]) s += 1000;
+  return (huishouden.supermarkten || ["ah", "jumbo", "lidl"]).map((keten) => {
+    const lijst = boodschappen(nodig, p, keten);
+    const ontbrekend = Object.keys(nodig).filter((n) => !p[n]?.ketens[keten]?.length).sort();
+    let kassabon = 0, weekbedrag = 0;
+    for (const r of lijst) {
+      r.houdbaar = houdbaar.has(r.ingredient);
+      kassabon += r.prijs;
+      weekbedrag += r.houdbaar ? r.prijs * Math.min(1, r.nodig / (r.aantal * r.verpakking)) : r.prijs;
     }
-    s -= BONUS_EIGEN * recepten.filter((r) => r.bron === "eigen").length;
+    const rond = (n) => Math.round(n * 100) / 100;
+    return { keten, boodschappendag: dag, weekbedrag: rond(weekbedrag), kassabon: rond(kassabon), ontbrekend, boodschappen: lijst };
+  }).sort((a, b) => (a.ontbrekend.length > 0) - (b.ontbrekend.length > 0) || a.weekbedrag - b.weekbedrag);
+}
+
+// Wat één keer dit recept kost bij een winkel als je alleen het gebruikte deel telt; null als iets ontbreekt.
+export function receptPrijs(recept, prijzen, keten, personen) {
+  let totaal = 0;
+  for (const i of recept.ingredienten) {
+    const opties = prijzen[i.naam]?.ketens[keten];
+    if (!opties?.length) return null;
+    totaal += Math.min(...opties.map((c) => c.eenheidsprijs)) * i.hoeveelheid;
   }
-  return s;
-}
-
-// Kleine voorspelbare randomgenerator, zodat dezelfde seed hetzelfde menu geeft.
-function maakRandom(seed) {
-  let a = seed >>> 0 || 1;
-  const rnd = () => {
-    a = (a + 0x6d2b79f5) >>> 0;
-    let t = a;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-  rnd.kies = (lijst) => lijst[Math.floor(rnd() * lijst.length)];
-  return rnd;
-}
-
-function verdeelOverWeek(recepten, rnd) {
-  const rest = [...recepten].sort(() => rnd() - 0.5);
-  const aantal = (r) => recepten.filter((x) => x.naam === r.naam).length;
-  rest.sort((a, b) => aantal(b) - aantal(a) || a.naam.localeCompare(b.naam));
-  const week = new Array(7);
-  [0, 2, 4, 6, 1, 3, 5].forEach((plek, i) => (week[plek] = rest[i]));
-  return week;
-}
-
-export function plan(recepten, prijzen, huishouden, keten, { dag, houdbaar = new Set(), seed = 1, pogingen = 6, stappen = 400 } = {}) {
-  dag = dag || new Date().toISOString().slice(0, 10);
-  const p = prijzenOpDag(prijzen, dag);
-  const budget = huishouden.budget_per_week ?? Infinity;
-  const rnd = maakRandom(seed);
-  const perType = {};
-  for (const t of TYPES) perType[t] = beschikbaar(recepten, p, keten).filter((r) => r.type === t);
-  if (!TYPES.every((t) => perType[t].length)) return null;
-
-  const beoordeel = (keuze) =>
-    score(keuze, rekening(Object.values(keuze).flat(), huishouden, p, keten, houdbaar).budgetbedrag, budget);
-
-  let beste = null, besteScore = Infinity;
-  for (let poging = 0; poging < pogingen; poging++) {
-    const keuze = {};
-    for (const t of TYPES) keuze[t] = DAGEN.map(() => rnd.kies(perType[t]));
-    let s = beoordeel(keuze);
-    for (let stap = 0; stap < stappen; stap++) {
-      const t = rnd.kies(TYPES), i = Math.floor(rnd() * 7), oud = keuze[t][i];
-      keuze[t][i] = rnd.kies(perType[t]);
-      const nieuw = beoordeel(keuze);
-      if (nieuw <= s) s = nieuw;
-      else keuze[t][i] = oud;
-    }
-    if (s < besteScore) [beste, besteScore] = [Object.fromEntries(TYPES.map((t) => [t, [...keuze[t]]])), s];
-  }
-
-  const { lijst, kassabon, budgetbedrag } = rekening(Object.values(beste).flat(), huishouden, p, keten, houdbaar);
-  const week = Object.fromEntries(TYPES.map((t) => [t, verdeelOverWeek(beste[t], rnd)]));
-  return {
-    keten, boodschappendag: dag, budget, totaal: budgetbedrag, kassabon, binnen_budget: budgetbedrag <= budget,
-    menu: DAGEN.map((d, i) => ({ dag: d, ...Object.fromEntries(TYPES.map((t) => [t, week[t][i].naam])) })),
-    boodschappen: lijst,
-  };
-}
-
-export function vergelijk(recepten, prijzen, huishouden, opties = {}) {
-  return (huishouden.supermarkten || ["ah", "jumbo", "lidl"])
-    .map((k) => plan(recepten, prijzen, huishouden, k, opties))
-    .filter(Boolean)
-    .sort((a, b) => a.totaal - b.totaal);
+  return Math.round(totaal * porties(personen) * 100) / 100;
 }

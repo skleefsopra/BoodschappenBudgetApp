@@ -42,3 +42,17 @@ def test_meegeleverde_recepten_zijn_geldig():
     prijzen = json.loads((MAP / "ingredientprijzen.json").read_text(encoding="utf-8"))["ingredienten"]
     recepten = json.loads((MAP / "recepten.json").read_text(encoding="utf-8"))
     assert controleer(recepten, prijzen) == []
+
+
+def test_vergelijk_winkels_aantallen_en_ontbrekend():
+    import datetime
+    from prijzen.recepten import vergelijk_winkels
+    prijzen = {"spaghetti": {"eenheid": "g", "ketens": {
+        "ah": [{"product": "S", "prijs": 1.0, "verpakking": 500, "eenheidsprijs": 0.002, "url": "", "geschat": False}],
+        "lidl": []}}}
+    huishouden = {"personen": [{"naam": "a"}], "supermarkten": ["ah", "lidl"]}
+    dag = datetime.date(2026, 10, 21)
+    ah, lidl = vergelijk_winkels([RECEPT], prijzen, huishouden, dag, aantallen={"Pasta": 6})
+    assert ah["keten"] == "ah" and ah["kassabon"] == 2.0  # 600 g = 2 pakken
+    assert lidl["ontbrekend"] == ["spaghetti"]
+    assert vergelijk_winkels([RECEPT], prijzen, huishouden, dag, houdbaar={"spaghetti"})[0]["weekbedrag"] == 0.2

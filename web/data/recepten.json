@@ -1,562 +1,142 @@
 [
  {
-  "naam": "Havermout met banaan",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
+  "naam": "Poke bowl",
+  "type": "diner",
+  "bron": "eigen",
   "ingredienten": [
-   {
-    "naam": "havermout",
-    "hoeveelheid": 50
-   },
-   {
-    "naam": "halfvolle melk",
-    "hoeveelheid": 250
-   },
-   {
-    "naam": "bananen",
-    "hoeveelheid": 0.5
-   }
-  ],
-  "bereiding": "Havermout met melk 3 minuten koken, banaan erdoor."
- },
- {
-  "naam": "Yoghurt met havermout en appel",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "magere yoghurt",
-    "hoeveelheid": 200
-   },
-   {
-    "naam": "havermout",
-    "hoeveelheid": 30
-   },
-   {
-    "naam": "appels",
-    "hoeveelheid": 0.5
-   }
-  ],
-  "bereiding": "Appel in blokjes, alles in een kom."
- },
- {
-  "naam": "Boterhammen met kaas",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.135
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 8
-   },
-   {
-    "naam": "jong belegen kaas",
-    "hoeveelheid": 30
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Boterhammen met pindakaas en jam",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.135
-   },
-   {
-    "naam": "pindakaas",
-    "hoeveelheid": 15
-   },
-   {
-    "naam": "jam",
-    "hoeveelheid": 15
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Gebakken eieren met brood",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "eieren",
-    "hoeveelheid": 2
-   },
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.09
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 10
-   }
-  ],
-  "bereiding": "Eieren bakken in boter, met brood."
- },
- {
-  "naam": "Boterhammen met hagelslag",
-  "type": "ontbijt",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.135
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 8
-   },
-   {
-    "naam": "hagelslag",
-    "hoeveelheid": 20
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Broodjes kaas en komkommer",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.18
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 10
-   },
-   {
-    "naam": "jong belegen kaas",
-    "hoeveelheid": 40
-   },
-   {
-    "naam": "komkommer",
-    "hoeveelheid": 0.15
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Broodjes gerookte kip",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.18
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 10
-   },
-   {
-    "naam": "kipfiletbeleg",
-    "hoeveelheid": 40
-   },
-   {
-    "naam": "sla",
-    "hoeveelheid": 15
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Wraps met tonijn",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "wraps",
-    "hoeveelheid": 2
-   },
-   {
-    "naam": "tonijn",
-    "hoeveelheid": 80
-   },
-   {
-    "naam": "sla",
-    "hoeveelheid": 20
-   },
-   {
-    "naam": "tomaten",
-    "hoeveelheid": 60
-   }
-  ],
-  "bereiding": "Tonijn uitlekken, met sla en tomaat in de wraps."
- },
- {
-  "naam": "Omelet met paprika",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "eieren",
-    "hoeveelheid": 2
-   },
-   {
-    "naam": "paprika",
-    "hoeveelheid": 0.3
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 8
-   },
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.09
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Kikkererwtensalade",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "kikkererwten",
-    "hoeveelheid": 120
-   },
    {
     "naam": "komkommer",
     "hoeveelheid": 0.25
    },
    {
-    "naam": "tomaten",
-    "hoeveelheid": 80
-   },
-   {
-    "naam": "olijfolie",
-    "hoeveelheid": 8
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Tomatensoep met brood",
-  "type": "lunch",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "passata",
-    "hoeveelheid": 250
-   },
-   {
-    "naam": "uien",
-    "hoeveelheid": 40
-   },
-   {
-    "naam": "bouillonblokjes",
-    "hoeveelheid": 0.5
-   },
-   {
-    "naam": "volkoren brood",
-    "hoeveelheid": 0.09
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 8
-   }
-  ],
-  "bereiding": "Ui fruiten, passata en bouillon erbij, 10 minuten laten trekken."
- },
- {
-  "naam": "Spaghetti bolognese",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "spaghetti",
-    "hoeveelheid": 100
-   },
-   {
-    "naam": "rundergehakt",
-    "hoeveelheid": 125
-   },
-   {
-    "naam": "tomatenblokjes",
-    "hoeveelheid": 200
-   },
-   {
-    "naam": "uien",
-    "hoeveelheid": 60
-   },
-   {
-    "naam": "wortelen",
-    "hoeveelheid": 60
-   },
-   {
-    "naam": "knoflook",
-    "hoeveelheid": 0.1
-   },
-   {
-    "naam": "olijfolie",
-    "hoeveelheid": 5
-   }
-  ],
-  "bereiding": "Gehakt rul bakken met ui, knoflook en wortel, tomatenblokjes erbij, 20 minuten sudderen."
- },
- {
-  "naam": "Kip met rijst en broccoli",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "kipfilet",
-    "hoeveelheid": 125
-   },
-   {
-    "naam": "rijst",
+    "naam": "koolmix",
     "hoeveelheid": 75
    },
    {
-    "naam": "broccoli",
-    "hoeveelheid": 150
-   },
-   {
-    "naam": "zonnebloemolie",
-    "hoeveelheid": 5
-   }
-  ],
-  "bereiding": "Kip in blokjes bakken, broccoli koken, met rijst."
- },
- {
-  "naam": "Zalm met aardappelen en spinazie",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "zalmfilet",
-    "hoeveelheid": 125
-   },
-   {
-    "naam": "aardappelen",
-    "hoeveelheid": 250
-   },
-   {
-    "naam": "spinazie",
-    "hoeveelheid": 200
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 10
-   }
-  ],
-  "bereiding": "Zalm bakken, aardappelen koken, spinazie slinken."
- },
- {
-  "naam": "Chili con carne",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "rundergehakt",
-    "hoeveelheid": 100
-   },
-   {
-    "naam": "kidneybonen",
-    "hoeveelheid": 100
-   },
-   {
-    "naam": "tomatenblokjes",
-    "hoeveelheid": 150
-   },
-   {
-    "naam": "paprika",
-    "hoeveelheid": 0.5
-   },
-   {
-    "naam": "uien",
-    "hoeveelheid": 50
-   },
-   {
-    "naam": "rijst",
+    "naam": "edamame",
     "hoeveelheid": 75
    },
    {
-    "naam": "knoflook",
-    "hoeveelheid": 0.1
-   }
-  ],
-  "bereiding": "Gehakt met ui en paprika bakken, tomaat en bonen erbij, 20 minuten sudderen, met rijst."
- },
- {
-  "naam": "Penne met kip en paprika",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "penne",
-    "hoeveelheid": 100
-   },
-   {
-    "naam": "kipfilet",
-    "hoeveelheid": 100
-   },
-   {
-    "naam": "paprika",
-    "hoeveelheid": 0.5
-   },
-   {
-    "naam": "passata",
-    "hoeveelheid": 150
-   },
-   {
-    "naam": "uien",
-    "hoeveelheid": 40
-   },
-   {
-    "naam": "olijfolie",
-    "hoeveelheid": 5
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Gehaktballen met aardappelen en wortel",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "half om half gehakt",
-    "hoeveelheid": 125
-   },
-   {
-    "naam": "aardappelen",
-    "hoeveelheid": 250
-   },
-   {
-    "naam": "wortelen",
-    "hoeveelheid": 150
-   },
-   {
-    "naam": "boter",
-    "hoeveelheid": 10
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Rookworst met aardappelen en broccoli",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "rookworst",
-    "hoeveelheid": 90
-   },
-   {
-    "naam": "aardappelen",
-    "hoeveelheid": 250
-   },
-   {
-    "naam": "broccoli",
-    "hoeveelheid": 150
-   }
-  ],
-  "bereiding": ""
- },
- {
-  "naam": "Wraps met kip",
-  "type": "diner",
-  "bron": "voorgesteld",
-  "ingredienten": [
-   {
-    "naam": "wraps",
+    "naam": "kipschnitzel",
     "hoeveelheid": 2
    },
    {
-    "naam": "kipfilet",
-    "hoeveelheid": 110
-   },
-   {
-    "naam": "paprika",
-    "hoeveelheid": 0.5
-   },
-   {
-    "naam": "sla",
-    "hoeveelheid": 25
-   },
-   {
-    "naam": "geraspte kaas",
-    "hoeveelheid": 25
-   },
-   {
-    "naam": "zonnebloemolie",
-    "hoeveelheid": 5
+    "naam": "basmati rijst",
+    "hoeveelheid": 75
    }
   ],
-  "bereiding": ""
+  "bereiding": "Rijst koken, kipschnitzels bakken en in reepjes snijden, met komkommer, koolmix en edamame in een kom."
  },
  {
-  "naam": "Groentecurry met kikkererwten",
+  "naam": "Pasta bolognese",
   "type": "diner",
-  "bron": "voorgesteld",
+  "bron": "eigen",
   "ingredienten": [
    {
-    "naam": "kikkererwten",
-    "hoeveelheid": 120
-   },
-   {
-    "naam": "tomatenblokjes",
-    "hoeveelheid": 150
-   },
-   {
-    "naam": "spinazie",
-    "hoeveelheid": 100
-   },
-   {
     "naam": "uien",
-    "hoeveelheid": 50
-   },
-   {
-    "naam": "rijst",
-    "hoeveelheid": 75
+    "hoeveelheid": 60
    },
    {
     "naam": "knoflook",
     "hoeveelheid": 0.1
    },
    {
-    "naam": "zonnebloemolie",
-    "hoeveelheid": 5
+    "naam": "rigatoni",
+    "hoeveelheid": 100
+   },
+   {
+    "naam": "tomatenblokjes",
+    "hoeveelheid": 200
+   },
+   {
+    "naam": "mager gehakt",
+    "hoeveelheid": 125
+   },
+   {
+    "naam": "tomatenpuree",
+    "hoeveelheid": 20
+   },
+   {
+    "naam": "parmezaanse kaas",
+    "hoeveelheid": 15
    }
   ],
-  "bereiding": ""
+  "bereiding": "Ui en knoflook fruiten, gehakt rul bakken, tomatenpuree en tomatenblokjes erbij, 20 minuten sudderen. Met rigatoni en parmezaan."
  },
  {
-  "naam": "Ovenschotel aardappel met gehakt",
+  "naam": "AVG met biefstuk",
   "type": "diner",
-  "bron": "voorgesteld",
+  "bron": "eigen",
   "ingredienten": [
    {
-    "naam": "half om half gehakt",
-    "hoeveelheid": 100
+    "naam": "biefstuk",
+    "hoeveelheid": 150
+   },
+   {
+    "naam": "broccoli",
+    "hoeveelheid": 200
    },
    {
     "naam": "aardappelen",
     "hoeveelheid": 250
+   }
+  ],
+  "bereiding": "Aardappelen en broccoli koken, biefstuk kort bakken."
+ },
+ {
+  "naam": "Gym maaltijd",
+  "type": "diner",
+  "bron": "eigen",
+  "ingredienten": [
+   {
+    "naam": "kipfilet",
+    "hoeveelheid": 150
    },
    {
-    "naam": "tomatenblokjes",
-    "hoeveelheid": 100
+    "naam": "broccoli",
+    "hoeveelheid": 200
    },
    {
-    "naam": "geraspte kaas",
+    "naam": "basmati rijst",
+    "hoeveelheid": 75
+   }
+  ],
+  "bereiding": "Kip bakken, broccoli koken, met rijst."
+ },
+ {
+  "naam": "Smash burger",
+  "type": "diner",
+  "bron": "eigen",
+  "ingredienten": [
+   {
+    "naam": "hamburgerbroodjes",
+    "hoeveelheid": 1
+   },
+   {
+    "naam": "cheddar",
     "hoeveelheid": 30
    },
    {
+    "naam": "mager gehakt",
+    "hoeveelheid": 150
+   },
+   {
+    "naam": "sla",
+    "hoeveelheid": 20
+   },
+   {
+    "naam": "tomaten",
+    "hoeveelheid": 60
+   },
+   {
     "naam": "uien",
-    "hoeveelheid": 40
+    "hoeveelheid": 30
+   },
+   {
+    "naam": "sriracha mayo",
+    "hoeveelheid": 20
    }
   ],
-  "bereiding": ""
+  "bereiding": "Gehakt in bolletjes plat drukken in een hete pan, cheddar erop, op het broodje met sla, tomaat, ui en sriracha mayo."
  }
 ]

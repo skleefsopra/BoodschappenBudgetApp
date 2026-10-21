@@ -1,5 +1,5 @@
 // Werkt offline: de app zelf uit de cache, de prijzen eerst van internet en anders de laatst bekende.
-const CACHE = "weekmenu-v1";
+const CACHE = "weekmenu-v2";
 const APP = ["./", "index.html", "app.js", "planner.js", "manifest.webmanifest", "icon.svg"];
 
 self.addEventListener("install", (e) => e.waitUntil(caches.open(CACHE).then((c) => c.addAll(APP)).then(() => self.skipWaiting())));

@@ -1094,5 +1094,231 @@
   ],
   "stuk_gewicht": 10,
   "houdbaar": true
+ },
+ {
+  "naam": "koolmix",
+  "eenheid": "g",
+  "zoek": [
+   "koolmix",
+   "fijngesneden spitskool",
+   "spitskool fijn",
+   "gesneden spitskool"
+  ],
+  "niet": [
+   "*salade*",
+   "rood"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "edamame",
+  "eenheid": "g",
+  "houdbaar": true,
+  "zoek": [
+   "edamame"
+  ],
+  "niet": [
+   "*crackers*",
+   "*cookies*",
+   "*bladerdeeg*",
+   "*saus*",
+   "*teriyaki*",
+   "*borrel*",
+   "*snack*",
+   "*chips*"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "kipschnitzel",
+  "eenheid": "stuk",
+  "stuk_gewicht": 100,
+  "standaard_maat": 2,
+  "zoek": [
+   "kipschnitzel",
+   "*kipschnitzels"
+  ],
+  "niet": [
+   "plantaardig*",
+   "vegan",
+   "gevuld*",
+   "japans*",
+   "bl",
+   "*garden gourmet*",
+   "mini"
+  ],
+  "min_maat": 1,
+  "max_maat": 6
+ },
+ {
+  "naam": "rigatoni",
+  "eenheid": "g",
+  "houdbaar": true,
+  "zoek": [
+   "rigatoni"
+  ],
+  "niet": [
+   "*maaltijd*",
+   "*bowl*",
+   "*chicken*",
+   "*ricotta*",
+   "*airfryer*"
+  ],
+  "min_maat": 250
+ },
+ {
+  "naam": "tomatenpuree",
+  "eenheid": "g",
+  "houdbaar": true,
+  "zoek": [
+   "tomatenpuree"
+  ],
+  "niet": [
+   "knoflook",
+   "*doppio*"
+  ],
+  "min_maat": 50
+ },
+ {
+  "naam": "parmezaanse kaas",
+  "eenheid": "g",
+  "zoek": [
+   "parmigiano",
+   "parmezaan*",
+   "parmigiano regg"
+  ],
+  "niet": [
+   "*salami*",
+   "*koekjes*",
+   "*tapenade*",
+   "*artisjok*",
+   "vegan",
+   "*gekruid*",
+   "*biefstuk*",
+   "*grissini*",
+   "*tartaar*",
+   "*bites*",
+   "*kaasbolletjes*",
+   "chili"
+  ],
+  "min_maat": 30
+ },
+ {
+  "naam": "biefstuk",
+  "eenheid": "g",
+  "stuk_gewicht": 140,
+  "zoek": [
+   "biefstuk"
+  ],
+  "niet": [
+   "*ossenworst*",
+   "*tapenade*",
+   "*puntjes*",
+   "herten*",
+   "*plakjes*",
+   "*carpaccio*",
+   "*rookvlees*",
+   "duitse",
+   "*kalfs*"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "mager gehakt",
+  "eenheid": "g",
+  "zoek": [
+   "mager rundergehakt",
+   "rundergehakt mager",
+   "gehakt extra mager",
+   "extra mager gehakt",
+   "rundergehakt minder vet"
+  ],
+  "niet": [
+   "*bal*",
+   "*maaltijd*",
+   "*gebraden*"
+  ],
+  "min_maat": 200
+ },
+ {
+  "naam": "hamburgerbroodjes",
+  "eenheid": "stuk",
+  "stuk_gewicht": 60,
+  "standaard_maat": 4,
+  "zoek": [
+   "hamburger broodjes",
+   "hamburgerbroodjes",
+   "burger buns",
+   "hamburger brood"
+  ],
+  "niet": [
+   "mini",
+   "*cheeseburger*",
+   "glutenvrij",
+   "voetbal"
+  ],
+  "min_maat": 2,
+  "max_maat": 12
+ },
+ {
+  "naam": "cheddar",
+  "eenheid": "g",
+  "zoek": [
+   "cheddar"
+  ],
+  "niet": [
+   "*saus*",
+   "*jalapeno*",
+   "*sambal*",
+   "*piment*",
+   "*donut*",
+   "*kaasballetjes*",
+   "*smeltkaas*",
+   "geraspt*",
+   "*geraspte*",
+   "*chips*",
+   "*crackers*",
+   "*snack*",
+   "*pizza*",
+   "*burger*",
+   "wasa",
+   "*bites*"
+  ],
+  "min_maat": 100
+ },
+ {
+  "naam": "sriracha mayo",
+  "eenheid": "ml",
+  "stuk_gewicht": 1,
+  "houdbaar": true,
+  "zoek": [
+   "sriracha mayo",
+   "sriracha mayonaise",
+   "mayo sriracha"
+  ],
+  "niet": [
+   "*salade*"
+  ],
+  "min_maat": 50
+ },
+ {
+  "naam": "basmati rijst",
+  "eenheid": "g",
+  "houdbaar": true,
+  "zoek": [
+   "basmati rijst",
+   "basmatirijst",
+   "basmati rice"
+  ],
+  "niet": [
+   "*bowl*",
+   "*mix",
+   "*snelkokend*",
+   "*bruine*",
+   "*volkoren*",
+   "*maaltijd*",
+   "*kidney*"
+  ],
+  "min_maat": 300
  }
 ]
