@@ -1,5 +1,5 @@
 {
- "gemaakt": "2026-10-21T10:42",
+ "gemaakt": "2026-10-21T10:58",
  "ingredienten": {
   "halfvolle melk": {
    "eenheid": "ml",
@@ -122,7 +122,53 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Verse halfvolle melk",
+      "prijs": 1.49,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00075,
+      "url": "https://www.aldi.nl/product/verse-halfvolle-melk-1219308.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Verse halfvolle melk",
+      "prijs": 0.79,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00079,
+      "url": "https://www.aldi.nl/product/verse-halfvolle-melk-1225283.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Houdbare halfvolle melk",
+      "prijs": 0.82,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00082,
+      "url": "https://www.aldi.nl/product/houdbare-halfvolle-melk-1225274.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "6-pack houdbare halfvolle melk",
+      "prijs": 1.34,
+      "verpakking": 1200.0,
+      "eenheidsprijs": 0.00112,
+      "url": "https://www.aldi.nl/product/6-pack-houdbare-halfvolle-melk-1204762.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Lactosevrije halfvolle houdbare melk",
+      "prijs": 1.24,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00124,
+      "url": "https://www.aldi.nl/product/lactosevrije-halfvolle-houdbare-melk-1220917.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "volkoren brood": {
@@ -254,7 +300,35 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Fijn volkoren",
+      "prijs": 0.93,
+      "verpakking": 1,
+      "eenheidsprijs": 0.93,
+      "url": "https://www.aldi.nl/product/fijn-volkoren-1227155.html",
+      "geschat": true,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Boeren tijger volkoren",
+      "prijs": 1.11,
+      "verpakking": 1,
+      "eenheidsprijs": 1.11,
+      "url": "https://www.aldi.nl/product/boeren-tijger-volkoren-1225235.html",
+      "geschat": true,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Extra vezelrijk volkorenbrood",
+      "prijs": 2.29,
+      "verpakking": 1,
+      "eenheidsprijs": 2.29,
+      "url": "https://www.aldi.nl/product/extra-vezelrijk-volkorenbrood-1217868.html",
+      "geschat": true,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "boter": {
@@ -386,7 +460,53 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Halvarine",
+      "prijs": 0.52,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00104,
+      "url": "https://www.aldi.nl/product/halvarine-1225280.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Margarine",
+      "prijs": 0.75,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.003,
+      "url": "https://www.aldi.nl/product/margarine-1212851.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Margarine bewust",
+      "prijs": 1.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://www.aldi.nl/product/margarine-bewust-1225303.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Roomboter",
+      "prijs": 1.09,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.00436,
+      "url": "https://www.aldi.nl/product/roomboter-1225272.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Roomboter- of marmercakejes",
+      "prijs": 1.44,
+      "verpakking": 320.0,
+      "eenheidsprijs": 0.0045,
+      "url": "https://www.aldi.nl/product/roomboter-of-marmercakejes-1215726.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "jong belegen kaas": {
@@ -521,7 +641,55 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Goudse kaas jong belegen 48+ plakken",
+      "prijs": 2.49,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00623,
+      "url": "https://www.aldi.nl/product/goudse-kaas-jong-belegen-48-plakken-1226114.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Goudse kaas jong belegen 48+ stuk",
+      "prijs": 8.16,
+      "verpakking": 950.0,
+      "eenheidsprijs": 0.00859,
+      "url": "https://www.aldi.nl/product/goudse-kaas-jong-belegen-48-stuk-1207429.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Goudse kaas jong belegen 48+ plakken",
+      "prijs": 3.79,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00948,
+      "url": "https://www.aldi.nl/product/goudse-kaas-jong-belegen-48-plakken-1226114.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Gouda jong belegen 48+ stuk",
+      "prijs": 4.29,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00953,
+      "url": "https://www.aldi.nl/product/gouda-jong-belegen-48-stuk-1226221.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Goudse kaas jong belegen 30+ plakken",
+      "prijs": 3.55,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01183,
+      "url": "https://www.aldi.nl/product/goudse-kaas-jong-belegen-30-plakken-1214538.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "eieren": {
@@ -653,7 +821,44 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Vrije-uitloopeieren",
+      "prijs": 1.49,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.24833,
+      "url": "https://www.aldi.nl/product/vrije-uitloopeieren-1211171.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Scharreleieren",
+      "prijs": 3.18,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.265,
+      "url": "https://www.aldi.nl/product/scharreleieren-1203024.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Mega scharreleieren",
+      "prijs": 3.85,
+      "verpakking": 10.0,
+      "eenheidsprijs": 0.385,
+      "url": "https://www.aldi.nl/product/mega-scharreleieren-1216651.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Eieren",
+      "prijs": 2.31,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.385,
+      "url": "https://www.aldi.nl/product/eieren-1211124.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "magere yoghurt": {
@@ -785,7 +990,37 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Magere yoghurt",
+      "prijs": 0.74,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00074,
+      "url": "https://www.aldi.nl/product/magere-yoghurt-1225278.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische magere yoghurt",
+      "prijs": 1.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00119,
+      "url": "https://www.aldi.nl/product/biologische-magere-yoghurt-1225282.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Biologische magere yoghurt",
+      "prijs": 1.39,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00139,
+      "url": "https://www.aldi.nl/product/biologische-magere-yoghurt-1225282.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "havermout": {
@@ -909,7 +1144,28 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Fijne volkoren havermout",
+      "prijs": 0.75,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0015,
+      "url": "https://www.aldi.nl/product/fijne-volkoren-havermout-1204076.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Havermout 5-pack",
+      "prijs": 1.79,
+      "verpakking": 325.0,
+      "eenheidsprijs": 0.00551,
+      "url": "https://www.aldi.nl/product/havermout-5-pack-1242825.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     }
+    ]
    }
   },
   "pindakaas": {
@@ -1041,7 +1297,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Pindakaas",
+      "prijs": 2.49,
+      "verpakking": 350.0,
+      "eenheidsprijs": 0.00711,
+      "url": "https://www.aldi.nl/product/pindakaas-91200042.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "jam": {
@@ -1173,7 +1439,37 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Aardbeienjam",
+      "prijs": 0.49,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00109,
+      "url": "https://www.aldi.nl/product/aardbeienjam-1225264.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Kersenjam",
+      "prijs": 1.15,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00256,
+      "url": "https://www.aldi.nl/product/kersenjam-1225261.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Jam",
+      "prijs": 1.79,
+      "verpakking": 350.0,
+      "eenheidsprijs": 0.00511,
+      "url": "https://www.aldi.nl/product/jam-91220701.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     }
+    ]
    }
   },
   "hagelslag": {
@@ -1305,7 +1601,44 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Hagelslag melk",
+      "prijs": 2.69,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00448,
+      "url": "https://www.aldi.nl/product/hagelslag-melk-1219709.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Hagelslag mix",
+      "prijs": 2.75,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00458,
+      "url": "https://www.aldi.nl/product/hagelslag-mix-1232211.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Hagelslag puur",
+      "prijs": 2.85,
+      "verpakking": 600.0,
+      "eenheidsprijs": 0.00475,
+      "url": "https://www.aldi.nl/product/hagelslag-puur-1219680.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "XXL hagelslag",
+      "prijs": 3.99,
+      "verpakking": 550.0,
+      "eenheidsprijs": 0.00725,
+      "url": "https://www.aldi.nl/product/xxl-hagelslag-1217911.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "bananen": {
@@ -1396,7 +1729,37 @@
      }
     ],
     "lidl": [],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Bananen",
+      "prijs": 0.85,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.153,
+      "url": "https://www.aldi.nl/product/bananen-1219379.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Bananen",
+      "prijs": 1.15,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.207,
+      "url": "https://www.aldi.nl/product/bananen-1219379.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Fairtrade junior bananen",
+      "prijs": 1.69,
+      "verpakking": 1,
+      "eenheidsprijs": 1.69,
+      "url": "https://www.aldi.nl/product/fairtrade-junior-bananen-1223215.html",
+      "geschat": true,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "appels": {
@@ -1520,7 +1883,55 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Elstar appels",
+      "prijs": 1.79,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.2148,
+      "url": "https://www.aldi.nl/product/elstar-appels-1219892.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Hollandse Jonagold appels",
+      "prijs": 1.95,
+      "verpakking": 8.33,
+      "eenheidsprijs": 0.234,
+      "url": "https://www.aldi.nl/product/hollandse-jonagold-appels-1220096.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Elstar appels",
+      "prijs": 1.99,
+      "verpakking": 5.56,
+      "eenheidsprijs": 0.3582,
+      "url": "https://www.aldi.nl/product/elstar-appels-1219126.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Appels",
+      "prijs": 2.99,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.49833,
+      "url": "https://www.aldi.nl/product/appels-1215535.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Appels",
+      "prijs": 2.99,
+      "verpakking": 6.0,
+      "eenheidsprijs": 0.49833,
+      "url": "https://www.aldi.nl/product/appels-1204033.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "kipfilet": {
@@ -1655,7 +2066,35 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Scharrelkipfilet",
+      "prijs": 9.59,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.01199,
+      "url": "https://www.aldi.nl/product/scharrelkipfilet-1215333.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Scharrelkipfilet",
+      "prijs": 6.9,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0138,
+      "url": "https://www.aldi.nl/product/scharrelkipfilet-1221414.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Scharrelkipfilet",
+      "prijs": 3.29,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01645,
+      "url": "https://www.aldi.nl/product/scharrelkipfilet-1218091.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "rundergehakt": {
@@ -1779,7 +2218,46 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Extra mager rundergehakt",
+      "prijs": 8.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.01199,
+      "url": "https://www.aldi.nl/product/extra-mager-rundergehakt-1245118.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Biologisch rundergehakt",
+      "prijs": 5.49,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.01373,
+      "url": "https://www.aldi.nl/product/biologisch-rundergehakt-1217930.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Rundergehakt",
+      "prijs": 4.25,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01417,
+      "url": "https://www.aldi.nl/product/rundergehakt-1215076.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Extra mager rundergehakt",
+      "prijs": 4.42,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01473,
+      "url": "https://www.aldi.nl/product/extra-mager-rundergehakt-1210459.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "half om half gehakt": {
@@ -1831,7 +2309,35 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Mager half-om-half gehakt",
+      "prijs": 8.95,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00895,
+      "url": "https://www.aldi.nl/product/mager-half-om-half-gehakt-1225599.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Mager half-om-half gehakt",
+      "prijs": 4.59,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00918,
+      "url": "https://www.aldi.nl/product/mager-half-om-half-gehakt-1224127.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Half-om-half gehakt",
+      "prijs": 3.49,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01163,
+      "url": "https://www.aldi.nl/product/half-om-half-gehakt-1224118.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "zalmfilet": {
@@ -1963,7 +2469,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Zalmfilet op huid",
+      "prijs": 6.99,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.0233,
+      "url": "https://www.aldi.nl/product/zalmfilet-op-huid-1223531.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "spaghetti": {
@@ -2095,7 +2611,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Spaghetti",
+      "prijs": 0.39,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00078,
+      "url": "https://www.aldi.nl/product/spaghetti-1211282.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Spaghetti volkoren",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://www.aldi.nl/product/spaghetti-volkoren-1231530.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "penne": {
@@ -2203,7 +2738,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Penne",
+      "prijs": 0.67,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00134,
+      "url": "https://www.aldi.nl/product/penne-1211187.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Penne volkoren",
+      "prijs": 0.79,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00158,
+      "url": "https://www.aldi.nl/product/penne-volkoren-1232004.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "rijst": {
@@ -2335,7 +2889,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Zilvervliesrijst",
+      "prijs": 1.03,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00103,
+      "url": "https://www.aldi.nl/product/zilvervliesrijst-1232972.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Basmatirijst",
+      "prijs": 1.69,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00169,
+      "url": "https://www.aldi.nl/product/basmatirijst-1219749.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "aardappelen": {
@@ -2443,7 +3016,55 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Kruimige aardappelen",
+      "prijs": 4.99,
+      "verpakking": 10000.0,
+      "eenheidsprijs": 0.0005,
+      "url": "https://www.aldi.nl/product/kruimige-aardappelen-1207900.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Extra grote kruimige aardappelen",
+      "prijs": 2.49,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00083,
+      "url": "https://www.aldi.nl/product/extra-grote-kruimige-aardappelen-1219453.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Extra grote kruimige aardappelen",
+      "prijs": 3.49,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00116,
+      "url": "https://www.aldi.nl/product/extra-grote-kruimige-aardappelen-1219453.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Vastkokende aardappelen",
+      "prijs": 3.49,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00116,
+      "url": "https://www.aldi.nl/product/vastkokende-aardappelen-1215112.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Vastkokende aardappelen",
+      "prijs": 1.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00119,
+      "url": "https://www.aldi.nl/product/vastkokende-aardappelen-1222234.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "uien": {
@@ -2543,7 +3164,55 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Uien",
+      "prijs": 1.99,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.0004,
+      "url": "https://www.aldi.nl/product/uien-1225879.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Uien",
+      "prijs": 2.89,
+      "verpakking": 5000.0,
+      "eenheidsprijs": 0.00058,
+      "url": "https://www.aldi.nl/product/uien-1225879.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Uien",
+      "prijs": 1.69,
+      "verpakking": 2000.0,
+      "eenheidsprijs": 0.00084,
+      "url": "https://www.aldi.nl/product/uien-1219894.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Gele uien",
+      "prijs": 0.89,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00089,
+      "url": "https://www.aldi.nl/product/gele-uien-1232384.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische uien",
+      "prijs": 0.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00178,
+      "url": "https://www.aldi.nl/product/biologische-uien-1200343.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "knoflook": {
@@ -2675,7 +3344,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Knoflook",
+      "prijs": 0.99,
+      "verpakking": 2.0,
+      "eenheidsprijs": 0.495,
+      "url": "https://www.aldi.nl/product/knoflook-1218816.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "tomaten": {
@@ -2807,7 +3486,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Ronde tomaten",
+      "prijs": 1.69,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00338,
+      "url": "https://www.aldi.nl/product/ronde-tomaten-1219299.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Trostomaten",
+      "prijs": 1.9,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0038,
+      "url": "https://www.aldi.nl/product/trostomaten-1219442.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "tomatenblokjes": {
@@ -2915,7 +3613,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Tomatenblokjes",
+      "prijs": 0.35,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00087,
+      "url": "https://www.aldi.nl/product/tomatenblokjes-1229073.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "passata": {
@@ -3031,7 +3739,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Gezeefde tomaten",
+      "prijs": 0.65,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0013,
+      "url": "https://www.aldi.nl/product/gezeefde-tomaten-1229071.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Passata rustica",
+      "prijs": 1.87,
+      "verpakking": 690.0,
+      "eenheidsprijs": 0.00271,
+      "url": "https://www.aldi.nl/product/passata-rustica-1228906.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "paprika": {
@@ -3071,11 +3798,11 @@
       "geschat": false
      },
      {
-      "product": "AH Focaccia paprika olijf",
-      "prijs": 2.69,
-      "verpakking": 2.0,
-      "eenheidsprijs": 1.345,
-      "url": "https://www.ah.nl/producten/product/wi524349/ah-focaccia-paprika-olijf",
+      "product": "AH Snoepgroente wortel komkommer paprika",
+      "prijs": 3.29,
+      "verpakking": 2.34,
+      "eenheidsprijs": 1.40373,
+      "url": "https://www.ah.nl/producten/product/wi454872/ah-snoepgroente-wortel-komkommer-paprika",
       "geschat": false
      }
     ],
@@ -3163,7 +3890,26 @@
       "geschat": true
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Rode paprika",
+      "prijs": 0.85,
+      "verpakking": 1.0,
+      "eenheidsprijs": 0.85,
+      "url": "https://www.aldi.nl/product/rode-paprika-1220540.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische paprika's",
+      "prijs": 2.49,
+      "verpakking": 1,
+      "eenheidsprijs": 2.49,
+      "url": "https://www.aldi.nl/product/biologische-paprikas-1230690.html",
+      "geschat": true,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "broccoli": {
@@ -3263,7 +4009,46 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Broccoli",
+      "prijs": 0.89,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00178,
+      "url": "https://www.aldi.nl/product/broccoli-1219260.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Broccoli",
+      "prijs": 1.15,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.0023,
+      "url": "https://www.aldi.nl/product/broccoli-1219260.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische broccoli",
+      "prijs": 3.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.00532,
+      "url": "https://www.aldi.nl/product/biologische-broccoli-1202953.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Broccoliroosjes",
+      "prijs": 2.29,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00573,
+      "url": "https://www.aldi.nl/product/broccoliroosjes-1230307.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "spinazie": {
@@ -3398,7 +4183,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Spinazie",
+      "prijs": 1.29,
+      "verpakking": 800.0,
+      "eenheidsprijs": 0.00161,
+      "url": "https://www.aldi.nl/product/spinazie-1225360.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Spinazie",
+      "prijs": 1.79,
+      "verpakking": 450.0,
+      "eenheidsprijs": 0.00398,
+      "url": "https://www.aldi.nl/product/spinazie-1212537.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "wortelen": {
@@ -3522,7 +4326,37 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Wortels",
+      "prijs": 0.89,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00089,
+      "url": "https://www.aldi.nl/product/wortels-1219340.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Wortels",
+      "prijs": 1.29,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00129,
+      "url": "https://www.aldi.nl/product/wortels-1219340.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Waspeen",
+      "prijs": 0.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00198,
+      "url": "https://www.aldi.nl/product/waspeen-1222071.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "komkommer": {
@@ -3598,7 +4432,37 @@
       "geschat": true
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Komkommer",
+      "prijs": 0.75,
+      "verpakking": 1.0,
+      "eenheidsprijs": 0.75,
+      "url": "https://www.aldi.nl/product/komkommer-1219603.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische komkommer",
+      "prijs": 1.29,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.29,
+      "url": "https://www.aldi.nl/product/biologische-komkommer-1230688.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Biologische komkommer",
+      "prijs": 1.39,
+      "verpakking": 1.0,
+      "eenheidsprijs": 1.39,
+      "url": "https://www.aldi.nl/product/biologische-komkommer-1230688.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "sla": {
@@ -3722,7 +4586,53 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "IJsbergsla",
+      "prijs": 0.99,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00495,
+      "url": "https://www.aldi.nl/product/ijsbergsla-1219343.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "IJsbergsla melange",
+      "prijs": 1.19,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00595,
+      "url": "https://www.aldi.nl/product/ijsbergsla-melange-1220318.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "IJsbergsla fijn",
+      "prijs": 0.79,
+      "verpakking": 100.0,
+      "eenheidsprijs": 0.0079,
+      "url": "https://www.aldi.nl/product/ijsbergsla-fijn-1230312.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Rucola",
+      "prijs": 0.99,
+      "verpakking": 85.0,
+      "eenheidsprijs": 0.01165,
+      "url": "https://www.aldi.nl/product/rucola-1211003.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Veldsla",
+      "prijs": 1.19,
+      "verpakking": 85.0,
+      "eenheidsprijs": 0.014,
+      "url": "https://www.aldi.nl/product/veldsla-1211005.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "olijfolie": {
@@ -3854,7 +4764,59 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Olijfolie",
+      "prijs": 15.99,
+      "verpakking": 3000.0,
+      "eenheidsprijs": 0.00533,
+      "url": "https://www.aldi.nl/product/olijfolie-1231726.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Olijfolie extra vierge",
+      "prijs": 6.99,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00699,
+      "url": "https://www.aldi.nl/product/olijfolie-extra-vierge-1225905.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Olijfolie classico",
+      "prijs": 7.65,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00765,
+      "url": "https://www.aldi.nl/product/olijfolie-classico-1220087.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Olijfolie extra vierge",
+      "prijs": 9.19,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00919,
+      "url": "https://www.aldi.nl/product/olijfolie-extra-vierge-1225905.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Biologische olijfolie extra virgin",
+      "prijs": 4.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.00998,
+      "url": "https://www.aldi.nl/product/biologische-olijfolie-extra-virgin-1217708.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     }
+    ]
    }
   },
   "zonnebloemolie": {
@@ -3962,7 +4924,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Zonnebloemolie",
+      "prijs": 1.28,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00128,
+      "url": "https://www.aldi.nl/product/zonnebloemolie-1204498.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "kidneybonen": {
@@ -4070,7 +5042,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Rode kidneybonen",
+      "prijs": 0.65,
+      "verpakking": 410.0,
+      "eenheidsprijs": 0.00159,
+      "url": "https://www.aldi.nl/product/rode-kidneybonen-1208996.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "kikkererwten": {
@@ -4202,7 +5184,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Kikkererwten",
+      "prijs": 0.99,
+      "verpakking": 400.0,
+      "eenheidsprijs": 0.00247,
+      "url": "https://www.aldi.nl/product/kikkererwten-1200258.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "tonijn": {
@@ -4334,7 +5326,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Tonijn in olijfolie",
+      "prijs": 1.89,
+      "verpakking": 160.0,
+      "eenheidsprijs": 0.01181,
+      "url": "https://www.aldi.nl/product/tonijn-in-olijfolie-1202279.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "geraspte kaas": {
@@ -4466,7 +5468,59 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Gouda geraspte kaas",
+      "prijs": 1.49,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00745,
+      "url": "https://www.aldi.nl/product/gouda-geraspte-kaas-91214526.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Goudse kaas mild 48+ geraspt",
+      "prijs": 1.49,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.00745,
+      "url": "https://www.aldi.nl/product/goudse-kaas-mild-48-geraspt-1214526.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Geraspte kaas",
+      "prijs": 1.19,
+      "verpakking": 150.0,
+      "eenheidsprijs": 0.00793,
+      "url": "https://www.aldi.nl/product/geraspte-kaas-91200129.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     },
+     {
+      "product": "Goudse geraspte kaas 48+ jong belegen",
+      "prijs": 2.56,
+      "verpakking": 250.0,
+      "eenheidsprijs": 0.01024,
+      "url": "https://www.aldi.nl/product/goudse-geraspte-kaas-48-jong-belegen-1226140.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Goudse kaas mild 48+ geraspt",
+      "prijs": 2.07,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.01035,
+      "url": "https://www.aldi.nl/product/goudse-kaas-mild-48-geraspt-1214526.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "wraps": {
@@ -4598,7 +5652,35 @@
       "geschat": true
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Tortilla wraps naturel",
+      "prijs": 0.94,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15751,
+      "url": "https://www.aldi.nl/product/tortilla-wraps-naturel-1225942.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Volkoren tortilla wraps",
+      "prijs": 0.95,
+      "verpakking": 5.97,
+      "eenheidsprijs": 0.15919,
+      "url": "https://www.aldi.nl/product/volkoren-tortilla-wraps-1227039.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Tortilla wraps naturel",
+      "prijs": 0.94,
+      "verpakking": 5.16,
+      "eenheidsprijs": 0.18212,
+      "url": "https://www.aldi.nl/product/tortilla-wraps-naturel-1225941.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "kipfiletbeleg": {
@@ -4706,7 +5788,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Gerookte kipfilet",
+      "prijs": 2.16,
+      "verpakking": 125.0,
+      "eenheidsprijs": 0.01728,
+      "url": "https://www.aldi.nl/product/gerookte-kipfilet-1205199.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "rookworst": {
@@ -4838,7 +5930,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Gelderse rookworst",
+      "prijs": 1.89,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00687,
+      "url": "https://www.aldi.nl/product/gelderse-rookworst-1209549.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Magere rookworst",
+      "prijs": 1.99,
+      "verpakking": 275.0,
+      "eenheidsprijs": 0.00724,
+      "url": "https://www.aldi.nl/product/magere-rookworst-1209568.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "bouillonblokjes": {
@@ -4962,7 +6073,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Bouillonblokjes rundvlees",
+      "prijs": 0.42,
+      "verpakking": 12.0,
+      "eenheidsprijs": 0.035,
+      "url": "https://www.aldi.nl/product/bouillonblokjes-rundvlees-1228220.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "koolmix": {
@@ -5013,7 +6134,17 @@
      }
     ],
     "lidl": [],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Gesneden spitskool",
+      "prijs": 0.98,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.0049,
+      "url": "https://www.aldi.nl/product/gesneden-spitskool-1230302.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "edamame": {
@@ -5189,7 +6320,35 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Krokante scharrelkipschnitzels",
+      "prijs": 2.48,
+      "verpakking": 2.2,
+      "eenheidsprijs": 1.12727,
+      "url": "https://www.aldi.nl/product/krokante-scharrelkipschnitzels-1202046.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Kipschnitzel XXL",
+      "prijs": 2.99,
+      "verpakking": 2.5,
+      "eenheidsprijs": 1.196,
+      "url": "https://www.aldi.nl/product/kipschnitzel-xxl-1200207.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Scharrelkipschnitzels ham & kaas",
+      "prijs": 3.39,
+      "verpakking": 2.5,
+      "eenheidsprijs": 1.356,
+      "url": "https://www.aldi.nl/product/scharrelkipschnitzels-ham-en-kaas-1225368.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "rigatoni": {
@@ -5364,7 +6523,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "4-pack tomatenpuree",
+      "prijs": 1.19,
+      "verpakking": 280.0,
+      "eenheidsprijs": 0.00425,
+      "url": "https://www.aldi.nl/product/4-pack-tomatenpuree-1229068.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "parmezaanse kaas": {
@@ -5480,7 +6649,26 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Parmigiano Reggiano",
+      "prijs": 2.89,
+      "verpakking": 125.0,
+      "eenheidsprijs": 0.02312,
+      "url": "https://www.aldi.nl/product/parmigiano-reggiano-1200132.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Parmigiano Reggiano",
+      "prijs": 4.99,
+      "verpakking": 200.0,
+      "eenheidsprijs": 0.02495,
+      "url": "https://www.aldi.nl/product/parmigiano-reggiano-1226167.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "biefstuk": {
@@ -5571,7 +6759,26 @@
      }
     ],
     "lidl": [],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Hollandse biefstuk",
+      "prijs": 8.99,
+      "verpakking": 500.0,
+      "eenheidsprijs": 0.01798,
+      "url": "https://www.aldi.nl/product/hollandse-biefstuk-1221075.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     },
+     {
+      "product": "Gemarineerde biefstuk",
+      "prijs": 5.49,
+      "verpakking": 230.0,
+      "eenheidsprijs": 0.02387,
+      "url": "https://www.aldi.nl/product/gemarineerde-biefstuk-1226659.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "mager gehakt": {
@@ -5647,7 +6854,28 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Extra mager rundergehakt",
+      "prijs": 8.99,
+      "verpakking": 750.0,
+      "eenheidsprijs": 0.01199,
+      "url": "https://www.aldi.nl/product/extra-mager-rundergehakt-1245118.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-19",
+      "geldig_tot": "2026-10-25"
+     },
+     {
+      "product": "Extra mager rundergehakt",
+      "prijs": 4.42,
+      "verpakking": 300.0,
+      "eenheidsprijs": 0.01473,
+      "url": "https://www.aldi.nl/product/extra-mager-rundergehakt-1210459.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   },
   "hamburgerbroodjes": {
@@ -5699,7 +6927,19 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Brioche burgerbollen",
+      "prijs": 1.49,
+      "verpakking": 5.0,
+      "eenheidsprijs": 0.298,
+      "url": "https://www.aldi.nl/product/brioche-burgerbollen-1201028.html",
+      "geschat": false,
+      "bron": "aldi.nl",
+      "geldig_van": "2026-10-26",
+      "geldig_tot": "2026-11-01"
+     }
+    ]
    }
   },
   "cheddar": {
@@ -6006,7 +7246,17 @@
       "geschat": false
      }
     ],
-    "aldi": []
+    "aldi": [
+     {
+      "product": "Basmatirijst",
+      "prijs": 1.69,
+      "verpakking": 1000.0,
+      "eenheidsprijs": 0.00169,
+      "url": "https://www.aldi.nl/product/basmatirijst-1219749.html",
+      "geschat": false,
+      "bron": "aldi.nl"
+     }
+    ]
    }
   }
  }
